@@ -2601,12 +2601,6 @@ Wire Wire Line
 	4300 2000 4950 2000
 Wire Wire Line
 	4950 2000 4950 2050
-Wire Bus Line
-	2800 5850 2800 6100
-Wire Bus Line
-	2900 4750 2900 5450
-Wire Bus Line
-	3000 2750 3000 4350
 $Comp
 L Amiga_3000_library:GND #PWR0344
 U 1 1 62D80F60
@@ -2618,4 +2612,10 @@ F 3 "" H 4950 2050 50  0001 C CNN
 	1    4950 2050
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	2800 5850 2800 6100
+Wire Bus Line
+	2900 4750 2900 5450
+Wire Bus Line
+	3000 2750 3000 4350
 $EndSCHEMATC
