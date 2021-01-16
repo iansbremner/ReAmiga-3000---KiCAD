@@ -1,0 +1,6358 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A1 33110 23386
+encoding utf-8
+Sheet 12 16
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Bus Line
+	8100 6275 8000 6175
+Wire Bus Line
+	8000 6175 7850 6175
+Entry Wire Line
+	8100 6275 8200 6375
+Entry Wire Line
+	8100 6375 8200 6475
+Entry Wire Line
+	8100 6475 8200 6575
+Entry Wire Line
+	8100 6575 8200 6675
+Entry Wire Line
+	8100 6675 8200 6775
+Entry Wire Line
+	8100 6775 8200 6875
+Entry Wire Line
+	8100 6875 8200 6975
+Entry Wire Line
+	8100 6975 8200 7075
+Entry Wire Line
+	8100 7075 8200 7175
+Entry Wire Line
+	8100 7175 8200 7275
+Wire Wire Line
+	9100 6375 8200 6375
+Wire Wire Line
+	9100 6475 8200 6475
+Wire Wire Line
+	9100 6575 8200 6575
+Wire Wire Line
+	9100 6675 8200 6675
+Wire Wire Line
+	9100 6775 8200 6775
+Wire Wire Line
+	9100 6875 8200 6875
+Wire Wire Line
+	9100 6975 8200 6975
+Wire Wire Line
+	9100 7075 8200 7075
+Wire Wire Line
+	9100 7175 8200 7175
+Wire Wire Line
+	9100 7275 8200 7275
+Text Label 8200 6375 0    50   ~ 0
+FASTRAMADDR0
+Text Label 8200 6475 0    50   ~ 0
+FASTRAMADDR1
+Text Label 8200 6575 0    50   ~ 0
+FASTRAMADDR2
+Text Label 8200 6675 0    50   ~ 0
+FASTRAMADDR3
+Text Label 8200 6775 0    50   ~ 0
+FASTRAMADDR4
+Text Label 8200 6875 0    50   ~ 0
+FASTRAMADDR5
+Text Label 8200 6975 0    50   ~ 0
+FASTRAMADDR6
+Text Label 8200 7075 0    50   ~ 0
+FASTRAMADDR7
+Text Label 8200 7175 0    50   ~ 0
+FASTRAMADDR8
+Text Label 8200 7275 0    50   ~ 0
+FASTRAMADDR9
+Text GLabel 7850 6175 0    50   Input ~ 0
+FASTRAMADDR[0..9]
+Text GLabel 7925 7575 0    50   Input ~ 0
+_WE0
+Text GLabel 7925 7675 0    50   Input ~ 0
+_R_W
+Wire Wire Line
+	7925 7575 9100 7575
+Wire Wire Line
+	9100 7675 7925 7675
+Entry Wire Line
+	7975 7275 8075 7375
+Text GLabel 7925 7275 0    50   Input ~ 0
+_RAS[0..3]
+Wire Wire Line
+	8075 7375 9100 7375
+Text Label 8075 7375 0    50   ~ 0
+_RAS3
+Text GLabel 8450 5875 0    50   Input ~ 0
+_CAS[0..3]
+Wire Wire Line
+	15400 7475 15200 7475
+Wire Wire Line
+	13300 7475 13100 7475
+Wire Wire Line
+	13100 7475 13100 5975
+Wire Wire Line
+	11200 7475 11000 7475
+Wire Wire Line
+	11000 7475 11000 5975
+Wire Wire Line
+	9100 7475 8950 7475
+Wire Wire Line
+	8950 7475 8950 5975
+Entry Wire Line
+	8850 5875 8950 5975
+Entry Wire Line
+	10900 5875 11000 5975
+Entry Wire Line
+	13000 5875 13100 5975
+Entry Wire Line
+	15100 5875 15200 5975
+Text Label 8950 6200 1    50   ~ 0
+_CAS0
+Text Label 11000 6200 1    50   ~ 0
+_CAS1
+Text Label 13100 5975 3    50   ~ 0
+_CAS2
+Text Label 15200 6175 1    50   ~ 0
+_CAS3
+Entry Wire Line
+	9400 8175 9500 8275
+Entry Wire Line
+	9500 8175 9600 8275
+Entry Wire Line
+	9600 8175 9700 8275
+Entry Wire Line
+	9700 8175 9800 8275
+Entry Wire Line
+	10550 8175 10650 8275
+Entry Wire Line
+	10650 8175 10750 8275
+Entry Wire Line
+	10750 8175 10850 8275
+Entry Wire Line
+	10450 8175 10550 8275
+Entry Wire Line
+	11500 8175 11600 8275
+Entry Wire Line
+	11600 8175 11700 8275
+Entry Wire Line
+	11700 8175 11800 8275
+Entry Wire Line
+	11800 8175 11900 8275
+Entry Wire Line
+	12550 8175 12650 8275
+Entry Wire Line
+	12650 8175 12750 8275
+Entry Wire Line
+	12750 8175 12850 8275
+Entry Wire Line
+	12850 8175 12950 8275
+Entry Wire Line
+	13600 8175 13700 8275
+Entry Wire Line
+	13700 8175 13800 8275
+Entry Wire Line
+	13800 8175 13900 8275
+Entry Wire Line
+	13900 8175 14000 8275
+Entry Wire Line
+	14650 8175 14750 8275
+Entry Wire Line
+	14750 8175 14850 8275
+Entry Wire Line
+	14850 8175 14950 8275
+Entry Wire Line
+	14950 8175 15050 8275
+Entry Wire Line
+	15700 8175 15800 8275
+Entry Wire Line
+	15800 8175 15900 8275
+Entry Wire Line
+	15900 8175 16000 8275
+Entry Wire Line
+	16000 8175 16100 8275
+Wire Wire Line
+	9400 8175 9400 7975
+Wire Wire Line
+	9500 8175 9500 7975
+Wire Wire Line
+	9600 8175 9600 7975
+Wire Wire Line
+	9700 8175 9700 7975
+Wire Wire Line
+	10450 8175 10450 7975
+Wire Wire Line
+	10550 8175 10550 7975
+Wire Wire Line
+	10650 8175 10650 7975
+Wire Wire Line
+	10750 8175 10750 7975
+Wire Wire Line
+	11500 8175 11500 7975
+Wire Wire Line
+	11600 8175 11600 7975
+Wire Wire Line
+	11700 8175 11700 7975
+Wire Wire Line
+	11800 8175 11800 7975
+Wire Wire Line
+	12550 8175 12550 7975
+Wire Wire Line
+	12650 7975 12650 8175
+Wire Wire Line
+	12750 8175 12750 7975
+Wire Wire Line
+	12850 7975 12850 8175
+Wire Wire Line
+	13600 8175 13600 7975
+Wire Wire Line
+	13700 7975 13700 8175
+Wire Wire Line
+	13800 8175 13800 7975
+Wire Wire Line
+	13900 7975 13900 8175
+Wire Wire Line
+	14650 8175 14650 7975
+Wire Wire Line
+	14750 7975 14750 8175
+Wire Wire Line
+	14850 8175 14850 7975
+Wire Wire Line
+	14950 7975 14950 8175
+Entry Wire Line
+	16750 8175 16850 8275
+Entry Wire Line
+	16850 8175 16950 8275
+Entry Wire Line
+	16950 8175 17050 8275
+Entry Wire Line
+	17050 8175 17150 8275
+Text GLabel 17500 8275 2    50   BiDi ~ 0
+RD[0..31]
+Text Label 9400 8175 1    50   ~ 0
+RD0
+Text Label 9500 8175 1    50   ~ 0
+RD1
+Text Label 9600 8175 1    50   ~ 0
+RD2
+Text Label 9700 8175 1    50   ~ 0
+RD3
+Text Label 10450 8175 1    50   ~ 0
+RD4
+Text Label 10550 8175 1    50   ~ 0
+RD5
+Text Label 10650 8175 1    50   ~ 0
+RD6
+Text Label 10750 8175 1    50   ~ 0
+RD7
+Text Label 11500 8175 1    50   ~ 0
+RD8
+Text Label 11600 8175 1    50   ~ 0
+RD9
+Text Label 11700 8175 1    50   ~ 0
+RD10
+Text Label 11800 8175 1    50   ~ 0
+RD11
+Text Label 12550 8175 1    50   ~ 0
+RD12
+Text Label 12650 8175 1    50   ~ 0
+RD13
+Text Label 12750 8175 1    50   ~ 0
+RD14
+Text Label 12850 8175 1    50   ~ 0
+RD15
+Text Label 13600 8175 1    50   ~ 0
+RD16
+Text Label 13700 8175 1    50   ~ 0
+RD17
+Text Label 13800 8175 1    50   ~ 0
+RD18
+Text Label 13900 8175 1    50   ~ 0
+RD19
+Text Label 14650 8175 1    50   ~ 0
+RD20
+Text Label 14750 8175 1    50   ~ 0
+RD21
+Text Label 14950 8175 1    50   ~ 0
+RD23
+Text Label 15700 8175 1    50   ~ 0
+RD24
+Text Label 15800 8175 1    50   ~ 0
+RD25
+Text Label 15900 8175 1    50   ~ 0
+RD26
+Text Label 16000 8175 1    50   ~ 0
+RD27
+Text Label 16750 8175 1    50   ~ 0
+RD28
+Text Label 16850 8175 1    50   ~ 0
+RD29
+Text Label 16950 8175 1    50   ~ 0
+RD30
+Text Label 17050 8175 1    50   ~ 0
+RD31
+Wire Wire Line
+	16450 7675 15400 7675
+Wire Wire Line
+	16450 7575 15400 7575
+Wire Wire Line
+	16450 7475 15400 7475
+Connection ~ 15400 7475
+Wire Wire Line
+	16450 7375 15400 7375
+Wire Wire Line
+	16450 7275 15400 7275
+Wire Wire Line
+	16450 7175 15400 7175
+Wire Wire Line
+	15400 6975 16450 6975
+Wire Wire Line
+	16450 6875 15400 6875
+Wire Wire Line
+	15400 6775 16450 6775
+Wire Wire Line
+	16450 6675 15400 6675
+Wire Wire Line
+	15400 6575 16450 6575
+Wire Wire Line
+	16450 6475 15400 6475
+Wire Wire Line
+	15400 6375 16450 6375
+Wire Wire Line
+	15200 7475 15200 5975
+Wire Wire Line
+	15700 7975 15700 8175
+Wire Wire Line
+	15800 7975 15800 8175
+Wire Wire Line
+	15900 7975 15900 8175
+Wire Wire Line
+	16000 7975 16000 8175
+Wire Wire Line
+	16750 7975 16750 8175
+Wire Wire Line
+	16850 7975 16850 8175
+Wire Wire Line
+	16950 7975 16950 8175
+Wire Wire Line
+	17050 7975 17050 8175
+Wire Wire Line
+	15400 7675 14350 7675
+Connection ~ 15400 7675
+Wire Wire Line
+	15400 7575 14350 7575
+Connection ~ 15400 7575
+Wire Wire Line
+	15400 7375 14350 7375
+Connection ~ 15400 7375
+Wire Wire Line
+	14350 7275 15400 7275
+Connection ~ 15400 7275
+Wire Wire Line
+	15400 7175 14350 7175
+Connection ~ 15400 7175
+Wire Wire Line
+	14350 7075 15400 7075
+Connection ~ 15400 7075
+Wire Wire Line
+	15400 7075 16450 7075
+Wire Wire Line
+	15400 6975 14350 6975
+Connection ~ 15400 6975
+Wire Wire Line
+	15400 6875 14350 6875
+Connection ~ 15400 6875
+Wire Wire Line
+	14350 6775 15400 6775
+Connection ~ 15400 6775
+Wire Wire Line
+	15400 6675 14350 6675
+Connection ~ 15400 6675
+Wire Wire Line
+	14350 6575 15400 6575
+Connection ~ 15400 6575
+Wire Wire Line
+	15400 6475 14350 6475
+Connection ~ 15400 6475
+Wire Wire Line
+	14350 6375 15400 6375
+Connection ~ 15400 6375
+Wire Wire Line
+	14350 6375 13300 6375
+Connection ~ 14350 6375
+Wire Wire Line
+	13300 6475 14350 6475
+Connection ~ 14350 6475
+Wire Wire Line
+	14350 6575 13300 6575
+Connection ~ 14350 6575
+Wire Wire Line
+	13300 6675 14350 6675
+Connection ~ 14350 6675
+Wire Wire Line
+	14350 6775 13300 6775
+Connection ~ 14350 6775
+Wire Wire Line
+	13300 6875 14350 6875
+Connection ~ 14350 6875
+Wire Wire Line
+	14350 6975 13300 6975
+Connection ~ 14350 6975
+Wire Wire Line
+	13300 7075 14350 7075
+Connection ~ 14350 7075
+Wire Wire Line
+	14350 7175 13300 7175
+Connection ~ 14350 7175
+Wire Wire Line
+	14350 7275 13300 7275
+Connection ~ 14350 7275
+Wire Wire Line
+	13300 7375 14350 7375
+Connection ~ 14350 7375
+Wire Wire Line
+	14350 7475 13300 7475
+Connection ~ 13300 7475
+Wire Wire Line
+	13300 7575 14350 7575
+Connection ~ 14350 7575
+Wire Wire Line
+	14350 7675 13300 7675
+Connection ~ 14350 7675
+Wire Wire Line
+	13300 7675 12250 7675
+Connection ~ 13300 7675
+Wire Wire Line
+	12250 7675 11200 7675
+Connection ~ 12250 7675
+Wire Wire Line
+	10150 7675 11200 7675
+Connection ~ 11200 7675
+Wire Wire Line
+	10150 7675 9100 7675
+Connection ~ 10150 7675
+Connection ~ 9100 7675
+Wire Wire Line
+	9100 7575 10150 7575
+Connection ~ 9100 7575
+Wire Wire Line
+	10150 7575 11200 7575
+Connection ~ 10150 7575
+Wire Wire Line
+	12250 7575 11200 7575
+Connection ~ 11200 7575
+Wire Wire Line
+	12250 7575 13300 7575
+Connection ~ 12250 7575
+Connection ~ 13300 7575
+Wire Wire Line
+	12250 7475 11200 7475
+Connection ~ 11200 7475
+Wire Wire Line
+	10150 7475 9100 7475
+Connection ~ 9100 7475
+Wire Wire Line
+	9100 7375 10150 7375
+Connection ~ 9100 7375
+Wire Wire Line
+	10150 7375 11200 7375
+Connection ~ 10150 7375
+Wire Wire Line
+	11200 7375 12250 7375
+Connection ~ 11200 7375
+Wire Wire Line
+	12250 7375 13300 7375
+Connection ~ 12250 7375
+Connection ~ 13300 7375
+Wire Wire Line
+	13300 7275 12250 7275
+Connection ~ 13300 7275
+Wire Wire Line
+	12250 7275 11200 7275
+Connection ~ 12250 7275
+Wire Wire Line
+	11200 7275 10150 7275
+Connection ~ 11200 7275
+Wire Wire Line
+	10150 7275 9100 7275
+Connection ~ 10150 7275
+Connection ~ 9100 7275
+Wire Wire Line
+	9100 7175 10150 7175
+Connection ~ 9100 7175
+Wire Wire Line
+	10150 7175 11200 7175
+Connection ~ 10150 7175
+Wire Wire Line
+	12250 7175 11200 7175
+Connection ~ 11200 7175
+Wire Wire Line
+	13300 7175 12250 7175
+Connection ~ 13300 7175
+Connection ~ 12250 7175
+Wire Wire Line
+	13300 7075 12250 7075
+Connection ~ 13300 7075
+Wire Wire Line
+	12250 7075 11200 7075
+Connection ~ 12250 7075
+Wire Wire Line
+	10150 7075 11200 7075
+Connection ~ 11200 7075
+Wire Wire Line
+	10150 7075 9100 7075
+Connection ~ 10150 7075
+Connection ~ 9100 7075
+Wire Wire Line
+	9100 6975 10150 6975
+Connection ~ 9100 6975
+Wire Wire Line
+	10150 6975 11200 6975
+Connection ~ 10150 6975
+Wire Wire Line
+	12250 6975 11200 6975
+Connection ~ 11200 6975
+Wire Wire Line
+	12250 6975 13300 6975
+Connection ~ 12250 6975
+Connection ~ 13300 6975
+Wire Wire Line
+	13300 6875 12250 6875
+Connection ~ 13300 6875
+Wire Wire Line
+	12250 6875 11200 6875
+Connection ~ 12250 6875
+Wire Wire Line
+	10150 6875 11200 6875
+Connection ~ 11200 6875
+Wire Wire Line
+	10150 6875 9100 6875
+Connection ~ 10150 6875
+Connection ~ 9100 6875
+Wire Wire Line
+	9100 6775 10150 6775
+Connection ~ 9100 6775
+Wire Wire Line
+	10150 6775 11200 6775
+Connection ~ 10150 6775
+Wire Wire Line
+	11200 6775 12250 6775
+Connection ~ 11200 6775
+Wire Wire Line
+	12250 6775 13300 6775
+Connection ~ 12250 6775
+Connection ~ 13300 6775
+Wire Wire Line
+	13300 6675 12250 6675
+Connection ~ 13300 6675
+Wire Wire Line
+	12250 6675 11200 6675
+Connection ~ 12250 6675
+Wire Wire Line
+	11200 6675 10150 6675
+Connection ~ 11200 6675
+Wire Wire Line
+	10150 6675 9100 6675
+Connection ~ 10150 6675
+Connection ~ 9100 6675
+Wire Wire Line
+	9100 6575 10150 6575
+Connection ~ 9100 6575
+Wire Wire Line
+	10150 6575 11200 6575
+Connection ~ 10150 6575
+Wire Wire Line
+	11200 6575 12250 6575
+Connection ~ 11200 6575
+Wire Wire Line
+	12250 6575 13300 6575
+Connection ~ 12250 6575
+Connection ~ 13300 6575
+Wire Wire Line
+	13300 6475 12250 6475
+Connection ~ 13300 6475
+Wire Wire Line
+	12250 6475 11200 6475
+Connection ~ 12250 6475
+Wire Wire Line
+	11200 6475 10150 6475
+Connection ~ 11200 6475
+Wire Wire Line
+	10150 6475 9100 6475
+Connection ~ 10150 6475
+Connection ~ 9100 6475
+Wire Wire Line
+	9100 6375 10150 6375
+Connection ~ 9100 6375
+Wire Wire Line
+	10150 6375 11200 6375
+Connection ~ 10150 6375
+Wire Wire Line
+	11200 6375 12250 6375
+Connection ~ 11200 6375
+Wire Wire Line
+	12250 6375 13300 6375
+Connection ~ 12250 6375
+Connection ~ 13300 6375
+$Comp
+L Amiga_3000_library:+5V #PWR0390
+U 1 1 5F481C76
+P 17450 8625
+F 0 "#PWR0390" H 17450 8475 50  0001 C CNN
+F 1 "+5V" V 17467 8803 50  0000 L CNN
+F 2 "" H 17450 8625 50  0001 C CNN
+F 3 "" H 17450 8625 50  0001 C CNN
+	1    17450 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Amiga_3000_library:GND #PWR0391
+U 1 1 5F481C7C
+P 17450 9375
+F 0 "#PWR0391" H 17450 9125 50  0001 C CNN
+F 1 "GND" V 17455 9247 50  0000 R CNN
+F 2 "" H 17450 9375 50  0001 C CNN
+F 3 "" H 17450 9375 50  0001 C CNN
+	1    17450 9375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9000 8625 9000 8675
+Wire Wire Line
+	9000 9275 9000 9375
+Wire Wire Line
+	9000 9375 9450 9375
+Wire Wire Line
+	16400 8675 16400 8625
+Connection ~ 16400 8625
+Wire Wire Line
+	16400 8625 15800 8625
+Wire Wire Line
+	16400 9275 16400 9375
+Connection ~ 16400 9375
+Wire Wire Line
+	15800 9125 15800 9375
+Connection ~ 15800 9375
+Wire Wire Line
+	15800 9375 16400 9375
+Wire Wire Line
+	15800 8825 15800 8625
+Connection ~ 15800 8625
+Wire Wire Line
+	15800 8625 15350 8625
+Wire Wire Line
+	15350 8675 15350 8625
+Connection ~ 15350 8625
+Wire Wire Line
+	15350 9275 15350 9375
+Connection ~ 15350 9375
+Wire Wire Line
+	15350 9375 15800 9375
+Wire Wire Line
+	14300 8675 14300 8625
+Connection ~ 14300 8625
+Wire Wire Line
+	14300 8625 13700 8625
+Wire Wire Line
+	14300 9275 14300 9375
+Connection ~ 14300 9375
+Wire Wire Line
+	13700 9125 13700 9375
+Connection ~ 13700 9375
+Wire Wire Line
+	13700 9375 14300 9375
+Wire Wire Line
+	13250 9275 13250 9375
+Connection ~ 13250 9375
+Wire Wire Line
+	13250 9375 13700 9375
+Wire Wire Line
+	13250 8675 13250 8625
+Connection ~ 13250 8625
+Wire Wire Line
+	13700 8825 13700 8625
+Connection ~ 13700 8625
+Wire Wire Line
+	13700 8625 13250 8625
+Wire Wire Line
+	12250 9275 12250 9375
+Connection ~ 12250 9375
+Wire Wire Line
+	12250 8675 12250 8625
+Connection ~ 12250 8625
+Wire Wire Line
+	12250 8625 11600 8625
+Wire Wire Line
+	11600 8825 11600 8625
+Connection ~ 11600 8625
+Wire Wire Line
+	11600 8625 11150 8625
+Wire Wire Line
+	11600 9125 11600 9375
+Connection ~ 11600 9375
+Wire Wire Line
+	11600 9375 12250 9375
+Wire Wire Line
+	11150 9375 11150 9275
+Connection ~ 11150 9375
+Wire Wire Line
+	11150 9375 11600 9375
+Wire Wire Line
+	11150 8675 11150 8625
+Connection ~ 11150 8625
+Wire Wire Line
+	10050 9375 10050 9275
+Connection ~ 10050 9375
+Wire Wire Line
+	10050 8675 10050 8625
+Connection ~ 10050 8625
+Wire Wire Line
+	10050 8625 9450 8625
+Wire Wire Line
+	9450 8825 9450 8625
+Connection ~ 9450 8625
+Wire Wire Line
+	9450 8625 9000 8625
+Wire Wire Line
+	9450 9125 9450 9375
+Connection ~ 9450 9375
+Wire Wire Line
+	9450 9375 10050 9375
+Wire Wire Line
+	15450 11275 15250 11275
+Wire Wire Line
+	13350 11275 13150 11275
+Wire Wire Line
+	11250 11275 11050 11275
+Wire Wire Line
+	9150 11275 9000 11275
+Wire Wire Line
+	16500 11475 15450 11475
+Wire Wire Line
+	16500 11375 15450 11375
+Wire Wire Line
+	16500 11275 15450 11275
+Connection ~ 15450 11275
+Wire Wire Line
+	16500 11175 15450 11175
+Wire Wire Line
+	16500 11075 15450 11075
+Wire Wire Line
+	16500 10975 15450 10975
+Wire Wire Line
+	15450 10775 16500 10775
+Wire Wire Line
+	16500 10675 15450 10675
+Wire Wire Line
+	15450 10575 16500 10575
+Wire Wire Line
+	16500 10475 15450 10475
+Wire Wire Line
+	15450 10375 16500 10375
+Wire Wire Line
+	16500 10275 15450 10275
+Wire Wire Line
+	15450 10175 16500 10175
+Wire Wire Line
+	15450 11475 14400 11475
+Connection ~ 15450 11475
+Wire Wire Line
+	15450 11375 14400 11375
+Connection ~ 15450 11375
+Wire Wire Line
+	15450 11175 14400 11175
+Connection ~ 15450 11175
+Wire Wire Line
+	14400 11075 15450 11075
+Connection ~ 15450 11075
+Wire Wire Line
+	15450 10975 14400 10975
+Connection ~ 15450 10975
+Wire Wire Line
+	14400 10875 15450 10875
+Connection ~ 15450 10875
+Wire Wire Line
+	15450 10875 16500 10875
+Wire Wire Line
+	15450 10775 14400 10775
+Connection ~ 15450 10775
+Wire Wire Line
+	15450 10675 14400 10675
+Connection ~ 15450 10675
+Wire Wire Line
+	14400 10575 15450 10575
+Connection ~ 15450 10575
+Wire Wire Line
+	15450 10475 14400 10475
+Connection ~ 15450 10475
+Wire Wire Line
+	14400 10375 15450 10375
+Connection ~ 15450 10375
+Wire Wire Line
+	15450 10275 14400 10275
+Connection ~ 15450 10275
+Wire Wire Line
+	14400 10175 15450 10175
+Connection ~ 15450 10175
+Wire Wire Line
+	14400 10175 13350 10175
+Connection ~ 14400 10175
+Wire Wire Line
+	13350 10275 14400 10275
+Connection ~ 14400 10275
+Wire Wire Line
+	14400 10375 13350 10375
+Connection ~ 14400 10375
+Wire Wire Line
+	13350 10475 14400 10475
+Connection ~ 14400 10475
+Wire Wire Line
+	14400 10575 13350 10575
+Connection ~ 14400 10575
+Wire Wire Line
+	13350 10675 14400 10675
+Connection ~ 14400 10675
+Wire Wire Line
+	14400 10775 13350 10775
+Connection ~ 14400 10775
+Wire Wire Line
+	13350 10875 14400 10875
+Connection ~ 14400 10875
+Wire Wire Line
+	14400 10975 13350 10975
+Connection ~ 14400 10975
+Wire Wire Line
+	14400 11075 13350 11075
+Connection ~ 14400 11075
+Wire Wire Line
+	13350 11175 14400 11175
+Connection ~ 14400 11175
+Wire Wire Line
+	14400 11275 13350 11275
+Connection ~ 13350 11275
+Wire Wire Line
+	13350 11375 14400 11375
+Connection ~ 14400 11375
+Wire Wire Line
+	14400 11475 13350 11475
+Connection ~ 14400 11475
+Wire Wire Line
+	13350 11475 12300 11475
+Connection ~ 13350 11475
+Wire Wire Line
+	12300 11475 11250 11475
+Connection ~ 12300 11475
+Wire Wire Line
+	10200 11475 11250 11475
+Connection ~ 11250 11475
+Wire Wire Line
+	10200 11475 9150 11475
+Connection ~ 10200 11475
+Wire Wire Line
+	9150 11375 10200 11375
+Wire Wire Line
+	10200 11375 11250 11375
+Connection ~ 10200 11375
+Wire Wire Line
+	12300 11375 11250 11375
+Connection ~ 11250 11375
+Wire Wire Line
+	12300 11375 13350 11375
+Connection ~ 12300 11375
+Connection ~ 13350 11375
+Wire Wire Line
+	12300 11275 11250 11275
+Connection ~ 11250 11275
+Wire Wire Line
+	10200 11275 9150 11275
+Connection ~ 9150 11275
+Wire Wire Line
+	9150 11175 10200 11175
+Wire Wire Line
+	10200 11175 11250 11175
+Connection ~ 10200 11175
+Wire Wire Line
+	11250 11175 12300 11175
+Connection ~ 11250 11175
+Wire Wire Line
+	12300 11175 13350 11175
+Connection ~ 12300 11175
+Connection ~ 13350 11175
+Wire Wire Line
+	13350 11075 12300 11075
+Connection ~ 13350 11075
+Wire Wire Line
+	12300 11075 11250 11075
+Connection ~ 12300 11075
+Wire Wire Line
+	11250 11075 10200 11075
+Connection ~ 11250 11075
+Wire Wire Line
+	10200 11075 9150 11075
+Connection ~ 10200 11075
+Wire Wire Line
+	9150 10975 10200 10975
+Wire Wire Line
+	10200 10975 11250 10975
+Connection ~ 10200 10975
+Wire Wire Line
+	12300 10975 11250 10975
+Connection ~ 11250 10975
+Wire Wire Line
+	13350 10975 12300 10975
+Connection ~ 13350 10975
+Connection ~ 12300 10975
+Wire Wire Line
+	13350 10875 12300 10875
+Connection ~ 13350 10875
+Wire Wire Line
+	12300 10875 11250 10875
+Connection ~ 12300 10875
+Wire Wire Line
+	10200 10875 11250 10875
+Connection ~ 11250 10875
+Wire Wire Line
+	10200 10875 9150 10875
+Connection ~ 10200 10875
+Wire Wire Line
+	9150 10775 10200 10775
+Wire Wire Line
+	10200 10775 11250 10775
+Connection ~ 10200 10775
+Wire Wire Line
+	12300 10775 11250 10775
+Connection ~ 11250 10775
+Wire Wire Line
+	12300 10775 13350 10775
+Connection ~ 12300 10775
+Connection ~ 13350 10775
+Wire Wire Line
+	13350 10675 12300 10675
+Connection ~ 13350 10675
+Wire Wire Line
+	12300 10675 11250 10675
+Connection ~ 12300 10675
+Wire Wire Line
+	10200 10675 11250 10675
+Connection ~ 11250 10675
+Wire Wire Line
+	10200 10675 9150 10675
+Connection ~ 10200 10675
+Wire Wire Line
+	9150 10575 10200 10575
+Wire Wire Line
+	10200 10575 11250 10575
+Connection ~ 10200 10575
+Wire Wire Line
+	11250 10575 12300 10575
+Connection ~ 11250 10575
+Wire Wire Line
+	12300 10575 13350 10575
+Connection ~ 12300 10575
+Connection ~ 13350 10575
+Wire Wire Line
+	13350 10475 12300 10475
+Connection ~ 13350 10475
+Wire Wire Line
+	12300 10475 11250 10475
+Connection ~ 12300 10475
+Wire Wire Line
+	11250 10475 10200 10475
+Connection ~ 11250 10475
+Wire Wire Line
+	10200 10475 9150 10475
+Connection ~ 10200 10475
+Wire Wire Line
+	9150 10375 10200 10375
+Wire Wire Line
+	10200 10375 11250 10375
+Connection ~ 10200 10375
+Wire Wire Line
+	11250 10375 12300 10375
+Connection ~ 11250 10375
+Wire Wire Line
+	12300 10375 13350 10375
+Connection ~ 12300 10375
+Connection ~ 13350 10375
+Wire Wire Line
+	13350 10275 12300 10275
+Connection ~ 13350 10275
+Wire Wire Line
+	12300 10275 11250 10275
+Connection ~ 12300 10275
+Wire Wire Line
+	11250 10275 10200 10275
+Connection ~ 11250 10275
+Wire Wire Line
+	10200 10275 9150 10275
+Connection ~ 10200 10275
+Wire Wire Line
+	9150 10175 10200 10175
+Wire Wire Line
+	10200 10175 11250 10175
+Connection ~ 10200 10175
+Wire Wire Line
+	11250 10175 12300 10175
+Connection ~ 11250 10175
+Wire Wire Line
+	12300 10175 13350 10175
+Connection ~ 12300 10175
+Connection ~ 13350 10175
+$Comp
+L Amiga_3000_library:+5V #PWR0392
+U 1 1 5F534651
+P 17500 12425
+F 0 "#PWR0392" H 17500 12275 50  0001 C CNN
+F 1 "+5V" V 17517 12603 50  0000 L CNN
+F 2 "" H 17500 12425 50  0001 C CNN
+F 3 "" H 17500 12425 50  0001 C CNN
+	1    17500 12425
+	0    1    1    0   
+$EndComp
+$Comp
+L Amiga_3000_library:GND #PWR0393
+U 1 1 5F534657
+P 17500 13175
+F 0 "#PWR0393" H 17500 12925 50  0001 C CNN
+F 1 "GND" V 17505 13047 50  0000 R CNN
+F 2 "" H 17500 13175 50  0001 C CNN
+F 3 "" H 17500 13175 50  0001 C CNN
+	1    17500 13175
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9050 12425 9050 12475
+Wire Wire Line
+	9050 13075 9050 13175
+Wire Wire Line
+	9050 13175 9500 13175
+Wire Wire Line
+	16450 12475 16450 12425
+Connection ~ 16450 12425
+Wire Wire Line
+	16450 12425 15850 12425
+Wire Wire Line
+	16450 13075 16450 13175
+Connection ~ 16450 13175
+Wire Wire Line
+	15850 12925 15850 13175
+Connection ~ 15850 13175
+Wire Wire Line
+	15850 13175 16450 13175
+Wire Wire Line
+	15850 12625 15850 12425
+Connection ~ 15850 12425
+Wire Wire Line
+	15850 12425 15400 12425
+Wire Wire Line
+	15400 12475 15400 12425
+Connection ~ 15400 12425
+Wire Wire Line
+	15400 13075 15400 13175
+Connection ~ 15400 13175
+Wire Wire Line
+	15400 13175 15850 13175
+Wire Wire Line
+	14350 12475 14350 12425
+Connection ~ 14350 12425
+Wire Wire Line
+	14350 12425 13750 12425
+Wire Wire Line
+	14350 13075 14350 13175
+Connection ~ 14350 13175
+Wire Wire Line
+	13750 12925 13750 13175
+Connection ~ 13750 13175
+Wire Wire Line
+	13750 13175 14350 13175
+Wire Wire Line
+	13300 13075 13300 13175
+Connection ~ 13300 13175
+Wire Wire Line
+	13300 13175 13750 13175
+Wire Wire Line
+	13300 12475 13300 12425
+Connection ~ 13300 12425
+Wire Wire Line
+	13750 12625 13750 12425
+Connection ~ 13750 12425
+Wire Wire Line
+	13750 12425 13300 12425
+Wire Wire Line
+	12300 13075 12300 13175
+Connection ~ 12300 13175
+Wire Wire Line
+	12300 12475 12300 12425
+Connection ~ 12300 12425
+Wire Wire Line
+	12300 12425 11650 12425
+Wire Wire Line
+	11650 12625 11650 12425
+Connection ~ 11650 12425
+Wire Wire Line
+	11650 12425 11200 12425
+Wire Wire Line
+	11650 12925 11650 13175
+Connection ~ 11650 13175
+Wire Wire Line
+	11650 13175 12300 13175
+Wire Wire Line
+	11200 13175 11200 13075
+Connection ~ 11200 13175
+Wire Wire Line
+	11200 13175 11650 13175
+Wire Wire Line
+	11200 12475 11200 12425
+Connection ~ 11200 12425
+Wire Wire Line
+	10100 13175 10100 13075
+Connection ~ 10100 13175
+Wire Wire Line
+	10100 12475 10100 12425
+Connection ~ 10100 12425
+Wire Wire Line
+	10100 12425 9500 12425
+Wire Wire Line
+	9500 12625 9500 12425
+Connection ~ 9500 12425
+Wire Wire Line
+	9500 12425 9050 12425
+Wire Wire Line
+	9500 12925 9500 13175
+Connection ~ 9500 13175
+Wire Wire Line
+	9500 13175 10100 13175
+Wire Wire Line
+	15450 15075 15250 15075
+Wire Wire Line
+	13350 15075 13150 15075
+Wire Wire Line
+	11250 15075 11050 15075
+Wire Wire Line
+	9150 15075 9000 15075
+Wire Wire Line
+	16500 15275 15450 15275
+Wire Wire Line
+	16500 15175 15450 15175
+Wire Wire Line
+	16500 15075 15450 15075
+Connection ~ 15450 15075
+Wire Wire Line
+	16500 14975 15450 14975
+Wire Wire Line
+	16500 14875 15450 14875
+Wire Wire Line
+	16500 14775 15450 14775
+Wire Wire Line
+	15450 14575 16500 14575
+Wire Wire Line
+	16500 14475 15450 14475
+Wire Wire Line
+	15450 14375 16500 14375
+Wire Wire Line
+	16500 14275 15450 14275
+Wire Wire Line
+	15450 14175 16500 14175
+Wire Wire Line
+	16500 14075 15450 14075
+Wire Wire Line
+	15450 13975 16500 13975
+Wire Wire Line
+	15450 15275 14400 15275
+Connection ~ 15450 15275
+Wire Wire Line
+	15450 15175 14400 15175
+Connection ~ 15450 15175
+Wire Wire Line
+	15450 14975 14400 14975
+Connection ~ 15450 14975
+Wire Wire Line
+	14400 14875 15450 14875
+Connection ~ 15450 14875
+Wire Wire Line
+	15450 14775 14400 14775
+Connection ~ 15450 14775
+Wire Wire Line
+	14400 14675 15450 14675
+Connection ~ 15450 14675
+Wire Wire Line
+	15450 14675 16500 14675
+Wire Wire Line
+	15450 14575 14400 14575
+Connection ~ 15450 14575
+Wire Wire Line
+	15450 14475 14400 14475
+Connection ~ 15450 14475
+Wire Wire Line
+	14400 14375 15450 14375
+Connection ~ 15450 14375
+Wire Wire Line
+	15450 14275 14400 14275
+Connection ~ 15450 14275
+Wire Wire Line
+	14400 14175 15450 14175
+Connection ~ 15450 14175
+Wire Wire Line
+	15450 14075 14400 14075
+Connection ~ 15450 14075
+Wire Wire Line
+	14400 13975 15450 13975
+Connection ~ 15450 13975
+Wire Wire Line
+	14400 13975 13350 13975
+Connection ~ 14400 13975
+Wire Wire Line
+	13350 14075 14400 14075
+Connection ~ 14400 14075
+Wire Wire Line
+	14400 14175 13350 14175
+Connection ~ 14400 14175
+Wire Wire Line
+	13350 14275 14400 14275
+Connection ~ 14400 14275
+Wire Wire Line
+	14400 14375 13350 14375
+Connection ~ 14400 14375
+Wire Wire Line
+	13350 14475 14400 14475
+Connection ~ 14400 14475
+Wire Wire Line
+	14400 14575 13350 14575
+Connection ~ 14400 14575
+Wire Wire Line
+	13350 14675 14400 14675
+Connection ~ 14400 14675
+Wire Wire Line
+	14400 14775 13350 14775
+Connection ~ 14400 14775
+Wire Wire Line
+	14400 14875 13350 14875
+Connection ~ 14400 14875
+Wire Wire Line
+	13350 14975 14400 14975
+Connection ~ 14400 14975
+Wire Wire Line
+	14400 15075 13350 15075
+Connection ~ 13350 15075
+Wire Wire Line
+	13350 15175 14400 15175
+Connection ~ 14400 15175
+Wire Wire Line
+	14400 15275 13350 15275
+Connection ~ 14400 15275
+Wire Wire Line
+	13350 15275 12300 15275
+Connection ~ 13350 15275
+Wire Wire Line
+	12300 15275 11250 15275
+Connection ~ 12300 15275
+Wire Wire Line
+	10200 15275 11250 15275
+Connection ~ 11250 15275
+Wire Wire Line
+	10200 15275 9150 15275
+Connection ~ 10200 15275
+Wire Wire Line
+	9150 15175 10200 15175
+Wire Wire Line
+	10200 15175 11250 15175
+Connection ~ 10200 15175
+Wire Wire Line
+	12300 15175 11250 15175
+Connection ~ 11250 15175
+Wire Wire Line
+	12300 15175 13350 15175
+Connection ~ 12300 15175
+Connection ~ 13350 15175
+Wire Wire Line
+	12300 15075 11250 15075
+Connection ~ 11250 15075
+Wire Wire Line
+	10200 15075 9150 15075
+Connection ~ 9150 15075
+Wire Wire Line
+	9150 14975 10200 14975
+Wire Wire Line
+	10200 14975 11250 14975
+Connection ~ 10200 14975
+Wire Wire Line
+	11250 14975 12300 14975
+Connection ~ 11250 14975
+Wire Wire Line
+	12300 14975 13350 14975
+Connection ~ 12300 14975
+Connection ~ 13350 14975
+Wire Wire Line
+	13350 14875 12300 14875
+Connection ~ 13350 14875
+Wire Wire Line
+	12300 14875 11250 14875
+Connection ~ 12300 14875
+Wire Wire Line
+	11250 14875 10200 14875
+Connection ~ 11250 14875
+Wire Wire Line
+	10200 14875 9150 14875
+Connection ~ 10200 14875
+Wire Wire Line
+	9150 14775 10200 14775
+Wire Wire Line
+	10200 14775 11250 14775
+Connection ~ 10200 14775
+Wire Wire Line
+	12300 14775 11250 14775
+Connection ~ 11250 14775
+Wire Wire Line
+	13350 14775 12300 14775
+Connection ~ 13350 14775
+Connection ~ 12300 14775
+Wire Wire Line
+	13350 14675 12300 14675
+Connection ~ 13350 14675
+Wire Wire Line
+	12300 14675 11250 14675
+Connection ~ 12300 14675
+Wire Wire Line
+	10200 14675 11250 14675
+Connection ~ 11250 14675
+Wire Wire Line
+	10200 14675 9150 14675
+Connection ~ 10200 14675
+Wire Wire Line
+	9150 14575 10200 14575
+Wire Wire Line
+	10200 14575 11250 14575
+Connection ~ 10200 14575
+Wire Wire Line
+	12300 14575 11250 14575
+Connection ~ 11250 14575
+Wire Wire Line
+	12300 14575 13350 14575
+Connection ~ 12300 14575
+Connection ~ 13350 14575
+Wire Wire Line
+	13350 14475 12300 14475
+Connection ~ 13350 14475
+Wire Wire Line
+	12300 14475 11250 14475
+Connection ~ 12300 14475
+Wire Wire Line
+	10200 14475 11250 14475
+Connection ~ 11250 14475
+Wire Wire Line
+	10200 14475 9150 14475
+Connection ~ 10200 14475
+Wire Wire Line
+	9150 14375 10200 14375
+Wire Wire Line
+	10200 14375 11250 14375
+Connection ~ 10200 14375
+Wire Wire Line
+	11250 14375 12300 14375
+Connection ~ 11250 14375
+Wire Wire Line
+	12300 14375 13350 14375
+Connection ~ 12300 14375
+Connection ~ 13350 14375
+Wire Wire Line
+	13350 14275 12300 14275
+Connection ~ 13350 14275
+Wire Wire Line
+	12300 14275 11250 14275
+Connection ~ 12300 14275
+Wire Wire Line
+	11250 14275 10200 14275
+Connection ~ 11250 14275
+Wire Wire Line
+	10200 14275 9150 14275
+Connection ~ 10200 14275
+Wire Wire Line
+	9150 14175 10200 14175
+Wire Wire Line
+	10200 14175 11250 14175
+Connection ~ 10200 14175
+Wire Wire Line
+	11250 14175 12300 14175
+Connection ~ 11250 14175
+Wire Wire Line
+	12300 14175 13350 14175
+Connection ~ 12300 14175
+Connection ~ 13350 14175
+Wire Wire Line
+	13350 14075 12300 14075
+Connection ~ 13350 14075
+Wire Wire Line
+	12300 14075 11250 14075
+Connection ~ 12300 14075
+Wire Wire Line
+	11250 14075 10200 14075
+Connection ~ 11250 14075
+Wire Wire Line
+	10200 14075 9150 14075
+Connection ~ 10200 14075
+Wire Wire Line
+	9150 13975 10200 13975
+Wire Wire Line
+	10200 13975 11250 13975
+Connection ~ 10200 13975
+Wire Wire Line
+	11250 13975 12300 13975
+Connection ~ 11250 13975
+Wire Wire Line
+	12300 13975 13350 13975
+Connection ~ 12300 13975
+Connection ~ 13350 13975
+$Comp
+L Amiga_3000_library:+5V #PWR0394
+U 1 1 5F5348A5
+P 17500 16225
+F 0 "#PWR0394" H 17500 16075 50  0001 C CNN
+F 1 "+5V" V 17517 16403 50  0000 L CNN
+F 2 "" H 17500 16225 50  0001 C CNN
+F 3 "" H 17500 16225 50  0001 C CNN
+	1    17500 16225
+	0    1    1    0   
+$EndComp
+$Comp
+L Amiga_3000_library:GND #PWR0395
+U 1 1 5F5348AB
+P 17500 16975
+F 0 "#PWR0395" H 17500 16725 50  0001 C CNN
+F 1 "GND" V 17505 16847 50  0000 R CNN
+F 2 "" H 17500 16975 50  0001 C CNN
+F 3 "" H 17500 16975 50  0001 C CNN
+	1    17500 16975
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9050 16225 9050 16275
+Wire Wire Line
+	9050 16875 9050 16975
+Wire Wire Line
+	9050 16975 9500 16975
+Wire Wire Line
+	16450 16275 16450 16225
+Connection ~ 16450 16225
+Wire Wire Line
+	16450 16225 15850 16225
+Wire Wire Line
+	16450 16875 16450 16975
+Connection ~ 16450 16975
+Wire Wire Line
+	15850 16725 15850 16975
+Connection ~ 15850 16975
+Wire Wire Line
+	15850 16975 16450 16975
+Wire Wire Line
+	15850 16425 15850 16225
+Connection ~ 15850 16225
+Wire Wire Line
+	15850 16225 15400 16225
+Wire Wire Line
+	15400 16275 15400 16225
+Connection ~ 15400 16225
+Wire Wire Line
+	15400 16875 15400 16975
+Connection ~ 15400 16975
+Wire Wire Line
+	15400 16975 15850 16975
+Wire Wire Line
+	14350 16275 14350 16225
+Connection ~ 14350 16225
+Wire Wire Line
+	14350 16225 13750 16225
+Wire Wire Line
+	14350 16875 14350 16975
+Connection ~ 14350 16975
+Wire Wire Line
+	13750 16725 13750 16975
+Connection ~ 13750 16975
+Wire Wire Line
+	13750 16975 14350 16975
+Wire Wire Line
+	13300 16875 13300 16975
+Connection ~ 13300 16975
+Wire Wire Line
+	13300 16975 13750 16975
+Wire Wire Line
+	13300 16275 13300 16225
+Connection ~ 13300 16225
+Wire Wire Line
+	13750 16425 13750 16225
+Connection ~ 13750 16225
+Wire Wire Line
+	13750 16225 13300 16225
+Wire Wire Line
+	12300 16875 12300 16975
+Connection ~ 12300 16975
+Wire Wire Line
+	12300 16275 12300 16225
+Connection ~ 12300 16225
+Wire Wire Line
+	12300 16225 11650 16225
+Wire Wire Line
+	11650 16425 11650 16225
+Connection ~ 11650 16225
+Wire Wire Line
+	11650 16225 11200 16225
+Wire Wire Line
+	11650 16725 11650 16975
+Connection ~ 11650 16975
+Wire Wire Line
+	11650 16975 12300 16975
+Wire Wire Line
+	11200 16975 11200 16875
+Connection ~ 11200 16975
+Wire Wire Line
+	11200 16975 11650 16975
+Wire Wire Line
+	11200 16275 11200 16225
+Connection ~ 11200 16225
+Wire Wire Line
+	10100 16975 10100 16875
+Connection ~ 10100 16975
+Wire Wire Line
+	10100 16275 10100 16225
+Connection ~ 10100 16225
+Wire Wire Line
+	10100 16225 9500 16225
+Wire Wire Line
+	9500 16425 9500 16225
+Connection ~ 9500 16225
+Wire Wire Line
+	9500 16225 9050 16225
+Wire Wire Line
+	9500 16725 9500 16975
+Connection ~ 9500 16975
+Wire Wire Line
+	9500 16975 10100 16975
+Wire Wire Line
+	15450 18825 15250 18825
+Wire Wire Line
+	13350 18825 13150 18825
+Wire Wire Line
+	11250 18825 11050 18825
+Wire Wire Line
+	9150 18825 9000 18825
+Wire Wire Line
+	16500 19025 15450 19025
+Wire Wire Line
+	16500 18925 15450 18925
+Wire Wire Line
+	16500 18825 15450 18825
+Connection ~ 15450 18825
+Wire Wire Line
+	16500 18725 15450 18725
+Wire Wire Line
+	16500 18625 15450 18625
+Wire Wire Line
+	16500 18525 15450 18525
+Wire Wire Line
+	15450 18325 16500 18325
+Wire Wire Line
+	16500 18225 15450 18225
+Wire Wire Line
+	15450 18125 16500 18125
+Wire Wire Line
+	16500 18025 15450 18025
+Wire Wire Line
+	15450 17925 16500 17925
+Wire Wire Line
+	16500 17825 15450 17825
+Wire Wire Line
+	15450 17725 16500 17725
+Wire Wire Line
+	15450 19025 14400 19025
+Connection ~ 15450 19025
+Wire Wire Line
+	15450 18925 14400 18925
+Connection ~ 15450 18925
+Wire Wire Line
+	15450 18725 14400 18725
+Connection ~ 15450 18725
+Wire Wire Line
+	14400 18625 15450 18625
+Connection ~ 15450 18625
+Wire Wire Line
+	15450 18525 14400 18525
+Connection ~ 15450 18525
+Wire Wire Line
+	14400 18425 15450 18425
+Connection ~ 15450 18425
+Wire Wire Line
+	15450 18425 16500 18425
+Wire Wire Line
+	15450 18325 14400 18325
+Connection ~ 15450 18325
+Wire Wire Line
+	15450 18225 14400 18225
+Connection ~ 15450 18225
+Wire Wire Line
+	14400 18125 15450 18125
+Connection ~ 15450 18125
+Wire Wire Line
+	15450 18025 14400 18025
+Connection ~ 15450 18025
+Wire Wire Line
+	14400 17925 15450 17925
+Connection ~ 15450 17925
+Wire Wire Line
+	15450 17825 14400 17825
+Connection ~ 15450 17825
+Wire Wire Line
+	14400 17725 15450 17725
+Connection ~ 15450 17725
+Wire Wire Line
+	14400 17725 13350 17725
+Connection ~ 14400 17725
+Wire Wire Line
+	13350 17825 14400 17825
+Connection ~ 14400 17825
+Wire Wire Line
+	14400 17925 13350 17925
+Connection ~ 14400 17925
+Wire Wire Line
+	13350 18025 14400 18025
+Connection ~ 14400 18025
+Wire Wire Line
+	14400 18125 13350 18125
+Connection ~ 14400 18125
+Wire Wire Line
+	13350 18225 14400 18225
+Connection ~ 14400 18225
+Wire Wire Line
+	14400 18325 13350 18325
+Connection ~ 14400 18325
+Wire Wire Line
+	13350 18425 14400 18425
+Connection ~ 14400 18425
+Wire Wire Line
+	14400 18525 13350 18525
+Connection ~ 14400 18525
+Wire Wire Line
+	14400 18625 13350 18625
+Connection ~ 14400 18625
+Wire Wire Line
+	13350 18725 14400 18725
+Connection ~ 14400 18725
+Wire Wire Line
+	14400 18825 13350 18825
+Connection ~ 13350 18825
+Wire Wire Line
+	13350 18925 14400 18925
+Connection ~ 14400 18925
+Wire Wire Line
+	14400 19025 13350 19025
+Connection ~ 14400 19025
+Wire Wire Line
+	13350 19025 12300 19025
+Connection ~ 13350 19025
+Wire Wire Line
+	12300 19025 11250 19025
+Connection ~ 12300 19025
+Wire Wire Line
+	10200 19025 11250 19025
+Connection ~ 11250 19025
+Wire Wire Line
+	10200 19025 9150 19025
+Connection ~ 10200 19025
+Wire Wire Line
+	9150 18925 10200 18925
+Wire Wire Line
+	10200 18925 11250 18925
+Connection ~ 10200 18925
+Wire Wire Line
+	12300 18925 11250 18925
+Connection ~ 11250 18925
+Wire Wire Line
+	12300 18925 13350 18925
+Connection ~ 12300 18925
+Connection ~ 13350 18925
+Wire Wire Line
+	12300 18825 11250 18825
+Connection ~ 11250 18825
+Wire Wire Line
+	10200 18825 9150 18825
+Connection ~ 9150 18825
+Wire Wire Line
+	9150 18725 10200 18725
+Wire Wire Line
+	10200 18725 11250 18725
+Connection ~ 10200 18725
+Wire Wire Line
+	11250 18725 12300 18725
+Connection ~ 11250 18725
+Wire Wire Line
+	12300 18725 13350 18725
+Connection ~ 12300 18725
+Connection ~ 13350 18725
+Wire Wire Line
+	13350 18625 12300 18625
+Connection ~ 13350 18625
+Wire Wire Line
+	12300 18625 11250 18625
+Connection ~ 12300 18625
+Wire Wire Line
+	11250 18625 10200 18625
+Connection ~ 11250 18625
+Wire Wire Line
+	10200 18625 9150 18625
+Connection ~ 10200 18625
+Wire Wire Line
+	9150 18525 10200 18525
+Wire Wire Line
+	10200 18525 11250 18525
+Connection ~ 10200 18525
+Wire Wire Line
+	12300 18525 11250 18525
+Connection ~ 11250 18525
+Wire Wire Line
+	13350 18525 12300 18525
+Connection ~ 13350 18525
+Connection ~ 12300 18525
+Wire Wire Line
+	13350 18425 12300 18425
+Connection ~ 13350 18425
+Wire Wire Line
+	12300 18425 11250 18425
+Connection ~ 12300 18425
+Wire Wire Line
+	10200 18425 11250 18425
+Connection ~ 11250 18425
+Wire Wire Line
+	10200 18425 9150 18425
+Connection ~ 10200 18425
+Wire Wire Line
+	9150 18325 10200 18325
+Wire Wire Line
+	10200 18325 11250 18325
+Connection ~ 10200 18325
+Wire Wire Line
+	12300 18325 11250 18325
+Connection ~ 11250 18325
+Wire Wire Line
+	12300 18325 13350 18325
+Connection ~ 12300 18325
+Connection ~ 13350 18325
+Wire Wire Line
+	13350 18225 12300 18225
+Connection ~ 13350 18225
+Wire Wire Line
+	12300 18225 11250 18225
+Connection ~ 12300 18225
+Wire Wire Line
+	10200 18225 11250 18225
+Connection ~ 11250 18225
+Wire Wire Line
+	10200 18225 9150 18225
+Connection ~ 10200 18225
+Wire Wire Line
+	9150 18125 10200 18125
+Wire Wire Line
+	10200 18125 11250 18125
+Connection ~ 10200 18125
+Wire Wire Line
+	11250 18125 12300 18125
+Connection ~ 11250 18125
+Wire Wire Line
+	12300 18125 13350 18125
+Connection ~ 12300 18125
+Connection ~ 13350 18125
+Wire Wire Line
+	13350 18025 12300 18025
+Connection ~ 13350 18025
+Wire Wire Line
+	12300 18025 11250 18025
+Connection ~ 12300 18025
+Wire Wire Line
+	11250 18025 10200 18025
+Connection ~ 11250 18025
+Wire Wire Line
+	10200 18025 9150 18025
+Connection ~ 10200 18025
+Wire Wire Line
+	9150 17925 10200 17925
+Wire Wire Line
+	10200 17925 11250 17925
+Connection ~ 10200 17925
+Wire Wire Line
+	11250 17925 12300 17925
+Connection ~ 11250 17925
+Wire Wire Line
+	12300 17925 13350 17925
+Connection ~ 12300 17925
+Connection ~ 13350 17925
+Wire Wire Line
+	13350 17825 12300 17825
+Connection ~ 13350 17825
+Wire Wire Line
+	12300 17825 11250 17825
+Connection ~ 12300 17825
+Wire Wire Line
+	11250 17825 10200 17825
+Connection ~ 11250 17825
+Wire Wire Line
+	10200 17825 9150 17825
+Connection ~ 10200 17825
+Wire Wire Line
+	9150 17725 10200 17725
+Wire Wire Line
+	10200 17725 11250 17725
+Connection ~ 10200 17725
+Wire Wire Line
+	11250 17725 12300 17725
+Connection ~ 11250 17725
+Wire Wire Line
+	12300 17725 13350 17725
+Connection ~ 12300 17725
+Connection ~ 13350 17725
+$Comp
+L Amiga_3000_library:+5V #PWR0396
+U 1 1 5F6ECD36
+P 16800 20000
+F 0 "#PWR0396" H 16800 19850 50  0001 C CNN
+F 1 "+5V" V 16817 20178 50  0000 L CNN
+F 2 "" H 16800 20000 50  0001 C CNN
+F 3 "" H 16800 20000 50  0001 C CNN
+	1    16800 20000
+	0    1    1    0   
+$EndComp
+$Comp
+L Amiga_3000_library:GND #PWR0397
+U 1 1 5F6ECD3C
+P 16800 20750
+F 0 "#PWR0397" H 16800 20500 50  0001 C CNN
+F 1 "GND" V 16805 20622 50  0000 R CNN
+F 2 "" H 16800 20750 50  0001 C CNN
+F 3 "" H 16800 20750 50  0001 C CNN
+	1    16800 20750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8350 20000 8350 20050
+Wire Wire Line
+	8350 20650 8350 20750
+Wire Wire Line
+	8350 20750 8800 20750
+Wire Wire Line
+	15750 20050 15750 20000
+Connection ~ 15750 20000
+Wire Wire Line
+	15750 20000 15150 20000
+Wire Wire Line
+	15750 20650 15750 20750
+Connection ~ 15750 20750
+Wire Wire Line
+	15150 20500 15150 20750
+Connection ~ 15150 20750
+Wire Wire Line
+	15150 20750 15750 20750
+Wire Wire Line
+	15150 20200 15150 20000
+Connection ~ 15150 20000
+Wire Wire Line
+	15150 20000 14700 20000
+Wire Wire Line
+	14700 20050 14700 20000
+Connection ~ 14700 20000
+Wire Wire Line
+	14700 20650 14700 20750
+Connection ~ 14700 20750
+Wire Wire Line
+	14700 20750 15150 20750
+Wire Wire Line
+	13650 20050 13650 20000
+Connection ~ 13650 20000
+Wire Wire Line
+	13650 20000 13050 20000
+Wire Wire Line
+	13650 20650 13650 20750
+Connection ~ 13650 20750
+Wire Wire Line
+	13050 20500 13050 20750
+Connection ~ 13050 20750
+Wire Wire Line
+	13050 20750 13650 20750
+Wire Wire Line
+	12600 20650 12600 20750
+Connection ~ 12600 20750
+Wire Wire Line
+	12600 20750 13050 20750
+Wire Wire Line
+	12600 20050 12600 20000
+Connection ~ 12600 20000
+Wire Wire Line
+	13050 20200 13050 20000
+Connection ~ 13050 20000
+Wire Wire Line
+	13050 20000 12600 20000
+Wire Wire Line
+	11600 20650 11600 20750
+Connection ~ 11600 20750
+Wire Wire Line
+	11600 20050 11600 20000
+Connection ~ 11600 20000
+Wire Wire Line
+	11600 20000 10950 20000
+Wire Wire Line
+	10950 20200 10950 20000
+Connection ~ 10950 20000
+Wire Wire Line
+	10950 20000 10500 20000
+Wire Wire Line
+	10950 20500 10950 20750
+Connection ~ 10950 20750
+Wire Wire Line
+	10950 20750 11600 20750
+Wire Wire Line
+	10500 20750 10500 20650
+Connection ~ 10500 20750
+Wire Wire Line
+	10500 20750 10950 20750
+Wire Wire Line
+	10500 20050 10500 20000
+Connection ~ 10500 20000
+Wire Wire Line
+	9400 20750 9400 20650
+Connection ~ 9400 20750
+Wire Wire Line
+	9400 20050 9400 20000
+Connection ~ 9400 20000
+Wire Wire Line
+	9400 20000 8800 20000
+Wire Wire Line
+	8800 20200 8800 20000
+Connection ~ 8800 20000
+Wire Wire Line
+	8800 20000 8350 20000
+Wire Wire Line
+	8800 20500 8800 20750
+Connection ~ 8800 20750
+Wire Wire Line
+	8800 20750 9400 20750
+Wire Bus Line
+	20400 18550 20300 18650
+Wire Bus Line
+	20300 18650 20000 18650
+Entry Wire Line
+	20400 13550 20500 13450
+Entry Wire Line
+	20400 13650 20500 13550
+Entry Wire Line
+	20400 13750 20500 13650
+Entry Wire Line
+	20400 13850 20500 13750
+Entry Wire Line
+	20400 13950 20500 13850
+Entry Wire Line
+	20400 14050 20500 13950
+Entry Wire Line
+	20400 14150 20500 14050
+Entry Wire Line
+	20400 14250 20500 14150
+Entry Wire Line
+	20400 16400 20500 16300
+Entry Wire Line
+	20400 16500 20500 16400
+Entry Wire Line
+	20400 16600 20500 16500
+Entry Wire Line
+	20400 16700 20500 16600
+Entry Wire Line
+	20400 16800 20500 16700
+Entry Wire Line
+	20400 16900 20500 16800
+Entry Wire Line
+	20400 17000 20500 16900
+Entry Wire Line
+	20400 17100 20500 17000
+Entry Wire Line
+	20400 17650 20500 17750
+Entry Wire Line
+	20400 17750 20500 17850
+Entry Wire Line
+	20400 17850 20500 17950
+Entry Wire Line
+	20400 17950 20500 18050
+Entry Wire Line
+	20400 18050 20500 18150
+Entry Wire Line
+	20400 18150 20500 18250
+Entry Wire Line
+	20400 18250 20500 18350
+Entry Wire Line
+	20400 18350 20500 18450
+Text GLabel 20000 18650 0    50   BiDi ~ 0
+D[0..31]
+Wire Bus Line
+	22000 18550 22100 18650
+Wire Bus Line
+	22100 18650 22400 18650
+Wire Wire Line
+	20500 13450 20850 13450
+Wire Wire Line
+	20500 13550 20850 13550
+Wire Wire Line
+	20500 13650 20850 13650
+Wire Wire Line
+	20500 13750 20850 13750
+Wire Wire Line
+	20500 13850 20850 13850
+Wire Wire Line
+	20500 13950 20850 13950
+Wire Wire Line
+	20500 14050 20850 14050
+Wire Wire Line
+	20500 14150 20850 14150
+Wire Wire Line
+	20500 14900 20850 14900
+Wire Wire Line
+	20500 15000 20850 15000
+Wire Wire Line
+	20500 15100 20850 15100
+Wire Wire Line
+	20500 15200 20850 15200
+Wire Wire Line
+	20500 15300 20850 15300
+Wire Wire Line
+	20500 15400 20850 15400
+Wire Wire Line
+	20500 15500 20850 15500
+Wire Wire Line
+	20500 15600 20850 15600
+Wire Wire Line
+	20500 17750 20850 17750
+Wire Wire Line
+	20500 17850 20850 17850
+Wire Wire Line
+	20500 17950 20850 17950
+Wire Wire Line
+	20500 18050 20850 18050
+Wire Wire Line
+	20500 18150 20850 18150
+Wire Wire Line
+	20500 18250 20850 18250
+Wire Wire Line
+	20500 18350 20850 18350
+Wire Wire Line
+	20500 18450 20850 18450
+Text Label 20500 13450 0    50   ~ 0
+D0
+Text Label 20500 13550 0    50   ~ 0
+D1
+Text Label 20500 13650 0    50   ~ 0
+D2
+Text Label 20500 13750 0    50   ~ 0
+D3
+Text Label 20500 13850 0    50   ~ 0
+D4
+Text Label 20500 13950 0    50   ~ 0
+D5
+Text Label 20500 14050 0    50   ~ 0
+D6
+Text Label 20500 14150 0    50   ~ 0
+D7
+Text Label 20500 14900 0    50   ~ 0
+D15
+Text Label 20500 15000 0    50   ~ 0
+D14
+Text Label 20500 15100 0    50   ~ 0
+D13
+Text Label 20500 15200 0    50   ~ 0
+D12
+Text Label 20500 15300 0    50   ~ 0
+D11
+Text Label 20500 15500 0    50   ~ 0
+D9
+Text Label 20500 15600 0    50   ~ 0
+D8
+Text Label 20500 17000 0    50   ~ 0
+D23
+Text Label 20500 17750 0    50   ~ 0
+D31
+Text Label 20500 17850 0    50   ~ 0
+D30
+Text Label 20500 17950 0    50   ~ 0
+D29
+Text Label 20500 18050 0    50   ~ 0
+D28
+Text Label 20500 18150 0    50   ~ 0
+D27
+Text Label 20500 18250 0    50   ~ 0
+D26
+Text Label 20500 18350 0    50   ~ 0
+D25
+Text Label 20500 18450 0    50   ~ 0
+D24
+Entry Wire Line
+	20400 14800 20500 14900
+Entry Wire Line
+	20400 14900 20500 15000
+Entry Wire Line
+	20400 15000 20500 15100
+Entry Wire Line
+	20400 15100 20500 15200
+Entry Wire Line
+	20400 15200 20500 15300
+Entry Wire Line
+	20400 15300 20500 15400
+Entry Wire Line
+	20400 15400 20500 15500
+Entry Wire Line
+	20400 15500 20500 15600
+Text Label 20500 16900 0    50   ~ 0
+D22
+Text Label 20500 16800 0    50   ~ 0
+D21
+Text Label 20500 16700 0    50   ~ 0
+D20
+Text Label 20500 16600 0    50   ~ 0
+D19
+Text Label 20500 16500 0    50   ~ 0
+D18
+Text Label 20500 16400 0    50   ~ 0
+D17
+Text Label 20500 16300 0    50   ~ 0
+D16
+Wire Wire Line
+	20500 17000 20850 17000
+Wire Wire Line
+	20500 16900 20850 16900
+Wire Wire Line
+	20500 16800 20850 16800
+Wire Wire Line
+	20500 16700 20850 16700
+Wire Wire Line
+	20500 16600 20850 16600
+Wire Wire Line
+	20500 16500 20850 16500
+Wire Wire Line
+	20500 16400 20850 16400
+Wire Wire Line
+	20500 16300 20850 16300
+Entry Wire Line
+	22000 13550 21900 13450
+Entry Wire Line
+	22000 13650 21900 13550
+Entry Wire Line
+	22000 13750 21900 13650
+Entry Wire Line
+	22000 13850 21900 13750
+Entry Wire Line
+	22000 13950 21900 13850
+Entry Wire Line
+	22000 14050 21900 13950
+Entry Wire Line
+	22000 14150 21900 14050
+Entry Wire Line
+	22000 14250 21900 14150
+Entry Wire Line
+	22000 16400 21900 16300
+Entry Wire Line
+	22000 16500 21900 16400
+Entry Wire Line
+	22000 16600 21900 16500
+Entry Wire Line
+	22000 16700 21900 16600
+Entry Wire Line
+	22000 16800 21900 16700
+Entry Wire Line
+	22000 16900 21900 16800
+Entry Wire Line
+	22000 17000 21900 16900
+Entry Wire Line
+	22000 17100 21900 17000
+Entry Wire Line
+	22000 17650 21900 17750
+Entry Wire Line
+	22000 17750 21900 17850
+Entry Wire Line
+	22000 17850 21900 17950
+Entry Wire Line
+	22000 17950 21900 18050
+Entry Wire Line
+	22000 18050 21900 18150
+Entry Wire Line
+	22000 18150 21900 18250
+Entry Wire Line
+	22000 18250 21900 18350
+Entry Wire Line
+	22000 18350 21900 18450
+Wire Wire Line
+	21900 13450 21550 13450
+Wire Wire Line
+	21900 13550 21550 13550
+Wire Wire Line
+	21900 13650 21550 13650
+Wire Wire Line
+	21900 13750 21550 13750
+Wire Wire Line
+	21900 13850 21550 13850
+Wire Wire Line
+	21900 13950 21550 13950
+Wire Wire Line
+	21900 14050 21550 14050
+Wire Wire Line
+	21900 14150 21550 14150
+Wire Wire Line
+	21900 14900 21550 14900
+Wire Wire Line
+	21900 15000 21550 15000
+Wire Wire Line
+	21900 15100 21550 15100
+Wire Wire Line
+	21900 15200 21550 15200
+Wire Wire Line
+	21900 15300 21550 15300
+Wire Wire Line
+	21900 15400 21550 15400
+Wire Wire Line
+	21900 15500 21550 15500
+Wire Wire Line
+	21900 15600 21550 15600
+Wire Wire Line
+	21900 17750 21550 17750
+Wire Wire Line
+	21900 17850 21550 17850
+Wire Wire Line
+	21900 17950 21550 17950
+Wire Wire Line
+	21900 18050 21550 18050
+Wire Wire Line
+	21900 18150 21550 18150
+Wire Wire Line
+	21900 18250 21550 18250
+Wire Wire Line
+	21900 18350 21550 18350
+Wire Wire Line
+	21900 18450 21550 18450
+Text Label 21900 13450 2    50   ~ 0
+RD0
+Text Label 21900 13550 2    50   ~ 0
+RD1
+Text Label 21900 13650 2    50   ~ 0
+RD2
+Text Label 21900 13750 2    50   ~ 0
+RD3
+Text Label 21900 13850 2    50   ~ 0
+RD4
+Text Label 21900 13950 2    50   ~ 0
+RD5
+Text Label 21900 14050 2    50   ~ 0
+RD6
+Text Label 21900 14150 2    50   ~ 0
+RD7
+Text Label 21900 14900 2    50   ~ 0
+RD15
+Text Label 21900 15000 2    50   ~ 0
+RD14
+Text Label 21900 15100 2    50   ~ 0
+RD13
+Text Label 21900 15200 2    50   ~ 0
+RD12
+Text Label 21900 15300 2    50   ~ 0
+RD11
+Text Label 21900 15400 2    50   ~ 0
+RD10
+Text Label 21900 15500 2    50   ~ 0
+RD9
+Text Label 21900 15600 2    50   ~ 0
+RD8
+Text Label 21900 17850 2    50   ~ 0
+RD30
+Text Label 21900 17950 2    50   ~ 0
+RD29
+Text Label 21900 18050 2    50   ~ 0
+RD28
+Text Label 21900 18150 2    50   ~ 0
+RD27
+Text Label 21900 18250 2    50   ~ 0
+RD26
+Text Label 21900 18350 2    50   ~ 0
+RD25
+Text Label 21900 18450 2    50   ~ 0
+RD24
+Entry Wire Line
+	22000 14800 21900 14900
+Entry Wire Line
+	22000 14900 21900 15000
+Entry Wire Line
+	22000 15000 21900 15100
+Entry Wire Line
+	22000 15100 21900 15200
+Entry Wire Line
+	22000 15200 21900 15300
+Entry Wire Line
+	22000 15300 21900 15400
+Entry Wire Line
+	22000 15400 21900 15500
+Entry Wire Line
+	22000 15500 21900 15600
+Text Label 21900 16900 2    50   ~ 0
+RD22
+Text Label 21900 16800 2    50   ~ 0
+RD21
+Text Label 21900 16700 2    50   ~ 0
+RD20
+Text Label 21900 16600 2    50   ~ 0
+RD19
+Text Label 21900 16500 2    50   ~ 0
+RD18
+Text Label 21900 16400 2    50   ~ 0
+RD17
+Text Label 21900 16300 2    50   ~ 0
+RD16
+Wire Wire Line
+	21900 17000 21550 17000
+Wire Wire Line
+	21900 16900 21550 16900
+Wire Wire Line
+	21900 16800 21550 16800
+Wire Wire Line
+	21900 16700 21550 16700
+Wire Wire Line
+	21900 16600 21550 16600
+Wire Wire Line
+	21900 16500 21550 16500
+Wire Wire Line
+	21900 16400 21550 16400
+Wire Wire Line
+	21900 16300 21550 16300
+Text GLabel 20000 19050 0    50   Input ~ 0
+_BUFEN
+Text GLabel 20000 19250 0    50   Input ~ 0
+BR_W1
+Wire Wire Line
+	20000 19050 21150 19050
+Wire Wire Line
+	21150 19050 21150 18750
+Wire Wire Line
+	21150 18750 21150 17300
+Connection ~ 21150 18750
+Wire Wire Line
+	21250 17300 21250 18750
+Wire Wire Line
+	21250 18750 21250 19250
+Wire Wire Line
+	21250 19250 20000 19250
+Connection ~ 21250 18750
+Text GLabel 22400 18650 2    50   BiDi ~ 0
+RD[0..31]
+Wire Wire Line
+	21150 17300 21150 15900
+Connection ~ 21150 17300
+Wire Wire Line
+	21250 15900 21250 17300
+Connection ~ 21250 17300
+Wire Wire Line
+	21150 15900 21150 14450
+Connection ~ 21150 15900
+Wire Wire Line
+	21250 14450 21250 15900
+Connection ~ 21250 15900
+Wire Bus Line
+	22500 6650 22600 6550
+Wire Bus Line
+	22600 6550 22850 6550
+Entry Wire Line
+	22400 7800 22500 7700
+Entry Wire Line
+	22400 7700 22500 7600
+Entry Wire Line
+	22400 7600 22500 7500
+Entry Wire Line
+	22400 7500 22500 7400
+Entry Wire Line
+	22400 7400 22500 7300
+Entry Wire Line
+	22400 7300 22500 7200
+Entry Wire Line
+	22400 7200 22500 7100
+Entry Wire Line
+	22400 7100 22500 7000
+Wire Wire Line
+	21650 7100 22400 7100
+Wire Wire Line
+	21650 7200 22400 7200
+Wire Wire Line
+	21650 7300 22400 7300
+Wire Wire Line
+	21650 7400 22400 7400
+Wire Wire Line
+	21650 7500 22400 7500
+Wire Wire Line
+	21650 7600 22400 7600
+Wire Wire Line
+	21650 7700 22400 7700
+Wire Wire Line
+	21650 7800 22400 7800
+Text GLabel 22850 6550 2    50   Output ~ 0
+D[0..31]
+Text Label 22400 7100 2    50   ~ 0
+D24
+Text Label 22400 7200 2    50   ~ 0
+D25
+Text Label 22400 7300 2    50   ~ 0
+D26
+Text Label 22400 7400 2    50   ~ 0
+D27
+Text Label 22400 7500 2    50   ~ 0
+D28
+Text Label 22400 7600 2    50   ~ 0
+D29
+Text Label 22400 7700 2    50   ~ 0
+D30
+Text Label 22400 7800 2    50   ~ 0
+D31
+Text GLabel 23300 7500 0    50   Input ~ 0
+R_W
+Wire Wire Line
+	23300 7500 23600 7500
+$Comp
+L Amiga_3000_library:+5V #PWR0398
+U 1 1 66C9BEFB
+P 23300 7700
+F 0 "#PWR0398" H 23300 7550 50  0001 C CNN
+F 1 "+5V" V 23318 7878 50  0000 L CNN
+F 2 "" H 23300 7700 50  0001 C CNN
+F 3 "" H 23300 7700 50  0001 C CNN
+	1    23300 7700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23300 7700 23600 7700
+Wire Wire Line
+	24200 7600 24600 7600
+Text GLabel 25300 7600 2    50   Output ~ 0
+_R_W
+Wire Wire Line
+	24900 7600 25300 7600
+Text GLabel 25300 8100 2    50   Output ~ 0
+_WE0
+Wire Wire Line
+	21650 8100 24600 8100
+Wire Wire Line
+	24900 8100 25300 8100
+Wire Wire Line
+	21650 8700 22850 8700
+Wire Wire Line
+	21650 8800 22850 8800
+Wire Wire Line
+	21650 8900 22850 8900
+Wire Wire Line
+	21650 9000 22850 9000
+Wire Bus Line
+	24150 9200 24250 9300
+Wire Bus Line
+	24250 9300 24500 9300
+Wire Bus Line
+	24150 9900 24250 10000
+Wire Bus Line
+	24250 10000 24500 10000
+Entry Wire Line
+	24050 8700 24150 8800
+Entry Wire Line
+	24050 8800 24150 8900
+Entry Wire Line
+	24050 8900 24150 9000
+Entry Wire Line
+	24050 9000 24150 9100
+Entry Wire Line
+	24050 9400 24150 9500
+Entry Wire Line
+	24050 9500 24150 9600
+Entry Wire Line
+	24050 9600 24150 9700
+Entry Wire Line
+	24050 9700 24150 9800
+Wire Wire Line
+	21650 9400 22850 9400
+Wire Wire Line
+	21650 9500 22850 9500
+Wire Wire Line
+	21650 9600 22850 9600
+Wire Wire Line
+	21650 9700 22850 9700
+Wire Wire Line
+	23250 9400 24050 9400
+Wire Wire Line
+	23250 9500 24050 9500
+Wire Wire Line
+	23250 9600 24050 9600
+Wire Wire Line
+	23250 9700 24050 9700
+Wire Wire Line
+	23250 8700 24050 8700
+Wire Wire Line
+	23250 8800 24050 8800
+Wire Wire Line
+	23250 8900 24050 8900
+Wire Wire Line
+	23250 9000 24050 9000
+Text Label 24050 8700 2    50   ~ 0
+_CAS0
+Text Label 24050 8800 2    50   ~ 0
+_CAS1
+Text Label 24050 8900 2    50   ~ 0
+_CAS2
+Text Label 24050 9000 2    50   ~ 0
+_CAS3
+Text Label 24050 9400 2    50   ~ 0
+_RAS0
+Text Label 24050 9500 2    50   ~ 0
+_RAS1
+Text Label 24050 9600 2    50   ~ 0
+_RAS2
+Text Label 24050 9700 2    50   ~ 0
+_RAS3
+Text GLabel 24500 9300 2    50   Output ~ 0
+_CAS[0..3]
+Text GLabel 24500 10000 2    50   Output ~ 0
+_RAS[0..3]
+Wire Wire Line
+	21650 10700 21950 10700
+Wire Wire Line
+	21650 10800 21950 10800
+Wire Wire Line
+	21650 10900 21950 10900
+Wire Wire Line
+	21650 11000 21950 11000
+Wire Wire Line
+	21650 11100 21950 11100
+Wire Wire Line
+	21650 11200 21800 11200
+Wire Wire Line
+	21800 11200 21950 11300
+Wire Wire Line
+	21650 11300 21800 11300
+Wire Wire Line
+	21800 11300 21950 11400
+Wire Wire Line
+	21650 11400 21800 11400
+Wire Wire Line
+	21800 11400 21950 11500
+Wire Wire Line
+	21650 11500 21800 11500
+Wire Wire Line
+	21800 11500 21950 11600
+Wire Wire Line
+	21650 11600 21800 11600
+Wire Wire Line
+	21800 11600 21950 11700
+Wire Bus Line
+	23200 11800 23300 11900
+Wire Bus Line
+	23300 11900 23450 11900
+Entry Wire Line
+	23100 10700 23200 10800
+Entry Wire Line
+	23100 10800 23200 10900
+Entry Wire Line
+	23100 10900 23200 11000
+Entry Wire Line
+	23100 11000 23200 11100
+Entry Wire Line
+	23100 11100 23200 11200
+Entry Wire Line
+	23100 11300 23200 11400
+Entry Wire Line
+	23100 11400 23200 11500
+Entry Wire Line
+	23100 11500 23200 11600
+Entry Wire Line
+	23100 11600 23200 11700
+Entry Wire Line
+	23100 11700 23200 11800
+Wire Wire Line
+	22350 10700 23100 10700
+Wire Wire Line
+	22350 10900 23100 10900
+Wire Wire Line
+	22350 11000 23100 11000
+Wire Wire Line
+	22350 11100 23100 11100
+Wire Wire Line
+	22350 11300 23100 11300
+Wire Wire Line
+	22350 11400 23100 11400
+Wire Wire Line
+	22350 11500 23100 11500
+Wire Wire Line
+	22350 11600 23100 11600
+Wire Wire Line
+	22350 11700 23100 11700
+Text Label 23100 10700 2    50   ~ 0
+FASTRAMADDR0
+Text Label 23100 10900 2    50   ~ 0
+FASTRAMADDR2
+Text Label 23100 11000 2    50   ~ 0
+FASTRAMADDR3
+Text Label 23100 11100 2    50   ~ 0
+FASTRAMADDR4
+Text Label 23100 11300 2    50   ~ 0
+FASTRAMADDR5
+Text Label 23100 11400 2    50   ~ 0
+FASTRAMADDR6
+Text Label 23100 11500 2    50   ~ 0
+FASTRAMADDR7
+Text Label 23100 11600 2    50   ~ 0
+FASTRAMADDR8
+Text Label 23100 11700 2    50   ~ 0
+FASTRAMADDR9
+Text GLabel 23450 11900 2    50   Output ~ 0
+FASTRAMADDR[0..9]
+$Comp
+L Amiga_3000_library:+5V #PWR0399
+U 1 1 6BA42A07
+P 22450 12000
+F 0 "#PWR0399" H 22450 11850 50  0001 C CNN
+F 1 "+5V" H 22467 12223 50  0000 C CNN
+F 2 "" H 22450 12000 50  0001 C CNN
+F 3 "" H 22450 12000 50  0001 C CNN
+	1    22450 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:GND #PWR0400
+U 1 1 6BA44254
+P 22450 12700
+F 0 "#PWR0400" H 22450 12450 50  0001 C CNN
+F 1 "GND" H 22455 12527 50  0000 C CNN
+F 2 "" H 22450 12700 50  0001 C CNN
+F 3 "" H 22450 12700 50  0001 C CNN
+	1    22450 12700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21650 12100 21750 12100
+Wire Wire Line
+	22450 12100 22450 12000
+Wire Wire Line
+	22450 12100 22450 12150
+Connection ~ 22450 12100
+Wire Wire Line
+	22450 12450 22450 12600
+Wire Wire Line
+	21650 12600 21750 12600
+Connection ~ 22450 12600
+Wire Wire Line
+	22450 12600 22450 12700
+Wire Wire Line
+	21650 12300 21750 12300
+Wire Wire Line
+	21750 12300 21750 12400
+Connection ~ 21750 12600
+Wire Wire Line
+	21750 12600 22450 12600
+Wire Wire Line
+	21650 12400 21750 12400
+Connection ~ 21750 12400
+Wire Wire Line
+	21750 12400 21750 12500
+Wire Wire Line
+	21650 12500 21750 12500
+Connection ~ 21750 12500
+Wire Wire Line
+	21750 12500 21750 12600
+Wire Wire Line
+	21650 12200 21750 12200
+Wire Wire Line
+	21750 12200 21750 12100
+Connection ~ 21750 12100
+Wire Wire Line
+	21750 12100 22450 12100
+Wire Bus Line
+	19650 9500 19400 9500
+Entry Wire Line
+	19750 9100 19850 9000
+Entry Wire Line
+	19750 9200 19850 9100
+Entry Wire Line
+	19750 9300 19850 9200
+Text GLabel 19400 9500 0    50   Output ~ 0
+FC[0..2]
+Wire Wire Line
+	20550 9000 19850 9000
+Wire Wire Line
+	20550 9100 19850 9100
+Wire Wire Line
+	20550 9200 19850 9200
+Text Label 19850 9000 0    50   ~ 0
+FC0
+Text Label 19850 9100 0    50   ~ 0
+FC1
+Text Label 19850 9200 0    50   ~ 0
+FC2
+Text GLabel 19750 8700 0    50   Input ~ 0
+_WAIT
+Text GLabel 19750 8600 0    50   Input ~ 0
+_FAIL
+Text GLabel 19750 8300 0    50   Input ~ 0
+_DMAEN
+Text GLabel 19750 8200 0    50   Input ~ 0
+CLK90
+Text GLabel 19750 8100 0    50   Input ~ 0
+R_W
+Text GLabel 19750 8000 0    50   Input ~ 0
+CPUCLKA
+Text GLabel 19750 7900 0    50   Input ~ 0
+SIZ1
+Text GLabel 19750 7800 0    50   Input ~ 0
+SIZ0
+Text GLabel 19750 7600 0    50   Output ~ 0
+_DSACK0
+Text GLabel 19750 7500 0    50   Input ~ 0
+_AS
+Text GLabel 19750 7400 0    50   Output ~ 0
+_STERM
+Text GLabel 19750 7300 0    50   Output ~ 0
+_CBACK
+Text GLabel 19750 7200 0    50   Input ~ 0
+_CBREQ
+Text GLabel 19750 7100 0    50   Output ~ 0
+_BUFEN
+Wire Wire Line
+	19750 7100 20550 7100
+Wire Wire Line
+	20550 7200 19750 7200
+Wire Wire Line
+	19750 7300 20550 7300
+Wire Wire Line
+	20550 7400 19750 7400
+Wire Wire Line
+	19750 7500 20550 7500
+Wire Wire Line
+	20550 7600 19750 7600
+Wire Wire Line
+	19750 7800 20550 7800
+Wire Wire Line
+	20550 7900 19750 7900
+Wire Wire Line
+	19750 8000 20550 8000
+Wire Wire Line
+	19750 8100 20550 8100
+Wire Wire Line
+	19750 8200 20550 8200
+Wire Wire Line
+	20550 8300 19750 8300
+Wire Wire Line
+	19750 8600 20550 8600
+Wire Wire Line
+	20550 8700 19750 8700
+Wire Wire Line
+	18250 20100 18250 19800
+Wire Wire Line
+	18250 19800 19550 19800
+Wire Wire Line
+	23150 19800 23150 20050
+Wire Wire Line
+	23150 20350 23150 20650
+Wire Wire Line
+	23150 20650 22700 20650
+Wire Wire Line
+	18250 20650 18250 20400
+Wire Wire Line
+	19550 20650 19550 20550
+Connection ~ 19550 20650
+Wire Wire Line
+	19550 20650 18250 20650
+Wire Wire Line
+	20000 20650 20000 20350
+Connection ~ 20000 20650
+Wire Wire Line
+	20000 20650 19550 20650
+Wire Wire Line
+	20600 20650 20600 20550
+Connection ~ 20600 20650
+Wire Wire Line
+	20600 20650 20000 20650
+Wire Wire Line
+	21050 20350 21050 20650
+Connection ~ 21050 20650
+Wire Wire Line
+	21050 20650 20600 20650
+Wire Wire Line
+	22100 20350 22100 20650
+Connection ~ 22100 20650
+Wire Wire Line
+	22100 20650 21650 20650
+Wire Wire Line
+	22700 20550 22700 20650
+Connection ~ 22700 20650
+Wire Wire Line
+	22700 20650 22100 20650
+Wire Wire Line
+	22700 19900 22700 19800
+Connection ~ 22700 19800
+Wire Wire Line
+	22700 19800 23150 19800
+Wire Wire Line
+	22100 20050 22100 19800
+Connection ~ 22100 19800
+Wire Wire Line
+	22100 19800 22700 19800
+Wire Wire Line
+	21650 19900 21650 19800
+Connection ~ 21650 19800
+Wire Wire Line
+	21650 19800 22100 19800
+Wire Wire Line
+	21050 20050 21050 19800
+Connection ~ 21050 19800
+Wire Wire Line
+	21050 19800 21650 19800
+Wire Wire Line
+	20600 19900 20600 19800
+Connection ~ 20600 19800
+Wire Wire Line
+	20600 19800 21050 19800
+Wire Wire Line
+	20000 20050 20000 19800
+Connection ~ 20000 19800
+Wire Wire Line
+	20000 19800 20600 19800
+Wire Wire Line
+	19550 19900 19550 19800
+Connection ~ 19550 19800
+Wire Wire Line
+	19550 19800 20000 19800
+$Comp
+L Amiga_3000_library:GND #PWR0401
+U 1 1 745DEA63
+P 18250 20650
+F 0 "#PWR0401" H 18250 20400 50  0001 C CNN
+F 1 "GND" H 18255 20477 50  0000 C CNN
+F 2 "" H 18250 20650 50  0001 C CNN
+F 3 "" H 18250 20650 50  0001 C CNN
+	1    18250 20650
+	1    0    0    -1  
+$EndComp
+Connection ~ 18250 20650
+$Comp
+L Amiga_3000_library:+5V #PWR0402
+U 1 1 745E0437
+P 18250 19800
+F 0 "#PWR0402" H 18250 19650 50  0001 C CNN
+F 1 "+5V" H 18267 20023 50  0000 C CNN
+F 2 "" H 18250 19800 50  0001 C CNN
+F 3 "" H 18250 19800 50  0001 C CNN
+	1    18250 19800
+	1    0    0    -1  
+$EndComp
+Connection ~ 18250 19800
+Wire Wire Line
+	21650 20550 21650 20650
+Connection ~ 21650 20650
+Wire Wire Line
+	21650 20650 21050 20650
+Wire Wire Line
+	21650 10400 23850 10400
+Wire Wire Line
+	23850 10400 23850 10650
+$Comp
+L Amiga_3000_library:+5V #PWR0405
+U 1 1 5F5B62E7
+P 23950 10650
+F 0 "#PWR0405" H 23950 10500 50  0001 C CNN
+F 1 "+5V" H 23967 10873 50  0000 C CNN
+F 2 "" H 23950 10650 50  0001 C CNN
+F 3 "" H 23950 10650 50  0001 C CNN
+	1    23950 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:GND #PWR0406
+U 1 1 5F5B78DA
+P 23750 10650
+F 0 "#PWR0406" H 23750 10400 50  0001 C CNN
+F 1 "GND" H 23755 10477 50  0000 C CNN
+F 2 "" H 23750 10650 50  0001 C CNN
+F 3 "" H 23750 10650 50  0001 C CNN
+	1    23750 10650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Amiga_3000_library:+5V #PWR0407
+U 1 1 5F5BB656
+P 24850 10650
+F 0 "#PWR0407" H 24850 10500 50  0001 C CNN
+F 1 "+5V" H 24867 10873 50  0000 C CNN
+F 2 "" H 24850 10650 50  0001 C CNN
+F 3 "" H 24850 10650 50  0001 C CNN
+	1    24850 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:GND #PWR0408
+U 1 1 5F5BB65C
+P 24650 10650
+F 0 "#PWR0408" H 24650 10400 50  0001 C CNN
+F 1 "GND" H 24655 10477 50  0000 C CNN
+F 2 "" H 24650 10650 50  0001 C CNN
+F 3 "" H 24650 10650 50  0001 C CNN
+	1    24650 10650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	21650 10200 24750 10200
+Wire Wire Line
+	24750 10200 24750 10650
+Wire Bus Line
+	7975 7275 7925 7275
+Text Label 14850 8175 1    50   ~ 0
+RD22
+Text GLabel 8500 9675 0    50   Input ~ 0
+_CAS[0..3]
+Wire Wire Line
+	13150 11275 13150 9775
+Wire Wire Line
+	11050 11275 11050 9775
+Wire Wire Line
+	9000 11275 9000 9775
+Entry Wire Line
+	8900 9675 9000 9775
+Entry Wire Line
+	10950 9675 11050 9775
+Entry Wire Line
+	13050 9675 13150 9775
+Entry Wire Line
+	15150 9675 15250 9775
+Text Label 9000 10000 1    50   ~ 0
+_CAS0
+Text Label 11050 10000 1    50   ~ 0
+_CAS1
+Text Label 13150 9775 3    50   ~ 0
+_CAS2
+Text Label 15250 9975 1    50   ~ 0
+_CAS3
+Wire Wire Line
+	15250 11275 15250 9775
+Wire Bus Line
+	8150 10075 8050 9975
+Wire Bus Line
+	8050 9975 7900 9975
+Entry Wire Line
+	8150 10075 8250 10175
+Entry Wire Line
+	8150 10175 8250 10275
+Entry Wire Line
+	8150 10275 8250 10375
+Entry Wire Line
+	8150 10375 8250 10475
+Entry Wire Line
+	8150 10475 8250 10575
+Entry Wire Line
+	8150 10575 8250 10675
+Entry Wire Line
+	8150 10675 8250 10775
+Entry Wire Line
+	8150 10775 8250 10875
+Entry Wire Line
+	8150 10875 8250 10975
+Entry Wire Line
+	8150 10975 8250 11075
+Wire Wire Line
+	9150 10175 8250 10175
+Wire Wire Line
+	9150 10275 8250 10275
+Wire Wire Line
+	9150 10375 8250 10375
+Wire Wire Line
+	9150 10475 8250 10475
+Wire Wire Line
+	9150 10575 8250 10575
+Wire Wire Line
+	9150 10675 8250 10675
+Wire Wire Line
+	9150 10775 8250 10775
+Wire Wire Line
+	9150 10875 8250 10875
+Wire Wire Line
+	9150 10975 8250 10975
+Wire Wire Line
+	9150 11075 8250 11075
+Text Label 8250 10175 0    50   ~ 0
+FASTRAMADDR0
+Text Label 8250 10275 0    50   ~ 0
+FASTRAMADDR1
+Text Label 8250 10375 0    50   ~ 0
+FASTRAMADDR2
+Text Label 8250 10475 0    50   ~ 0
+FASTRAMADDR3
+Text Label 8250 10575 0    50   ~ 0
+FASTRAMADDR4
+Text Label 8250 10675 0    50   ~ 0
+FASTRAMADDR5
+Text Label 8250 10775 0    50   ~ 0
+FASTRAMADDR6
+Text Label 8250 10875 0    50   ~ 0
+FASTRAMADDR7
+Text Label 8250 10975 0    50   ~ 0
+FASTRAMADDR8
+Text Label 8250 11075 0    50   ~ 0
+FASTRAMADDR9
+Text GLabel 7900 9975 0    50   Input ~ 0
+FASTRAMADDR[0..9]
+Text GLabel 7975 11375 0    50   Input ~ 0
+_WE0
+Text GLabel 7975 11475 0    50   Input ~ 0
+_R_W
+Wire Wire Line
+	7975 11375 9150 11375
+Wire Wire Line
+	9150 11475 7975 11475
+Entry Wire Line
+	8025 11075 8125 11175
+Text GLabel 7975 11075 0    50   Input ~ 0
+_RAS[0..3]
+Wire Wire Line
+	8125 11175 9150 11175
+Text Label 8125 11175 0    50   ~ 0
+_RAS2
+Wire Bus Line
+	8025 11075 7975 11075
+Entry Wire Line
+	9450 11975 9550 12075
+Entry Wire Line
+	9550 11975 9650 12075
+Entry Wire Line
+	9650 11975 9750 12075
+Entry Wire Line
+	9750 11975 9850 12075
+Entry Wire Line
+	10600 11975 10700 12075
+Entry Wire Line
+	10700 11975 10800 12075
+Entry Wire Line
+	10800 11975 10900 12075
+Entry Wire Line
+	10500 11975 10600 12075
+Entry Wire Line
+	11550 11975 11650 12075
+Entry Wire Line
+	11650 11975 11750 12075
+Entry Wire Line
+	11750 11975 11850 12075
+Entry Wire Line
+	11850 11975 11950 12075
+Entry Wire Line
+	12600 11975 12700 12075
+Entry Wire Line
+	12700 11975 12800 12075
+Entry Wire Line
+	12800 11975 12900 12075
+Entry Wire Line
+	12900 11975 13000 12075
+Entry Wire Line
+	13650 11975 13750 12075
+Entry Wire Line
+	13750 11975 13850 12075
+Entry Wire Line
+	13850 11975 13950 12075
+Entry Wire Line
+	13950 11975 14050 12075
+Entry Wire Line
+	14700 11975 14800 12075
+Entry Wire Line
+	14800 11975 14900 12075
+Entry Wire Line
+	14900 11975 15000 12075
+Entry Wire Line
+	15000 11975 15100 12075
+Entry Wire Line
+	15750 11975 15850 12075
+Entry Wire Line
+	15850 11975 15950 12075
+Entry Wire Line
+	15950 11975 16050 12075
+Entry Wire Line
+	16050 11975 16150 12075
+Wire Wire Line
+	9450 11975 9450 11775
+Wire Wire Line
+	9550 11975 9550 11775
+Wire Wire Line
+	9650 11975 9650 11775
+Wire Wire Line
+	9750 11975 9750 11775
+Wire Wire Line
+	10500 11975 10500 11775
+Wire Wire Line
+	10600 11975 10600 11775
+Wire Wire Line
+	10700 11975 10700 11775
+Wire Wire Line
+	10800 11975 10800 11775
+Wire Wire Line
+	11550 11975 11550 11775
+Wire Wire Line
+	11650 11975 11650 11775
+Wire Wire Line
+	11750 11975 11750 11775
+Wire Wire Line
+	11850 11975 11850 11775
+Wire Wire Line
+	12600 11975 12600 11775
+Wire Wire Line
+	12700 11775 12700 11975
+Wire Wire Line
+	12800 11975 12800 11775
+Wire Wire Line
+	12900 11775 12900 11975
+Wire Wire Line
+	13650 11975 13650 11775
+Wire Wire Line
+	13750 11775 13750 11975
+Wire Wire Line
+	13850 11975 13850 11775
+Wire Wire Line
+	13950 11775 13950 11975
+Wire Wire Line
+	14700 11975 14700 11775
+Wire Wire Line
+	14800 11775 14800 11975
+Wire Wire Line
+	14900 11975 14900 11775
+Wire Wire Line
+	15000 11775 15000 11975
+Entry Wire Line
+	16800 11975 16900 12075
+Entry Wire Line
+	16900 11975 17000 12075
+Entry Wire Line
+	17000 11975 17100 12075
+Entry Wire Line
+	17100 11975 17200 12075
+Text GLabel 17550 12075 2    50   BiDi ~ 0
+RD[0..31]
+Text Label 9450 11975 1    50   ~ 0
+RD0
+Text Label 9550 11975 1    50   ~ 0
+RD1
+Text Label 9650 11975 1    50   ~ 0
+RD2
+Text Label 9750 11975 1    50   ~ 0
+RD3
+Text Label 10500 11975 1    50   ~ 0
+RD4
+Text Label 10600 11975 1    50   ~ 0
+RD5
+Text Label 10700 11975 1    50   ~ 0
+RD6
+Text Label 10800 11975 1    50   ~ 0
+RD7
+Text Label 11550 11975 1    50   ~ 0
+RD8
+Text Label 11650 11975 1    50   ~ 0
+RD9
+Text Label 11750 11975 1    50   ~ 0
+RD10
+Text Label 11850 11975 1    50   ~ 0
+RD11
+Text Label 12600 11975 1    50   ~ 0
+RD12
+Text Label 12700 11975 1    50   ~ 0
+RD13
+Text Label 12800 11975 1    50   ~ 0
+RD14
+Text Label 12900 11975 1    50   ~ 0
+RD15
+Text Label 13650 11975 1    50   ~ 0
+RD16
+Text Label 13750 11975 1    50   ~ 0
+RD17
+Text Label 13850 11975 1    50   ~ 0
+RD18
+Text Label 13950 11975 1    50   ~ 0
+RD19
+Text Label 14700 11975 1    50   ~ 0
+RD20
+Text Label 14800 11975 1    50   ~ 0
+RD21
+Text Label 15000 11975 1    50   ~ 0
+RD23
+Text Label 15750 11975 1    50   ~ 0
+RD24
+Text Label 15850 11975 1    50   ~ 0
+RD25
+Text Label 15950 11975 1    50   ~ 0
+RD26
+Text Label 16050 11975 1    50   ~ 0
+RD27
+Text Label 16800 11975 1    50   ~ 0
+RD28
+Text Label 16900 11975 1    50   ~ 0
+RD29
+Text Label 17000 11975 1    50   ~ 0
+RD30
+Text Label 17100 11975 1    50   ~ 0
+RD31
+Wire Wire Line
+	15750 11775 15750 11975
+Wire Wire Line
+	15850 11775 15850 11975
+Wire Wire Line
+	15950 11775 15950 11975
+Wire Wire Line
+	16050 11775 16050 11975
+Wire Wire Line
+	16800 11775 16800 11975
+Wire Wire Line
+	16900 11775 16900 11975
+Wire Wire Line
+	17000 11775 17000 11975
+Wire Wire Line
+	17100 11775 17100 11975
+Text Label 14900 11975 1    50   ~ 0
+RD22
+Entry Wire Line
+	9450 15775 9550 15875
+Entry Wire Line
+	9550 15775 9650 15875
+Entry Wire Line
+	9650 15775 9750 15875
+Entry Wire Line
+	9750 15775 9850 15875
+Entry Wire Line
+	10600 15775 10700 15875
+Entry Wire Line
+	10700 15775 10800 15875
+Entry Wire Line
+	10800 15775 10900 15875
+Entry Wire Line
+	10500 15775 10600 15875
+Entry Wire Line
+	11550 15775 11650 15875
+Entry Wire Line
+	11650 15775 11750 15875
+Entry Wire Line
+	11750 15775 11850 15875
+Entry Wire Line
+	11850 15775 11950 15875
+Entry Wire Line
+	12600 15775 12700 15875
+Entry Wire Line
+	12700 15775 12800 15875
+Entry Wire Line
+	12800 15775 12900 15875
+Entry Wire Line
+	12900 15775 13000 15875
+Entry Wire Line
+	13650 15775 13750 15875
+Entry Wire Line
+	13750 15775 13850 15875
+Entry Wire Line
+	13850 15775 13950 15875
+Entry Wire Line
+	13950 15775 14050 15875
+Entry Wire Line
+	14700 15775 14800 15875
+Entry Wire Line
+	14800 15775 14900 15875
+Entry Wire Line
+	14900 15775 15000 15875
+Entry Wire Line
+	15000 15775 15100 15875
+Entry Wire Line
+	15750 15775 15850 15875
+Entry Wire Line
+	15850 15775 15950 15875
+Entry Wire Line
+	15950 15775 16050 15875
+Entry Wire Line
+	16050 15775 16150 15875
+Wire Wire Line
+	9450 15775 9450 15575
+Wire Wire Line
+	9550 15775 9550 15575
+Wire Wire Line
+	9650 15775 9650 15575
+Wire Wire Line
+	9750 15775 9750 15575
+Wire Wire Line
+	10500 15775 10500 15575
+Wire Wire Line
+	10600 15775 10600 15575
+Wire Wire Line
+	10700 15775 10700 15575
+Wire Wire Line
+	10800 15775 10800 15575
+Wire Wire Line
+	11550 15775 11550 15575
+Wire Wire Line
+	11650 15775 11650 15575
+Wire Wire Line
+	11750 15775 11750 15575
+Wire Wire Line
+	11850 15775 11850 15575
+Wire Wire Line
+	12600 15775 12600 15575
+Wire Wire Line
+	12700 15575 12700 15775
+Wire Wire Line
+	12800 15775 12800 15575
+Wire Wire Line
+	12900 15575 12900 15775
+Wire Wire Line
+	13650 15775 13650 15575
+Wire Wire Line
+	13750 15575 13750 15775
+Wire Wire Line
+	13850 15775 13850 15575
+Wire Wire Line
+	13950 15575 13950 15775
+Wire Wire Line
+	14700 15775 14700 15575
+Wire Wire Line
+	14800 15575 14800 15775
+Wire Wire Line
+	14900 15775 14900 15575
+Wire Wire Line
+	15000 15575 15000 15775
+Entry Wire Line
+	16800 15775 16900 15875
+Entry Wire Line
+	16900 15775 17000 15875
+Entry Wire Line
+	17000 15775 17100 15875
+Entry Wire Line
+	17100 15775 17200 15875
+Text GLabel 17550 15875 2    50   BiDi ~ 0
+RD[0..31]
+Text Label 9450 15775 1    50   ~ 0
+RD0
+Text Label 9550 15775 1    50   ~ 0
+RD1
+Text Label 9650 15775 1    50   ~ 0
+RD2
+Text Label 9750 15775 1    50   ~ 0
+RD3
+Text Label 10500 15775 1    50   ~ 0
+RD4
+Text Label 10600 15775 1    50   ~ 0
+RD5
+Text Label 10700 15775 1    50   ~ 0
+RD6
+Text Label 10800 15775 1    50   ~ 0
+RD7
+Text Label 11550 15775 1    50   ~ 0
+RD8
+Text Label 11650 15775 1    50   ~ 0
+RD9
+Text Label 11750 15775 1    50   ~ 0
+RD10
+Text Label 11850 15775 1    50   ~ 0
+RD11
+Text Label 12600 15775 1    50   ~ 0
+RD12
+Text Label 12700 15775 1    50   ~ 0
+RD13
+Text Label 12800 15775 1    50   ~ 0
+RD14
+Text Label 12900 15775 1    50   ~ 0
+RD15
+Text Label 13650 15775 1    50   ~ 0
+RD16
+Text Label 13750 15775 1    50   ~ 0
+RD17
+Text Label 13850 15775 1    50   ~ 0
+RD18
+Text Label 13950 15775 1    50   ~ 0
+RD19
+Text Label 14700 15775 1    50   ~ 0
+RD20
+Text Label 14800 15775 1    50   ~ 0
+RD21
+Text Label 15000 15775 1    50   ~ 0
+RD23
+Text Label 15750 15775 1    50   ~ 0
+RD24
+Text Label 15850 15775 1    50   ~ 0
+RD25
+Text Label 15950 15775 1    50   ~ 0
+RD26
+Text Label 16050 15775 1    50   ~ 0
+RD27
+Text Label 16800 15775 1    50   ~ 0
+RD28
+Text Label 16900 15775 1    50   ~ 0
+RD29
+Text Label 17000 15775 1    50   ~ 0
+RD30
+Text Label 17100 15775 1    50   ~ 0
+RD31
+Wire Wire Line
+	15750 15575 15750 15775
+Wire Wire Line
+	15850 15575 15850 15775
+Wire Wire Line
+	15950 15575 15950 15775
+Wire Wire Line
+	16050 15575 16050 15775
+Wire Wire Line
+	16800 15575 16800 15775
+Wire Wire Line
+	16900 15575 16900 15775
+Wire Wire Line
+	17000 15575 17000 15775
+Wire Wire Line
+	17100 15575 17100 15775
+Text Label 14900 15775 1    50   ~ 0
+RD22
+Entry Wire Line
+	9450 19525 9550 19625
+Entry Wire Line
+	9550 19525 9650 19625
+Entry Wire Line
+	9650 19525 9750 19625
+Entry Wire Line
+	9750 19525 9850 19625
+Entry Wire Line
+	10600 19525 10700 19625
+Entry Wire Line
+	10700 19525 10800 19625
+Entry Wire Line
+	10800 19525 10900 19625
+Entry Wire Line
+	10500 19525 10600 19625
+Entry Wire Line
+	11550 19525 11650 19625
+Entry Wire Line
+	11650 19525 11750 19625
+Entry Wire Line
+	11750 19525 11850 19625
+Entry Wire Line
+	11850 19525 11950 19625
+Entry Wire Line
+	12600 19525 12700 19625
+Entry Wire Line
+	12700 19525 12800 19625
+Entry Wire Line
+	12800 19525 12900 19625
+Entry Wire Line
+	12900 19525 13000 19625
+Entry Wire Line
+	13650 19525 13750 19625
+Entry Wire Line
+	13750 19525 13850 19625
+Entry Wire Line
+	13850 19525 13950 19625
+Entry Wire Line
+	13950 19525 14050 19625
+Entry Wire Line
+	14700 19525 14800 19625
+Entry Wire Line
+	14800 19525 14900 19625
+Entry Wire Line
+	14900 19525 15000 19625
+Entry Wire Line
+	15000 19525 15100 19625
+Entry Wire Line
+	15750 19525 15850 19625
+Entry Wire Line
+	15850 19525 15950 19625
+Entry Wire Line
+	15950 19525 16050 19625
+Entry Wire Line
+	16050 19525 16150 19625
+Wire Wire Line
+	9450 19525 9450 19325
+Wire Wire Line
+	9550 19525 9550 19325
+Wire Wire Line
+	9650 19525 9650 19325
+Wire Wire Line
+	9750 19525 9750 19325
+Wire Wire Line
+	10500 19525 10500 19325
+Wire Wire Line
+	10600 19525 10600 19325
+Wire Wire Line
+	10700 19525 10700 19325
+Wire Wire Line
+	10800 19525 10800 19325
+Wire Wire Line
+	11550 19525 11550 19325
+Wire Wire Line
+	11650 19525 11650 19325
+Wire Wire Line
+	11750 19525 11750 19325
+Wire Wire Line
+	11850 19525 11850 19325
+Wire Wire Line
+	12600 19525 12600 19325
+Wire Wire Line
+	12700 19325 12700 19525
+Wire Wire Line
+	12800 19525 12800 19325
+Wire Wire Line
+	12900 19325 12900 19525
+Wire Wire Line
+	13650 19525 13650 19325
+Wire Wire Line
+	13750 19325 13750 19525
+Wire Wire Line
+	13850 19525 13850 19325
+Wire Wire Line
+	13950 19325 13950 19525
+Wire Wire Line
+	14700 19525 14700 19325
+Wire Wire Line
+	14800 19325 14800 19525
+Wire Wire Line
+	14900 19525 14900 19325
+Wire Wire Line
+	15000 19325 15000 19525
+Entry Wire Line
+	16800 19525 16900 19625
+Entry Wire Line
+	16900 19525 17000 19625
+Entry Wire Line
+	17000 19525 17100 19625
+Entry Wire Line
+	17100 19525 17200 19625
+Text GLabel 17550 19625 2    50   BiDi ~ 0
+RD[0..31]
+Text Label 9450 19525 1    50   ~ 0
+RD0
+Text Label 9550 19525 1    50   ~ 0
+RD1
+Text Label 9650 19525 1    50   ~ 0
+RD2
+Text Label 9750 19525 1    50   ~ 0
+RD3
+Text Label 10500 19525 1    50   ~ 0
+RD4
+Text Label 10600 19525 1    50   ~ 0
+RD5
+Text Label 10700 19525 1    50   ~ 0
+RD6
+Text Label 10800 19525 1    50   ~ 0
+RD7
+Text Label 11550 19525 1    50   ~ 0
+RD8
+Text Label 11650 19525 1    50   ~ 0
+RD9
+Text Label 11750 19525 1    50   ~ 0
+RD10
+Text Label 11850 19525 1    50   ~ 0
+RD11
+Text Label 12600 19525 1    50   ~ 0
+RD12
+Text Label 12700 19525 1    50   ~ 0
+RD13
+Text Label 12800 19525 1    50   ~ 0
+RD14
+Text Label 12900 19525 1    50   ~ 0
+RD15
+Text Label 13650 19525 1    50   ~ 0
+RD16
+Text Label 13750 19525 1    50   ~ 0
+RD17
+Text Label 13850 19525 1    50   ~ 0
+RD18
+Text Label 13950 19525 1    50   ~ 0
+RD19
+Text Label 14700 19525 1    50   ~ 0
+RD20
+Text Label 14800 19525 1    50   ~ 0
+RD21
+Text Label 15000 19525 1    50   ~ 0
+RD23
+Text Label 15750 19525 1    50   ~ 0
+RD24
+Text Label 15850 19525 1    50   ~ 0
+RD25
+Text Label 15950 19525 1    50   ~ 0
+RD26
+Text Label 16050 19525 1    50   ~ 0
+RD27
+Text Label 16800 19525 1    50   ~ 0
+RD28
+Text Label 16900 19525 1    50   ~ 0
+RD29
+Text Label 17000 19525 1    50   ~ 0
+RD30
+Text Label 17100 19525 1    50   ~ 0
+RD31
+Wire Wire Line
+	15750 19325 15750 19525
+Wire Wire Line
+	15850 19325 15850 19525
+Wire Wire Line
+	15950 19325 15950 19525
+Wire Wire Line
+	16050 19325 16050 19525
+Wire Wire Line
+	16800 19325 16800 19525
+Wire Wire Line
+	16900 19325 16900 19525
+Wire Wire Line
+	17000 19325 17000 19525
+Wire Wire Line
+	17100 19325 17100 19525
+Text Label 14900 19525 1    50   ~ 0
+RD22
+Text GLabel 8500 13475 0    50   Input ~ 0
+_CAS[0..3]
+Wire Wire Line
+	13150 15075 13150 13575
+Wire Wire Line
+	11050 15075 11050 13575
+Wire Wire Line
+	9000 15075 9000 13575
+Entry Wire Line
+	8900 13475 9000 13575
+Entry Wire Line
+	10950 13475 11050 13575
+Entry Wire Line
+	13050 13475 13150 13575
+Entry Wire Line
+	15150 13475 15250 13575
+Text Label 9000 13800 1    50   ~ 0
+_CAS0
+Text Label 11050 13800 1    50   ~ 0
+_CAS1
+Text Label 13150 13575 3    50   ~ 0
+_CAS2
+Text Label 15250 13775 1    50   ~ 0
+_CAS3
+Wire Wire Line
+	15250 15075 15250 13575
+Text GLabel 8500 17225 0    50   Input ~ 0
+_CAS[0..3]
+Wire Wire Line
+	13150 18825 13150 17325
+Wire Wire Line
+	11050 18825 11050 17325
+Wire Wire Line
+	9000 18825 9000 17325
+Entry Wire Line
+	8900 17225 9000 17325
+Entry Wire Line
+	10950 17225 11050 17325
+Entry Wire Line
+	13050 17225 13150 17325
+Entry Wire Line
+	15150 17225 15250 17325
+Text Label 9000 17550 1    50   ~ 0
+_CAS0
+Text Label 11050 17550 1    50   ~ 0
+_CAS1
+Text Label 13150 17325 3    50   ~ 0
+_CAS2
+Text Label 15250 17525 1    50   ~ 0
+_CAS3
+Wire Wire Line
+	15250 18825 15250 17325
+Wire Bus Line
+	8150 13875 8050 13775
+Wire Bus Line
+	8050 13775 7900 13775
+Entry Wire Line
+	8150 13875 8250 13975
+Entry Wire Line
+	8150 13975 8250 14075
+Entry Wire Line
+	8150 14075 8250 14175
+Entry Wire Line
+	8150 14175 8250 14275
+Entry Wire Line
+	8150 14275 8250 14375
+Entry Wire Line
+	8150 14375 8250 14475
+Entry Wire Line
+	8150 14475 8250 14575
+Entry Wire Line
+	8150 14575 8250 14675
+Entry Wire Line
+	8150 14675 8250 14775
+Entry Wire Line
+	8150 14775 8250 14875
+Wire Wire Line
+	9150 13975 8250 13975
+Wire Wire Line
+	9150 14075 8250 14075
+Wire Wire Line
+	9150 14175 8250 14175
+Wire Wire Line
+	9150 14275 8250 14275
+Wire Wire Line
+	9150 14375 8250 14375
+Wire Wire Line
+	9150 14475 8250 14475
+Wire Wire Line
+	9150 14575 8250 14575
+Wire Wire Line
+	9150 14675 8250 14675
+Wire Wire Line
+	9150 14775 8250 14775
+Wire Wire Line
+	9150 14875 8250 14875
+Text Label 8250 13975 0    50   ~ 0
+FASTRAMADDR0
+Text Label 8250 14075 0    50   ~ 0
+FASTRAMADDR1
+Text Label 8250 14175 0    50   ~ 0
+FASTRAMADDR2
+Text Label 8250 14275 0    50   ~ 0
+FASTRAMADDR3
+Text Label 8250 14375 0    50   ~ 0
+FASTRAMADDR4
+Text Label 8250 14475 0    50   ~ 0
+FASTRAMADDR5
+Text Label 8250 14575 0    50   ~ 0
+FASTRAMADDR6
+Text Label 8250 14675 0    50   ~ 0
+FASTRAMADDR7
+Text Label 8250 14775 0    50   ~ 0
+FASTRAMADDR8
+Text Label 8250 14875 0    50   ~ 0
+FASTRAMADDR9
+Text GLabel 7900 13775 0    50   Input ~ 0
+FASTRAMADDR[0..9]
+Text GLabel 7975 15175 0    50   Input ~ 0
+_WE0
+Text GLabel 7975 15275 0    50   Input ~ 0
+_R_W
+Wire Wire Line
+	7975 15175 9150 15175
+Wire Wire Line
+	9150 15275 7975 15275
+Entry Wire Line
+	8025 14875 8125 14975
+Text GLabel 7975 14875 0    50   Input ~ 0
+_RAS[0..3]
+Wire Wire Line
+	8125 14975 9150 14975
+Text Label 8125 14975 0    50   ~ 0
+_RAS1
+Wire Bus Line
+	8025 14875 7975 14875
+Wire Bus Line
+	8150 17625 8050 17525
+Wire Bus Line
+	8050 17525 7900 17525
+Entry Wire Line
+	8150 17625 8250 17725
+Entry Wire Line
+	8150 17725 8250 17825
+Entry Wire Line
+	8150 17825 8250 17925
+Entry Wire Line
+	8150 17925 8250 18025
+Entry Wire Line
+	8150 18025 8250 18125
+Entry Wire Line
+	8150 18125 8250 18225
+Entry Wire Line
+	8150 18225 8250 18325
+Entry Wire Line
+	8150 18325 8250 18425
+Entry Wire Line
+	8150 18425 8250 18525
+Entry Wire Line
+	8150 18525 8250 18625
+Wire Wire Line
+	9150 17725 8250 17725
+Wire Wire Line
+	9150 17825 8250 17825
+Wire Wire Line
+	9150 17925 8250 17925
+Wire Wire Line
+	9150 18025 8250 18025
+Wire Wire Line
+	9150 18125 8250 18125
+Wire Wire Line
+	9150 18225 8250 18225
+Wire Wire Line
+	9150 18325 8250 18325
+Wire Wire Line
+	9150 18425 8250 18425
+Wire Wire Line
+	9150 18525 8250 18525
+Wire Wire Line
+	9150 18625 8250 18625
+Text Label 8250 17725 0    50   ~ 0
+FASTRAMADDR0
+Text Label 8250 17825 0    50   ~ 0
+FASTRAMADDR1
+Text Label 8250 17925 0    50   ~ 0
+FASTRAMADDR2
+Text Label 8250 18025 0    50   ~ 0
+FASTRAMADDR3
+Text Label 8250 18125 0    50   ~ 0
+FASTRAMADDR4
+Text Label 8250 18225 0    50   ~ 0
+FASTRAMADDR5
+Text Label 8250 18325 0    50   ~ 0
+FASTRAMADDR6
+Text Label 8250 18425 0    50   ~ 0
+FASTRAMADDR7
+Text Label 8250 18525 0    50   ~ 0
+FASTRAMADDR8
+Text Label 8250 18625 0    50   ~ 0
+FASTRAMADDR9
+Text GLabel 7900 17525 0    50   Input ~ 0
+FASTRAMADDR[0..9]
+Text GLabel 7975 18925 0    50   Input ~ 0
+_WE0
+Text GLabel 7975 19025 0    50   Input ~ 0
+_R_W
+Wire Wire Line
+	7975 18925 9150 18925
+Wire Wire Line
+	9150 19025 7975 19025
+Entry Wire Line
+	8025 18625 8125 18725
+Text GLabel 7975 18625 0    50   Input ~ 0
+_RAS[0..3]
+Wire Wire Line
+	8125 18725 9150 18725
+Text Label 8125 18725 0    50   ~ 0
+_RAS0
+Wire Bus Line
+	8025 18625 7975 18625
+Text Label 21900 17750 2    50   ~ 0
+RD31
+Text Label 21900 17000 2    50   ~ 0
+RD23
+Text Label 20500 15400 0    50   ~ 0
+D10
+Wire Bus Line
+	19750 9400 19650 9500
+Wire Wire Line
+	20200 9500 20550 9500
+Wire Wire Line
+	20200 9600 20550 9600
+Wire Wire Line
+	20200 9700 20550 9700
+Wire Wire Line
+	20200 9800 20550 9800
+Wire Wire Line
+	20200 9900 20550 9900
+Wire Wire Line
+	20200 10000 20550 10000
+Wire Wire Line
+	20200 10100 20550 10100
+Wire Wire Line
+	20200 10200 20550 10200
+Wire Wire Line
+	20200 10300 20550 10300
+Wire Wire Line
+	20200 10400 20550 10400
+Wire Wire Line
+	20200 10500 20550 10500
+Wire Wire Line
+	20200 10600 20550 10600
+Wire Wire Line
+	20200 10700 20550 10700
+Wire Wire Line
+	20200 10800 20550 10800
+Wire Wire Line
+	20200 10900 20550 10900
+Wire Wire Line
+	20200 11000 20550 11000
+Wire Wire Line
+	20200 11100 20550 11100
+Wire Wire Line
+	20200 11200 20550 11200
+Wire Wire Line
+	20200 11300 20550 11300
+Wire Wire Line
+	20200 11400 20550 11400
+Wire Wire Line
+	20200 11500 20550 11500
+Wire Wire Line
+	20200 11600 20550 11600
+Wire Wire Line
+	20200 11700 20550 11700
+Wire Wire Line
+	20200 11800 20550 11800
+Wire Wire Line
+	20200 11900 20550 11900
+Wire Wire Line
+	20200 12000 20550 12000
+Wire Wire Line
+	20200 12100 20550 12100
+Wire Wire Line
+	20200 12200 20550 12200
+Wire Wire Line
+	20200 12300 20550 12300
+Wire Wire Line
+	20200 12400 20550 12400
+Wire Wire Line
+	20200 12500 20550 12500
+Wire Wire Line
+	20200 12600 20550 12600
+Wire Bus Line
+	20100 12850 19900 13050
+Wire Bus Line
+	19900 13050 19650 13050
+Entry Wire Line
+	20200 9500 20100 9600
+Entry Wire Line
+	20100 9700 20200 9600
+Entry Wire Line
+	20100 9800 20200 9700
+Entry Wire Line
+	20100 9900 20200 9800
+Entry Wire Line
+	20100 10000 20200 9900
+Entry Wire Line
+	20100 10100 20200 10000
+Entry Wire Line
+	20100 10200 20200 10100
+Entry Wire Line
+	20100 10300 20200 10200
+Entry Wire Line
+	20100 10400 20200 10300
+Entry Wire Line
+	20100 10500 20200 10400
+Entry Wire Line
+	20100 10600 20200 10500
+Entry Wire Line
+	20100 10700 20200 10600
+Entry Wire Line
+	20100 10800 20200 10700
+Entry Wire Line
+	20100 10900 20200 10800
+Entry Wire Line
+	20100 11000 20200 10900
+Entry Wire Line
+	20100 11100 20200 11000
+Entry Wire Line
+	20100 11200 20200 11100
+Entry Wire Line
+	20100 11300 20200 11200
+Entry Wire Line
+	20100 11400 20200 11300
+Entry Wire Line
+	20100 11500 20200 11400
+Entry Wire Line
+	20100 11600 20200 11500
+Entry Wire Line
+	20100 11700 20200 11600
+Entry Wire Line
+	20100 11800 20200 11700
+Entry Wire Line
+	20100 11900 20200 11800
+Entry Wire Line
+	20100 12000 20200 11900
+Entry Wire Line
+	20100 12100 20200 12000
+Entry Wire Line
+	20100 12200 20200 12100
+Entry Wire Line
+	20100 12300 20200 12200
+Entry Wire Line
+	20100 12400 20200 12300
+Entry Wire Line
+	20100 12500 20200 12400
+Entry Wire Line
+	20100 12600 20200 12500
+Entry Wire Line
+	20100 12700 20200 12600
+Text Label 20200 12600 0    50   ~ 0
+A31
+Text Label 20200 12500 0    50   ~ 0
+A30
+Text Label 20200 12400 0    50   ~ 0
+A29
+Text Label 20200 12300 0    50   ~ 0
+A28
+Text Label 20200 12200 0    50   ~ 0
+A27
+Text Label 20200 12100 0    50   ~ 0
+A26
+Text Label 20200 12000 0    50   ~ 0
+A25
+Text Label 20200 11900 0    50   ~ 0
+A24
+Text Label 20200 11800 0    50   ~ 0
+A23
+Text Label 20200 11700 0    50   ~ 0
+A22
+Text Label 20200 11600 0    50   ~ 0
+A21
+Text Label 20200 11500 0    50   ~ 0
+A20
+Text Label 20200 11400 0    50   ~ 0
+A19
+Text Label 20200 11300 0    50   ~ 0
+A18
+Text Label 20200 11200 0    50   ~ 0
+A17
+Text Label 20200 11100 0    50   ~ 0
+A16
+Text Label 20200 11000 0    50   ~ 0
+A15
+Text Label 20200 10600 0    50   ~ 0
+A11
+Text Label 20200 10500 0    50   ~ 0
+A10
+Text Label 20200 10400 0    50   ~ 0
+A9
+Text Label 20200 10300 0    50   ~ 0
+A8
+Text Label 20200 10200 0    50   ~ 0
+A7
+Text Label 20200 10100 0    50   ~ 0
+A6
+Text Label 20200 10000 0    50   ~ 0
+A5
+Text Label 20200 9900 0    50   ~ 0
+A4
+Text Label 20200 9800 0    50   ~ 0
+A3
+Text Label 20200 9700 0    50   ~ 0
+A2
+Text Label 20200 9600 0    50   ~ 0
+A1
+Text Label 20200 9500 0    50   ~ 0
+A0
+Text GLabel 19650 13050 0    50   BiDi ~ 0
+A[0..31]
+Text Label 20200 10900 0    50   ~ 0
+A14
+Text Label 20200 10800 0    50   ~ 0
+A13
+Text Label 20200 10700 0    50   ~ 0
+A12
+Wire Wire Line
+	22350 10800 23100 10800
+Text Label 23100 10800 2    50   ~ 0
+FASTRAMADDR1
+Connection ~ 9150 10175
+Connection ~ 9150 10275
+Connection ~ 9150 10375
+Connection ~ 9150 10475
+Connection ~ 9150 10575
+Connection ~ 9150 10675
+Connection ~ 9150 10775
+Connection ~ 9150 10875
+Connection ~ 9150 10975
+Connection ~ 9150 11075
+Connection ~ 9150 11175
+Connection ~ 9150 11375
+Connection ~ 9150 11475
+Connection ~ 9150 13975
+Connection ~ 9150 14075
+Connection ~ 9150 14175
+Connection ~ 9150 14275
+Connection ~ 9150 14375
+Connection ~ 9150 14475
+Connection ~ 9150 14575
+Connection ~ 9150 14675
+Connection ~ 9150 14775
+Connection ~ 9150 14875
+Connection ~ 9150 14975
+Connection ~ 9150 15175
+Connection ~ 9150 15275
+Connection ~ 9150 17725
+Connection ~ 9150 17825
+Connection ~ 9150 17925
+Connection ~ 9150 18025
+Connection ~ 9150 18125
+Connection ~ 9150 18225
+Connection ~ 9150 18325
+Connection ~ 9150 18425
+Connection ~ 9150 18525
+Connection ~ 9150 18625
+Connection ~ 9150 18725
+Connection ~ 9150 18925
+Connection ~ 9150 19025
+Text GLabel 7850 2300 0    50   Input ~ 0
+FASTRAMADDR[0..9]
+Wire Bus Line
+	7850 2300 8050 2300
+Wire Bus Line
+	8050 2300 8150 2400
+Entry Wire Line
+	8150 2650 8250 2750
+Entry Wire Line
+	8150 2550 8250 2650
+Entry Wire Line
+	8150 2750 8250 2850
+Entry Wire Line
+	8150 2850 8250 2950
+Entry Wire Line
+	8150 2950 8250 3050
+Entry Wire Line
+	8150 3050 8250 3150
+Entry Wire Line
+	8150 3150 8250 3250
+Entry Wire Line
+	8150 3250 8250 3350
+Entry Wire Line
+	8150 3350 8250 3450
+Wire Wire Line
+	9000 2650 8250 2650
+Wire Wire Line
+	9000 2750 8250 2750
+Wire Wire Line
+	9000 2850 8250 2850
+Wire Wire Line
+	9000 3050 8250 3050
+Wire Wire Line
+	9000 3150 8250 3150
+Wire Wire Line
+	9000 3250 8250 3250
+Wire Wire Line
+	9000 3350 8250 3350
+Wire Wire Line
+	9000 3450 8250 3450
+Entry Wire Line
+	8150 3450 8250 3550
+Wire Wire Line
+	9000 3550 8250 3550
+Text Label 8250 2650 0    50   ~ 0
+FASTRAMADDR0
+Text Label 8250 2750 0    50   ~ 0
+FASTRAMADDR1
+Text Label 8250 2850 0    50   ~ 0
+FASTRAMADDR2
+Text Label 8250 2950 0    50   ~ 0
+FASTRAMADDR3
+Text Label 8250 3050 0    50   ~ 0
+FASTRAMADDR4
+Text Label 8250 3150 0    50   ~ 0
+FASTRAMADDR5
+Text Label 8250 3250 0    50   ~ 0
+FASTRAMADDR6
+Text Label 8250 3350 0    50   ~ 0
+FASTRAMADDR7
+Text Label 8250 3450 0    50   ~ 0
+FASTRAMADDR8
+Text Label 8250 3550 0    50   ~ 0
+FASTRAMADDR9
+Text GLabel 8000 3500 0    50   Input ~ 0
+_RAS[0..3]
+Wire Bus Line
+	8000 3500 8100 3500
+Wire Bus Line
+	8100 3500 8150 3550
+Entry Wire Line
+	8150 3550 8250 3650
+Wire Wire Line
+	9000 3650 8250 3650
+Text Label 8250 3650 0    50   ~ 0
+_RAS3
+Text GLabel 8000 3850 0    50   Input ~ 0
+_WE0
+Text GLabel 8000 3950 0    50   Input ~ 0
+_R_W
+Wire Wire Line
+	8000 3850 9000 3850
+Wire Wire Line
+	9000 3950 8000 3950
+Wire Wire Line
+	17550 2650 16300 2650
+Wire Wire Line
+	16300 2650 15150 2650
+Connection ~ 16300 2650
+Wire Wire Line
+	15150 2650 13900 2650
+Connection ~ 15150 2650
+Wire Wire Line
+	13900 2650 12650 2650
+Connection ~ 13900 2650
+Wire Wire Line
+	12650 2650 11400 2650
+Connection ~ 12650 2650
+Wire Wire Line
+	11400 2650 10250 2650
+Connection ~ 11400 2650
+Wire Wire Line
+	10250 2650 9000 2650
+Connection ~ 10250 2650
+Connection ~ 9000 2650
+Wire Wire Line
+	17550 2750 16300 2750
+Wire Wire Line
+	16300 2750 15150 2750
+Connection ~ 16300 2750
+Wire Wire Line
+	15150 2750 13900 2750
+Connection ~ 15150 2750
+Wire Wire Line
+	13900 2750 12650 2750
+Connection ~ 13900 2750
+Wire Wire Line
+	12650 2750 11400 2750
+Connection ~ 12650 2750
+Wire Wire Line
+	10250 2750 11400 2750
+Connection ~ 11400 2750
+Wire Wire Line
+	10250 2750 9000 2750
+Connection ~ 10250 2750
+Connection ~ 9000 2750
+Wire Wire Line
+	17550 2850 16300 2850
+Wire Wire Line
+	16300 2850 15150 2850
+Connection ~ 16300 2850
+Wire Wire Line
+	15150 2850 13900 2850
+Connection ~ 15150 2850
+Wire Wire Line
+	13900 2850 12650 2850
+Connection ~ 13900 2850
+Wire Wire Line
+	12650 2850 11400 2850
+Connection ~ 12650 2850
+Wire Wire Line
+	11400 2850 10250 2850
+Connection ~ 11400 2850
+Wire Wire Line
+	10250 2850 9000 2850
+Connection ~ 10250 2850
+Connection ~ 9000 2850
+Wire Wire Line
+	8250 2950 9000 2950
+Connection ~ 9000 2950
+Wire Wire Line
+	9000 2950 10250 2950
+Wire Wire Line
+	10250 2950 11400 2950
+Connection ~ 10250 2950
+Wire Wire Line
+	11400 2950 12650 2950
+Connection ~ 11400 2950
+Wire Wire Line
+	12650 2950 13900 2950
+Connection ~ 12650 2950
+Wire Wire Line
+	13900 2950 15150 2950
+Connection ~ 13900 2950
+Wire Wire Line
+	15150 2950 16300 2950
+Connection ~ 15150 2950
+Wire Wire Line
+	16300 2950 17550 2950
+Connection ~ 16300 2950
+Wire Wire Line
+	17550 3050 16300 3050
+Wire Wire Line
+	16300 3050 15150 3050
+Connection ~ 16300 3050
+Wire Wire Line
+	15150 3050 13900 3050
+Connection ~ 15150 3050
+Wire Wire Line
+	13900 3050 12650 3050
+Connection ~ 13900 3050
+Wire Wire Line
+	12650 3050 11400 3050
+Connection ~ 12650 3050
+Wire Wire Line
+	11400 3050 10250 3050
+Connection ~ 11400 3050
+Wire Wire Line
+	10250 3050 9000 3050
+Connection ~ 10250 3050
+Connection ~ 9000 3050
+Wire Wire Line
+	10250 3150 11400 3150
+Wire Wire Line
+	11400 3150 12650 3150
+Connection ~ 11400 3150
+Wire Wire Line
+	12650 3150 13900 3150
+Connection ~ 12650 3150
+Wire Wire Line
+	13900 3150 15150 3150
+Connection ~ 13900 3150
+Wire Wire Line
+	15150 3150 16300 3150
+Connection ~ 15150 3150
+Wire Wire Line
+	16300 3150 17550 3150
+Connection ~ 16300 3150
+Wire Wire Line
+	17550 3250 16300 3250
+Wire Wire Line
+	16300 3250 15150 3250
+Connection ~ 16300 3250
+Wire Wire Line
+	15150 3250 13900 3250
+Connection ~ 15150 3250
+Wire Wire Line
+	13900 3250 12650 3250
+Connection ~ 13900 3250
+Wire Wire Line
+	12650 3250 11400 3250
+Connection ~ 12650 3250
+Wire Wire Line
+	11400 3250 10250 3250
+Connection ~ 11400 3250
+Wire Wire Line
+	10250 3250 9000 3250
+Connection ~ 10250 3250
+Connection ~ 9000 3250
+Wire Wire Line
+	9000 3150 10250 3150
+Connection ~ 9000 3150
+Connection ~ 10250 3150
+Wire Wire Line
+	9000 3350 10250 3350
+Connection ~ 9000 3350
+Wire Wire Line
+	11400 3350 10250 3350
+Connection ~ 10250 3350
+Wire Wire Line
+	9000 3450 10250 3450
+Connection ~ 9000 3450
+Wire Wire Line
+	9000 3550 10250 3550
+Connection ~ 9000 3550
+Connection ~ 9000 3650
+Wire Wire Line
+	9000 3850 10250 3850
+Connection ~ 9000 3850
+Wire Wire Line
+	9000 3950 10250 3950
+Connection ~ 9000 3950
+Wire Wire Line
+	10250 3450 11400 3450
+Connection ~ 10250 3450
+Wire Wire Line
+	11400 3450 12650 3450
+Connection ~ 11400 3450
+Wire Wire Line
+	11400 3350 12650 3350
+Connection ~ 11400 3350
+Wire Wire Line
+	12650 3350 13900 3350
+Connection ~ 12650 3350
+Wire Wire Line
+	13900 3350 15150 3350
+Connection ~ 13900 3350
+Wire Wire Line
+	15150 3350 16300 3350
+Connection ~ 15150 3350
+Wire Wire Line
+	16300 3350 17550 3350
+Connection ~ 16300 3350
+Wire Wire Line
+	17550 3450 16300 3450
+Wire Wire Line
+	16300 3450 15150 3450
+Connection ~ 16300 3450
+Wire Wire Line
+	15150 3450 13900 3450
+Connection ~ 15150 3450
+Wire Wire Line
+	13900 3450 12650 3450
+Connection ~ 13900 3450
+Connection ~ 12650 3450
+Wire Wire Line
+	10250 3550 11400 3550
+Connection ~ 10250 3550
+Wire Wire Line
+	11400 3550 12650 3550
+Connection ~ 11400 3550
+Wire Wire Line
+	12650 3550 13900 3550
+Connection ~ 12650 3550
+Wire Wire Line
+	13900 3550 15150 3550
+Connection ~ 13900 3550
+Wire Wire Line
+	15150 3550 16300 3550
+Connection ~ 15150 3550
+Wire Wire Line
+	16300 3550 17550 3550
+Connection ~ 16300 3550
+Wire Wire Line
+	9000 3650 10250 3650
+Connection ~ 10250 3650
+Wire Wire Line
+	10250 3650 11400 3650
+Wire Wire Line
+	11400 3650 12650 3650
+Connection ~ 11400 3650
+Wire Wire Line
+	12650 3650 13900 3650
+Connection ~ 12650 3650
+Connection ~ 13900 3650
+Wire Wire Line
+	13900 3650 15150 3650
+Connection ~ 15150 3650
+Wire Wire Line
+	15150 3650 16300 3650
+Wire Wire Line
+	16300 3650 17550 3650
+Connection ~ 16300 3650
+Wire Wire Line
+	17550 3850 16300 3850
+Wire Wire Line
+	16300 3850 15150 3850
+Connection ~ 16300 3850
+Wire Wire Line
+	15150 3850 13900 3850
+Connection ~ 15150 3850
+Wire Wire Line
+	13900 3850 12650 3850
+Connection ~ 13900 3850
+Wire Wire Line
+	12650 3850 11400 3850
+Connection ~ 12650 3850
+Wire Wire Line
+	11400 3850 10250 3850
+Connection ~ 11400 3850
+Connection ~ 10250 3850
+Text GLabel 7850 2000 0    50   Input ~ 0
+_CAS[0..3]
+Entry Wire Line
+	8750 2000 8850 2100
+Entry Wire Line
+	11100 2000 11200 2100
+Entry Wire Line
+	13500 2000 13600 2100
+Entry Wire Line
+	16000 2000 16100 2100
+Wire Wire Line
+	8850 2100 8850 3750
+Wire Wire Line
+	8850 3750 9000 3750
+Wire Wire Line
+	11200 2100 11200 3750
+Wire Wire Line
+	11200 3750 11400 3750
+Wire Wire Line
+	10250 3750 9000 3750
+Connection ~ 9000 3750
+Wire Wire Line
+	13600 2100 13600 3750
+Wire Wire Line
+	13600 3750 13900 3750
+Wire Wire Line
+	11400 3750 12650 3750
+Connection ~ 11400 3750
+Wire Wire Line
+	13900 3750 15150 3750
+Connection ~ 13900 3750
+Wire Wire Line
+	16100 2100 16100 3750
+Wire Wire Line
+	16100 3750 16300 3750
+Wire Wire Line
+	16300 3750 17550 3750
+Connection ~ 16300 3750
+Text Label 8850 2100 0    50   ~ 0
+_CAS0
+Text Label 11200 2100 0    50   ~ 0
+_CAS1
+Text Label 13600 2100 0    50   ~ 0
+_CAS2
+Text Label 16100 2100 0    50   ~ 0
+_CAS3
+Entry Wire Line
+	9400 4400 9500 4500
+Entry Wire Line
+	9500 4400 9600 4500
+Entry Wire Line
+	9600 4400 9700 4500
+Entry Wire Line
+	9700 4400 9800 4500
+Entry Wire Line
+	10650 4400 10750 4500
+Entry Wire Line
+	10750 4400 10850 4500
+Entry Wire Line
+	10850 4400 10950 4500
+Entry Wire Line
+	10950 4400 11050 4500
+Entry Wire Line
+	11800 4400 11900 4500
+Entry Wire Line
+	11900 4400 12000 4500
+Entry Wire Line
+	12000 4400 12100 4500
+Entry Wire Line
+	12100 4400 12200 4500
+Entry Wire Line
+	13050 4400 13150 4500
+Entry Wire Line
+	13150 4400 13250 4500
+Entry Wire Line
+	13250 4400 13350 4500
+Entry Wire Line
+	13350 4400 13450 4500
+Entry Wire Line
+	14300 4400 14400 4500
+Entry Wire Line
+	14400 4400 14500 4500
+Entry Wire Line
+	14500 4400 14600 4500
+Entry Wire Line
+	14600 4400 14700 4500
+Entry Wire Line
+	15550 4400 15650 4500
+Entry Wire Line
+	15650 4400 15750 4500
+Entry Wire Line
+	15750 4400 15850 4500
+Entry Wire Line
+	15850 4400 15950 4500
+Entry Wire Line
+	16700 4400 16800 4500
+Entry Wire Line
+	16800 4400 16900 4500
+Entry Wire Line
+	16900 4400 17000 4500
+Entry Wire Line
+	17000 4400 17100 4500
+Entry Wire Line
+	17950 4400 18050 4500
+Entry Wire Line
+	18050 4400 18150 4500
+Entry Wire Line
+	18150 4400 18250 4500
+Entry Wire Line
+	18250 4400 18350 4500
+Wire Wire Line
+	9400 4400 9400 4150
+Wire Wire Line
+	9500 4400 9500 4150
+Wire Wire Line
+	9600 4400 9600 4150
+Wire Wire Line
+	9700 4400 9700 4150
+Wire Wire Line
+	10650 4400 10650 4150
+Wire Wire Line
+	10750 4400 10750 4150
+Wire Wire Line
+	10850 4400 10850 4150
+Wire Wire Line
+	10950 4400 10950 4150
+Wire Wire Line
+	11800 4400 11800 4150
+Wire Wire Line
+	11900 4400 11900 4150
+Wire Wire Line
+	12000 4400 12000 4150
+Wire Wire Line
+	12100 4400 12100 4150
+Wire Wire Line
+	13050 4400 13050 4150
+Wire Wire Line
+	13150 4400 13150 4150
+Wire Wire Line
+	13250 4400 13250 4150
+Wire Wire Line
+	13350 4400 13350 4150
+Wire Wire Line
+	14300 4400 14300 4150
+Wire Wire Line
+	14400 4400 14400 4150
+Wire Wire Line
+	14500 4400 14500 4150
+Wire Wire Line
+	14600 4400 14600 4150
+Wire Wire Line
+	15550 4400 15550 4150
+Wire Wire Line
+	15650 4400 15650 4150
+Wire Wire Line
+	15750 4400 15750 4150
+Wire Wire Line
+	15850 4400 15850 4150
+Wire Wire Line
+	16700 4400 16700 4150
+Wire Wire Line
+	16800 4400 16800 4150
+Wire Wire Line
+	16900 4400 16900 4150
+Wire Wire Line
+	17000 4400 17000 4150
+Wire Wire Line
+	17950 4400 17950 4150
+Wire Wire Line
+	18050 4400 18050 4150
+Wire Wire Line
+	18150 4400 18150 4150
+Wire Wire Line
+	18250 4400 18250 4150
+Text GLabel 19450 4500 2    50   BiDi ~ 0
+RD[0..31]
+Text Label 9400 4400 1    50   ~ 0
+RD0
+Text Label 9500 4400 1    50   ~ 0
+RD1
+Text Label 9600 4400 1    50   ~ 0
+RD2
+Text Label 9700 4400 1    50   ~ 0
+RD3
+Text Label 10650 4400 1    50   ~ 0
+RD4
+Text Label 10750 4400 1    50   ~ 0
+RD5
+Text Label 10850 4400 1    50   ~ 0
+RD6
+Text Label 10950 4400 1    50   ~ 0
+RD7
+Text Label 11800 4400 1    50   ~ 0
+RD8
+Text Label 11900 4400 1    50   ~ 0
+RD9
+Text Label 12000 4400 1    50   ~ 0
+RD10
+Text Label 12100 4400 1    50   ~ 0
+RD11
+Text Label 13050 4400 1    50   ~ 0
+RD12
+Text Label 13150 4400 1    50   ~ 0
+RD13
+Text Label 13250 4400 1    50   ~ 0
+RD14
+Text Label 13350 4400 1    50   ~ 0
+RD15
+Text Label 14300 4400 1    50   ~ 0
+RD16
+Text Label 14400 4400 1    50   ~ 0
+RD17
+Text Label 14500 4400 1    50   ~ 0
+RD18
+Text Label 14600 4400 1    50   ~ 0
+RD19
+Text Label 15550 4400 1    50   ~ 0
+RD20
+Text Label 15650 4400 1    50   ~ 0
+RD21
+Text Label 15750 4400 1    50   ~ 0
+RD22
+Text Label 15850 4400 1    50   ~ 0
+RD23
+Text Label 16700 4400 1    50   ~ 0
+RD24
+Text Label 16800 4400 1    50   ~ 0
+RD25
+Text Label 16900 4400 1    50   ~ 0
+RD26
+Text Label 17000 4400 1    50   ~ 0
+RD27
+Text Label 17950 4400 1    50   ~ 0
+RD28
+Text Label 18050 4400 1    50   ~ 0
+RD29
+Text Label 18150 4400 1    50   ~ 0
+RD30
+Text Label 18250 4400 1    50   ~ 0
+RD31
+$Comp
+L Amiga_3000_library:GND #PWR0411
+U 1 1 7465F3D7
+P 18750 5550
+F 0 "#PWR0411" H 18750 5300 50  0001 C CNN
+F 1 "GND" V 18755 5422 50  0000 R CNN
+F 2 "" H 18750 5550 50  0001 C CNN
+F 3 "" H 18750 5550 50  0001 C CNN
+	1    18750 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0412
+U 1 1 74BE6D30
+P 18800 4800
+F 0 "#PWR0412" H 18800 4650 50  0001 C CNN
+F 1 "+5V" V 18815 4928 50  0000 L CNN
+F 2 "" H 18800 4800 50  0001 C CNN
+F 3 "" H 18800 4800 50  0001 C CNN
+	1    18800 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	18800 4800 18250 4800
+Connection ~ 10600 4800
+Connection ~ 11850 4800
+Wire Wire Line
+	11850 4800 11100 4800
+Connection ~ 13000 4800
+Wire Wire Line
+	13000 4800 12350 4800
+Connection ~ 14200 4800
+Wire Wire Line
+	14200 4800 13500 4800
+Connection ~ 15350 4800
+Wire Wire Line
+	15350 4800 14700 4800
+Connection ~ 16600 4800
+Wire Wire Line
+	16600 4800 15850 4800
+Connection ~ 17750 4800
+Wire Wire Line
+	17750 4800 17100 4800
+Wire Wire Line
+	10600 4800 9950 4800
+Wire Wire Line
+	9950 5000 9950 4800
+Connection ~ 9950 4800
+Wire Wire Line
+	9950 4800 9450 4800
+Wire Wire Line
+	11100 5000 11100 4800
+Connection ~ 11100 4800
+Wire Wire Line
+	11100 4800 10600 4800
+Wire Wire Line
+	13500 5000 13500 4800
+Connection ~ 13500 4800
+Wire Wire Line
+	13500 4800 13000 4800
+Wire Wire Line
+	18250 5000 18250 4800
+Connection ~ 18250 4800
+Wire Wire Line
+	18250 4800 17750 4800
+Wire Wire Line
+	17100 5000 17100 4800
+Connection ~ 17100 4800
+Wire Wire Line
+	17100 4800 16600 4800
+Wire Wire Line
+	15850 5000 15850 4800
+Connection ~ 15850 4800
+Wire Wire Line
+	15850 4800 15350 4800
+Wire Wire Line
+	14700 5000 14700 4800
+Connection ~ 14700 4800
+Wire Wire Line
+	14700 4800 14200 4800
+Wire Wire Line
+	12350 5000 12350 4800
+Connection ~ 12350 4800
+Wire Wire Line
+	12350 4800 11850 4800
+Wire Wire Line
+	18750 5550 18250 5550
+Wire Wire Line
+	9450 5550 9450 5450
+Wire Wire Line
+	9950 5300 9950 5550
+Connection ~ 9950 5550
+Wire Wire Line
+	9950 5550 9450 5550
+Wire Wire Line
+	10600 5450 10600 5550
+Connection ~ 10600 5550
+Wire Wire Line
+	10600 5550 9950 5550
+Wire Wire Line
+	11100 5300 11100 5550
+Connection ~ 11100 5550
+Wire Wire Line
+	11100 5550 10600 5550
+Wire Wire Line
+	11850 5450 11850 5550
+Connection ~ 11850 5550
+Wire Wire Line
+	11850 5550 11100 5550
+Wire Wire Line
+	12350 5300 12350 5550
+Connection ~ 12350 5550
+Wire Wire Line
+	12350 5550 11850 5550
+Wire Wire Line
+	13000 5450 13000 5550
+Connection ~ 13000 5550
+Wire Wire Line
+	13000 5550 12350 5550
+Wire Wire Line
+	13500 5300 13500 5550
+Connection ~ 13500 5550
+Wire Wire Line
+	13500 5550 13000 5550
+Wire Wire Line
+	14200 5450 14200 5550
+Connection ~ 14200 5550
+Wire Wire Line
+	14200 5550 13500 5550
+Wire Wire Line
+	14700 5300 14700 5550
+Connection ~ 14700 5550
+Wire Wire Line
+	14700 5550 14200 5550
+Wire Wire Line
+	15350 5450 15350 5550
+Connection ~ 15350 5550
+Wire Wire Line
+	15350 5550 14700 5550
+Wire Wire Line
+	15850 5300 15850 5550
+Connection ~ 15850 5550
+Wire Wire Line
+	15850 5550 15350 5550
+Wire Wire Line
+	16600 5450 16600 5550
+Connection ~ 16600 5550
+Wire Wire Line
+	16600 5550 15850 5550
+Wire Wire Line
+	17100 5300 17100 5550
+Connection ~ 17100 5550
+Wire Wire Line
+	17100 5550 16600 5550
+Wire Wire Line
+	17750 5450 17750 5550
+Connection ~ 17750 5550
+Wire Wire Line
+	17750 5550 17100 5550
+Wire Wire Line
+	18250 5300 18250 5550
+Connection ~ 18250 5550
+Wire Wire Line
+	18250 5550 17750 5550
+Wire Wire Line
+	10250 3950 11400 3950
+Connection ~ 10250 3950
+Wire Wire Line
+	11400 3950 12650 3950
+Connection ~ 11400 3950
+Wire Wire Line
+	12650 3950 13900 3950
+Connection ~ 12650 3950
+Wire Wire Line
+	13900 3950 15150 3950
+Connection ~ 13900 3950
+Wire Wire Line
+	16300 3950 15150 3950
+Connection ~ 15150 3950
+Wire Wire Line
+	17550 3950 16300 3950
+Connection ~ 16300 3950
+$Comp
+L Device:C C857-1
+U 1 1 744863AB
+P 18250 5150
+F 0 "C857-1" H 18300 5250 50  0000 L CNN
+F 1 "0.33uF" H 18300 5050 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 18288 5000 50  0001 C CNN
+F 3 "~" H 18250 5150 50  0001 C CNN
+	1    18250 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:MCM41256 U857-1
+U 2 1 744863A5
+P 17750 5100
+F 0 "U857-1" H 17800 5350 50  0000 L CNN
+F 1 "MCM41256" H 17800 4800 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 17700 5750 50  0001 C CNN
+F 3 "" H 17700 5750 50  0001 C CNN
+	2    17750 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C856-1
+U 1 1 7448639F
+P 17100 5150
+F 0 "C856-1" H 17150 5250 50  0000 L CNN
+F 1 "0.33uF" H 17150 5050 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 17138 5000 50  0001 C CNN
+F 3 "~" H 17100 5150 50  0001 C CNN
+	1    17100 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:MCM41256 U856-1
+U 2 1 74486399
+P 16600 5100
+F 0 "U856-1" H 16650 5350 50  0000 L CNN
+F 1 "MCM41256" H 16650 4800 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 16550 5750 50  0001 C CNN
+F 3 "" H 16550 5750 50  0001 C CNN
+	2    16600 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C855-1
+U 1 1 74486393
+P 15850 5150
+F 0 "C855-1" H 15900 5250 50  0000 L CNN
+F 1 "0.33uF" H 15900 5050 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 15888 5000 50  0001 C CNN
+F 3 "~" H 15850 5150 50  0001 C CNN
+	1    15850 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:MCM41256 U855-1
+U 2 1 7448638D
+P 15350 5100
+F 0 "U855-1" H 15400 5350 50  0000 L CNN
+F 1 "MCM41256" H 15400 4800 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 15300 5750 50  0001 C CNN
+F 3 "" H 15300 5750 50  0001 C CNN
+	2    15350 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C854-1
+U 1 1 74486387
+P 14700 5150
+F 0 "C854-1" H 14750 5250 50  0000 L CNN
+F 1 "0.33uF" H 14750 5050 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 14738 5000 50  0001 C CNN
+F 3 "~" H 14700 5150 50  0001 C CNN
+	1    14700 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:MCM41256 U854-1
+U 2 1 74486381
+P 14200 5100
+F 0 "U854-1" H 14250 5350 50  0000 L CNN
+F 1 "MCM41256" H 14250 4800 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 14150 5750 50  0001 C CNN
+F 3 "" H 14150 5750 50  0001 C CNN
+	2    14200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C853-1
+U 1 1 742A9F2E
+P 13500 5150
+F 0 "C853-1" H 13550 5250 50  0000 L CNN
+F 1 "0.33uF" H 13550 5050 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 13538 5000 50  0001 C CNN
+F 3 "~" H 13500 5150 50  0001 C CNN
+	1    13500 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:MCM41256 U853-1
+U 2 1 742A9F28
+P 13000 5100
+F 0 "U853-1" H 13050 5350 50  0000 L CNN
+F 1 "MCM41256" H 13050 4800 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 12950 5750 50  0001 C CNN
+F 3 "" H 12950 5750 50  0001 C CNN
+	2    13000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C852-1
+U 1 1 742A9F22
+P 12350 5150
+F 0 "C852-1" H 12400 5250 50  0000 L CNN
+F 1 "0.33uF" H 12400 5050 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 12388 5000 50  0001 C CNN
+F 3 "~" H 12350 5150 50  0001 C CNN
+	1    12350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:MCM41256 U852-1
+U 2 1 742A9F1C
+P 11850 5100
+F 0 "U852-1" H 11900 5350 50  0000 L CNN
+F 1 "MCM41256" H 11900 4800 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 11800 5750 50  0001 C CNN
+F 3 "" H 11800 5750 50  0001 C CNN
+	2    11850 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C851-1
+U 1 1 740CDA2A
+P 11100 5150
+F 0 "C851-1" H 11150 5250 50  0000 L CNN
+F 1 "0.33uF" H 11150 5050 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 11138 5000 50  0001 C CNN
+F 3 "~" H 11100 5150 50  0001 C CNN
+	1    11100 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:MCM41256 U851-1
+U 2 1 740CDA24
+P 10600 5100
+F 0 "U851-1" H 10650 5350 50  0000 L CNN
+F 1 "MCM41256" H 10650 4800 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 10550 5750 50  0001 C CNN
+F 3 "" H 10550 5750 50  0001 C CNN
+	2    10600 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C850-1
+U 1 1 73EF656B
+P 9950 5150
+F 0 "C850-1" H 10000 5250 50  0000 L CNN
+F 1 "0.33uF" H 10000 5050 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 9988 5000 50  0001 C CNN
+F 3 "~" H 9950 5150 50  0001 C CNN
+	1    9950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:MCM41256 U850-1
+U 2 1 73EF0E00
+P 9450 5100
+F 0 "U850-1" H 9500 5350 50  0000 L CNN
+F 1 "MCM41256" H 9500 4800 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 9400 5750 50  0001 C CNN
+F 3 "" H 9400 5750 50  0001 C CNN
+	2    9450 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:MCM41256 U857-1
+U 1 1 64BAFE78
+P 18050 3300
+F 0 "U857-1" H 17950 4100 50  0000 L CNN
+F 1 "MCM41256" H 17900 3300 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 18000 3950 50  0001 C CNN
+F 3 "" H 18000 3950 50  0001 C CNN
+	1    18050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:MCM41256 U856-1
+U 1 1 64BAFE72
+P 16800 3300
+F 0 "U856-1" H 16650 4100 50  0000 L CNN
+F 1 "MCM41256" H 16650 3300 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 16750 3950 50  0001 C CNN
+F 3 "" H 16750 3950 50  0001 C CNN
+	1    16800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:MCM41256 U855-1
+U 1 1 64BAFE6C
+P 15650 3300
+F 0 "U855-1" H 15550 4100 50  0000 L CNN
+F 1 "MCM41256" H 15500 3300 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 15600 3950 50  0001 C CNN
+F 3 "" H 15600 3950 50  0001 C CNN
+	1    15650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:MCM41256 U854-1
+U 1 1 64BAFE66
+P 14400 3300
+F 0 "U854-1" H 14250 4100 50  0000 L CNN
+F 1 "MCM41256" H 14250 3300 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 14350 3950 50  0001 C CNN
+F 3 "" H 14350 3950 50  0001 C CNN
+	1    14400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:MCM41256 U853-1
+U 1 1 64A3A09A
+P 13150 3300
+F 0 "U853-1" H 13050 4100 50  0000 L CNN
+F 1 "MCM41256" H 13000 3300 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 13100 3950 50  0001 C CNN
+F 3 "" H 13100 3950 50  0001 C CNN
+	1    13150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:MCM41256 U852-1
+U 1 1 64A3A094
+P 11900 3300
+F 0 "U852-1" H 11750 4100 50  0000 L CNN
+F 1 "MCM41256" H 11750 3300 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 11850 3950 50  0001 C CNN
+F 3 "" H 11850 3950 50  0001 C CNN
+	1    11900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:MCM41256 U851-1
+U 1 1 64A304A2
+P 10750 3300
+F 0 "U851-1" H 10650 4100 50  0000 L CNN
+F 1 "MCM41256" H 10600 3300 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 10700 3950 50  0001 C CNN
+F 3 "" H 10700 3950 50  0001 C CNN
+	1    10750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:MCM41256 U850-1
+U 1 1 629BA8CF
+P 9500 3300
+F 0 "U850-1" H 9350 4100 50  0000 L CNN
+F 1 "MCM41256" H 9350 3300 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 9450 3950 50  0001 C CNN
+F 3 "" H 9450 3950 50  0001 C CNN
+	1    9500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J851
+U 1 1 5F5BB64F
+P 24750 10850
+F 0 "J851" V 24900 10750 50  0000 L CNN
+F 1 "CPU Speed" V 25000 10700 50  0000 L CNN
+F 2 "A3000:3_Pin_Jumper" H 24750 10850 50  0001 C CNN
+F 3 "~" H 24750 10850 50  0001 C CNN
+	1    24750 10850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J852
+U 1 1 5F30D440
+P 23850 10850
+F 0 "J852" V 24000 10750 50  0000 L CNN
+F 1 "RAM Size" V 24100 10700 50  0000 L CNN
+F 2 "A3000:3_Pin_Jumper" H 23850 10850 50  0001 C CNN
+F 3 "~" H 23850 10850 50  0001 C CNN
+	1    23850 10850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C899
+U 1 1 729CE113
+P 18250 20250
+F 0 "C899" H 18365 20296 50  0000 L CNN
+F 1 "47uF" H 18365 20205 50  0000 L CNN
+F 2 "A3000:Polarized-Cap_small" H 18250 20250 50  0001 C CNN
+F 3 "~" H 18250 20250 50  0001 C CNN
+	1    18250 20250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C894
+U 1 1 727F50EE
+P 23150 20200
+F 0 "C894" H 23200 20300 50  0000 L CNN
+F 1 "0.33uF" H 23200 20100 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 23188 20050 50  0001 C CNN
+F 3 "~" H 23150 20200 50  0001 C CNN
+	1    23150 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:74F245 U894
+U 2 1 727F50E8
+P 22700 20200
+F 0 "U894" H 22800 20450 50  0000 L CNN
+F 1 "74F245" H 22800 19900 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 22700 20200 50  0001 C CNN
+F 3 "" H 22700 20200 50  0001 C CNN
+	2    22700 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C893
+U 1 1 7261DFD9
+P 22100 20200
+F 0 "C893" H 22150 20300 50  0000 L CNN
+F 1 "0.33uF" H 22150 20100 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 22138 20050 50  0001 C CNN
+F 3 "~" H 22100 20200 50  0001 C CNN
+	1    22100 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:74F245 U893
+U 2 1 7261DFD3
+P 21650 20200
+F 0 "U893" H 21750 20450 50  0000 L CNN
+F 1 "74F245" H 21750 19900 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 21650 20200 50  0001 C CNN
+F 3 "" H 21650 20200 50  0001 C CNN
+	2    21650 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C892
+U 1 1 72446F46
+P 21050 20200
+F 0 "C892" H 21100 20300 50  0000 L CNN
+F 1 "0.33uF" H 21100 20100 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 21088 20050 50  0001 C CNN
+F 3 "~" H 21050 20200 50  0001 C CNN
+	1    21050 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:74F245 U892
+U 2 1 72446F40
+P 20600 20200
+F 0 "U892" H 20700 20450 50  0000 L CNN
+F 1 "74F245" H 20700 19900 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 20600 20200 50  0001 C CNN
+F 3 "" H 20600 20200 50  0001 C CNN
+	2    20600 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C891
+U 1 1 722694EA
+P 20000 20200
+F 0 "C891" H 20050 20300 50  0000 L CNN
+F 1 "0.33uF" H 20050 20100 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 20038 20050 50  0001 C CNN
+F 3 "~" H 20000 20200 50  0001 C CNN
+	1    20000 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:74F245 U891
+U 2 1 7226444F
+P 19550 20200
+F 0 "U891" H 19650 20450 50  0000 L CNN
+F 1 "74F245" H 19650 19900 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 19550 20200 50  0001 C CNN
+F 3 "" H 19550 20200 50  0001 C CNN
+	2    19550 20200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C890
+U 1 1 6BA45ABF
+P 22450 12300
+F 0 "C890" H 22565 12346 50  0000 L CNN
+F 1 "0.33uF" H 22565 12255 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 22488 12150 50  0001 C CNN
+F 3 "~" H 22450 12300 50  0001 C CNN
+	1    22450 12300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:Resistor_Network_Isolated_10_Pin RP893
+U 1 1 6961AC38
+P 22150 11700
+F 0 "RP893" V 22250 11700 50  0000 C CNN
+F 1 "22" V 22350 11700 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 22725 11700 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 22150 11700 50  0001 C CNN
+	1    22150 11700
+	0    1    1    0   
+$EndComp
+$Comp
+L Amiga_3000_library:Resistor_Network_Isolated_10_Pin RP892
+U 1 1 69614ED4
+P 22150 11100
+F 0 "RP892" V 21535 11100 50  0000 C CNN
+F 1 "22" V 21626 11100 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 22725 11100 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 22150 11100 50  0001 C CNN
+	1    22150 11100
+	0    1    1    0   
+$EndComp
+$Comp
+L Amiga_3000_library:Resistor_Network_-_|Isolated_8_Pin RP891
+U 1 1 67614D28
+P 23050 9800
+F 0 "RP891" V 22435 9800 50  0000 C CNN
+F 1 "22" V 22526 9800 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 23625 9800 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 23050 9800 50  0001 C CNN
+	1    23050 9800
+	0    1    1    0   
+$EndComp
+$Comp
+L Amiga_3000_library:Resistor_Network_-_|Isolated_8_Pin RP890
+U 1 1 67609DDF
+P 23050 9100
+F 0 "RP890" V 22435 9100 50  0000 C CNN
+F 1 "22" V 22526 9100 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 23625 9100 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 23050 9100 50  0001 C CNN
+	1    23050 9100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R896
+U 1 1 67153F13
+P 24750 8100
+F 0 "R896" V 24545 8100 50  0000 C CNN
+F 1 "33" V 24636 8100 50  0000 C CNN
+F 2 "A3000:Resistor_Long_lead" V 24790 8090 50  0001 C CNN
+F 3 "~" H 24750 8100 50  0001 C CNN
+	1    24750 8100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R895
+U 1 1 66E2B8F1
+P 24750 7600
+F 0 "R895" V 24545 7600 50  0000 C CNN
+F 1 "47" V 24636 7600 50  0000 C CNN
+F 2 "A3000:Resistor_Long_lead" V 24790 7590 50  0001 C CNN
+F 3 "~" H 24750 7600 50  0001 C CNN
+	1    24750 7600
+	0    1    1    0   
+$EndComp
+$Comp
+L Amiga_3000_library:74F86 U252
+U 4 1 66B04EE3
+P 23900 7600
+F 0 "U252" H 23900 7283 50  0000 C CNN
+F 1 "74F86" H 23900 7374 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 23900 7600 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 23900 7600 50  0001 C CNN
+	4    23900 7600
+	1    0    0    1   
+$EndComp
+$Comp
+L Amiga_3000_library:74F245 U894
+U 1 1 5FB17A33
+P 21250 18250
+F 0 "U894" H 21600 17550 50  0000 C CNN
+F 1 "74F245" H 21600 17650 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 21250 18250 50  0001 C CNN
+F 3 "" H 21250 18250 50  0001 C CNN
+	1    21250 18250
+	1    0    0    1   
+$EndComp
+$Comp
+L Amiga_3000_library:74F245 U893
+U 1 1 5FB17A2D
+P 21250 16800
+F 0 "U893" H 21600 16100 50  0000 C CNN
+F 1 "74F245" H 21600 16200 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 21250 16800 50  0001 C CNN
+F 3 "" H 21250 16800 50  0001 C CNN
+	1    21250 16800
+	1    0    0    1   
+$EndComp
+$Comp
+L Amiga_3000_library:74F245 U892
+U 1 1 5F9B6BDC
+P 21250 15400
+F 0 "U892" H 21600 14700 50  0000 C CNN
+F 1 "74F245" H 21600 14800 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 21250 15400 50  0001 C CNN
+F 3 "" H 21250 15400 50  0001 C CNN
+	1    21250 15400
+	1    0    0    1   
+$EndComp
+$Comp
+L Amiga_3000_library:74F245 U891
+U 1 1 5F9B3DCB
+P 21250 13950
+F 0 "U891" H 21600 13250 50  0000 C CNN
+F 1 "74F245" H 21600 13350 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 21250 13950 50  0001 C CNN
+F 3 "" H 21250 13950 50  0001 C CNN
+	1    21250 13950
+	1    0    0    1   
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U881
+U 2 1 5F6ECD2A
+P 15750 20350
+F 0 "U881" H 15800 20600 50  0000 L CNN
+F 1 "ZIP_RAM" H 15800 20100 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 15750 20350 50  0001 C CNN
+F 3 "" H 15750 20350 50  0001 C CNN
+	2    15750 20350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C880
+U 1 1 5F6ECD24
+P 15150 20350
+F 0 "C880" H 15200 20450 50  0000 L CNN
+F 1 "0.33uF" H 15200 20250 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 15188 20200 50  0001 C CNN
+F 3 "~" H 15150 20350 50  0001 C CNN
+	1    15150 20350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U880
+U 2 1 5F6ECD1E
+P 14700 20350
+F 0 "U880" H 14750 20600 50  0000 L CNN
+F 1 "ZIP_RAM" H 14750 20100 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 14700 20350 50  0001 C CNN
+F 3 "" H 14700 20350 50  0001 C CNN
+	2    14700 20350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U879
+U 2 1 5F6ECD12
+P 13650 20350
+F 0 "U879" H 13700 20600 50  0000 L CNN
+F 1 "ZIP_RAM" H 13700 20100 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 13650 20350 50  0001 C CNN
+F 3 "" H 13650 20350 50  0001 C CNN
+	2    13650 20350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C878
+U 1 1 5F6ECD0C
+P 13050 20350
+F 0 "C878" H 13100 20450 50  0000 L CNN
+F 1 "0.33uF" H 13100 20250 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 13088 20200 50  0001 C CNN
+F 3 "~" H 13050 20350 50  0001 C CNN
+	1    13050 20350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U878
+U 2 1 5F6ECD06
+P 12600 20350
+F 0 "U878" H 12650 20600 50  0000 L CNN
+F 1 "ZIP_RAM" H 12650 20100 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 12600 20350 50  0001 C CNN
+F 3 "" H 12600 20350 50  0001 C CNN
+	2    12600 20350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U877
+U 2 1 5F6ECCFA
+P 11600 20350
+F 0 "U877" H 11650 20600 50  0000 L CNN
+F 1 "ZIP_RAM" H 11650 20100 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 11600 20350 50  0001 C CNN
+F 3 "" H 11600 20350 50  0001 C CNN
+	2    11600 20350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C876
+U 1 1 5F6ECCF4
+P 10950 20350
+F 0 "C876" H 11000 20450 50  0000 L CNN
+F 1 "0.33uF" H 11000 20250 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 10988 20200 50  0001 C CNN
+F 3 "~" H 10950 20350 50  0001 C CNN
+	1    10950 20350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U876
+U 2 1 5F6ECCEE
+P 10500 20350
+F 0 "U876" H 10550 20600 50  0000 L CNN
+F 1 "ZIP_RAM" H 10550 20100 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 10500 20350 50  0001 C CNN
+F 3 "" H 10500 20350 50  0001 C CNN
+	2    10500 20350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U875
+U 2 1 5F6ECCE2
+P 9400 20350
+F 0 "U875" H 9450 20600 50  0000 L CNN
+F 1 "ZIP_RAM" H 9450 20100 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 9400 20350 50  0001 C CNN
+F 3 "" H 9400 20350 50  0001 C CNN
+	2    9400 20350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C874
+U 1 1 5F6ECCDC
+P 8800 20350
+F 0 "C874" H 8850 20450 50  0000 L CNN
+F 1 "0.33uF" H 8850 20250 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 8838 20200 50  0001 C CNN
+F 3 "~" H 8800 20350 50  0001 C CNN
+	1    8800 20350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U874
+U 2 1 5F6ECCD6
+P 8350 20350
+F 0 "U874" H 8400 20600 50  0000 L CNN
+F 1 "ZIP_RAM" H 8400 20100 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 8350 20350 50  0001 C CNN
+F 3 "" H 8350 20350 50  0001 C CNN
+	2    8350 20350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U881
+U 1 1 5F6ECB76
+P 16900 18225
+F 0 "U881" H 16750 18825 50  0000 L CNN
+F 1 "ZIP_RAM" H 17200 17275 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 16900 18225 50  0001 C CNN
+F 3 "" H 16900 18225 50  0001 C CNN
+	1    16900 18225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U880
+U 1 1 5F6ECB70
+P 15850 18225
+F 0 "U880" H 15700 18825 50  0000 L CNN
+F 1 "ZIP_RAM" H 16150 17275 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 15850 18225 50  0001 C CNN
+F 3 "" H 15850 18225 50  0001 C CNN
+	1    15850 18225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U879
+U 1 1 5F6ECB6A
+P 14800 18225
+F 0 "U879" H 14650 18825 50  0000 L CNN
+F 1 "ZIP_RAM" H 15100 17275 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 14800 18225 50  0001 C CNN
+F 3 "" H 14800 18225 50  0001 C CNN
+	1    14800 18225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U878
+U 1 1 5F6ECB64
+P 13750 18225
+F 0 "U878" H 13600 18825 50  0000 L CNN
+F 1 "ZIP_RAM" H 14050 17275 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 13750 18225 50  0001 C CNN
+F 3 "" H 13750 18225 50  0001 C CNN
+	1    13750 18225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U877
+U 1 1 5F6ECB5E
+P 12700 18225
+F 0 "U877" H 12550 18825 50  0000 L CNN
+F 1 "ZIP_RAM" H 13000 17275 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 12700 18225 50  0001 C CNN
+F 3 "" H 12700 18225 50  0001 C CNN
+	1    12700 18225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U876
+U 1 1 5F6ECB58
+P 11650 18225
+F 0 "U876" H 11500 18825 50  0000 L CNN
+F 1 "ZIP_RAM" H 11950 17275 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 11650 18225 50  0001 C CNN
+F 3 "" H 11650 18225 50  0001 C CNN
+	1    11650 18225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U875
+U 1 1 5F6ECB52
+P 10600 18225
+F 0 "U875" H 10450 18825 50  0000 L CNN
+F 1 "ZIP_RAM" H 10900 17275 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 10600 18225 50  0001 C CNN
+F 3 "" H 10600 18225 50  0001 C CNN
+	1    10600 18225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U874
+U 1 1 5F6ECB4C
+P 9550 18225
+F 0 "U874" H 9450 18825 50  0000 L CNN
+F 1 "ZIP_RAM" H 9850 17275 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 9550 18225 50  0001 C CNN
+F 3 "" H 9550 18225 50  0001 C CNN
+	1    9550 18225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U873
+U 2 1 5F534899
+P 16450 16575
+F 0 "U873" H 16500 16825 50  0000 L CNN
+F 1 "ZIP_RAM" H 16500 16325 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 16450 16575 50  0001 C CNN
+F 3 "" H 16450 16575 50  0001 C CNN
+	2    16450 16575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C872
+U 1 1 5F534893
+P 15850 16575
+F 0 "C872" H 15900 16675 50  0000 L CNN
+F 1 "0.33uF" H 15900 16475 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 15888 16425 50  0001 C CNN
+F 3 "~" H 15850 16575 50  0001 C CNN
+	1    15850 16575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U872
+U 2 1 5F53488D
+P 15400 16575
+F 0 "U872" H 15450 16825 50  0000 L CNN
+F 1 "ZIP_RAM" H 15450 16325 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 15400 16575 50  0001 C CNN
+F 3 "" H 15400 16575 50  0001 C CNN
+	2    15400 16575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U871
+U 2 1 5F534881
+P 14350 16575
+F 0 "U871" H 14400 16825 50  0000 L CNN
+F 1 "ZIP_RAM" H 14400 16325 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 14350 16575 50  0001 C CNN
+F 3 "" H 14350 16575 50  0001 C CNN
+	2    14350 16575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C870
+U 1 1 5F53487B
+P 13750 16575
+F 0 "C870" H 13800 16675 50  0000 L CNN
+F 1 "0.33uF" H 13800 16475 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 13788 16425 50  0001 C CNN
+F 3 "~" H 13750 16575 50  0001 C CNN
+	1    13750 16575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U870
+U 2 1 5F534875
+P 13300 16575
+F 0 "U870" H 13350 16825 50  0000 L CNN
+F 1 "ZIP_RAM" H 13350 16325 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 13300 16575 50  0001 C CNN
+F 3 "" H 13300 16575 50  0001 C CNN
+	2    13300 16575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U869
+U 2 1 5F534869
+P 12300 16575
+F 0 "U869" H 12350 16825 50  0000 L CNN
+F 1 "ZIP_RAM" H 12350 16325 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 12300 16575 50  0001 C CNN
+F 3 "" H 12300 16575 50  0001 C CNN
+	2    12300 16575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C868
+U 1 1 5F534863
+P 11650 16575
+F 0 "C868" H 11700 16675 50  0000 L CNN
+F 1 "0.33uF" H 11700 16475 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 11688 16425 50  0001 C CNN
+F 3 "~" H 11650 16575 50  0001 C CNN
+	1    11650 16575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U868
+U 2 1 5F53485D
+P 11200 16575
+F 0 "U868" H 11250 16825 50  0000 L CNN
+F 1 "ZIP_RAM" H 11250 16325 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 11200 16575 50  0001 C CNN
+F 3 "" H 11200 16575 50  0001 C CNN
+	2    11200 16575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U867
+U 2 1 5F534851
+P 10100 16575
+F 0 "U867" H 10150 16825 50  0000 L CNN
+F 1 "ZIP_RAM" H 10150 16325 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 10100 16575 50  0001 C CNN
+F 3 "" H 10100 16575 50  0001 C CNN
+	2    10100 16575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C866
+U 1 1 5F53484B
+P 9500 16575
+F 0 "C866" H 9550 16675 50  0000 L CNN
+F 1 "0.33uF" H 9550 16475 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 9538 16425 50  0001 C CNN
+F 3 "~" H 9500 16575 50  0001 C CNN
+	1    9500 16575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U866
+U 2 1 5F534845
+P 9050 16575
+F 0 "U866" H 9100 16825 50  0000 L CNN
+F 1 "ZIP_RAM" H 9100 16325 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 9050 16575 50  0001 C CNN
+F 3 "" H 9050 16575 50  0001 C CNN
+	2    9050 16575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U873
+U 1 1 5F5346E5
+P 16900 14475
+F 0 "U873" H 16750 15075 50  0000 L CNN
+F 1 "ZIP_RAM" H 17200 13525 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 16900 14475 50  0001 C CNN
+F 3 "" H 16900 14475 50  0001 C CNN
+	1    16900 14475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U872
+U 1 1 5F5346DF
+P 15850 14475
+F 0 "U872" H 15700 15075 50  0000 L CNN
+F 1 "ZIP_RAM" H 16150 13525 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 15850 14475 50  0001 C CNN
+F 3 "" H 15850 14475 50  0001 C CNN
+	1    15850 14475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U871
+U 1 1 5F5346D9
+P 14800 14475
+F 0 "U871" H 14650 15075 50  0000 L CNN
+F 1 "ZIP_RAM" H 15100 13525 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 14800 14475 50  0001 C CNN
+F 3 "" H 14800 14475 50  0001 C CNN
+	1    14800 14475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U870
+U 1 1 5F5346D3
+P 13750 14475
+F 0 "U870" H 13600 15075 50  0000 L CNN
+F 1 "ZIP_RAM" H 14050 13525 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 13750 14475 50  0001 C CNN
+F 3 "" H 13750 14475 50  0001 C CNN
+	1    13750 14475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U869
+U 1 1 5F5346CD
+P 12700 14475
+F 0 "U869" H 12550 15075 50  0000 L CNN
+F 1 "ZIP_RAM" H 13000 13525 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 12700 14475 50  0001 C CNN
+F 3 "" H 12700 14475 50  0001 C CNN
+	1    12700 14475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U868
+U 1 1 5F5346C7
+P 11650 14475
+F 0 "U868" H 11500 15075 50  0000 L CNN
+F 1 "ZIP_RAM" H 11950 13525 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 11650 14475 50  0001 C CNN
+F 3 "" H 11650 14475 50  0001 C CNN
+	1    11650 14475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U867
+U 1 1 5F5346C1
+P 10600 14475
+F 0 "U867" H 10450 15075 50  0000 L CNN
+F 1 "ZIP_RAM" H 10900 13525 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 10600 14475 50  0001 C CNN
+F 3 "" H 10600 14475 50  0001 C CNN
+	1    10600 14475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U866
+U 1 1 5F5346BB
+P 9550 14475
+F 0 "U866" H 9450 15075 50  0000 L CNN
+F 1 "ZIP_RAM" H 9850 13525 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 9550 14475 50  0001 C CNN
+F 3 "" H 9550 14475 50  0001 C CNN
+	1    9550 14475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U865
+U 2 1 5F534645
+P 16450 12775
+F 0 "U865" H 16500 13025 50  0000 L CNN
+F 1 "ZIP_RAM" H 16500 12525 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 16450 12775 50  0001 C CNN
+F 3 "" H 16450 12775 50  0001 C CNN
+	2    16450 12775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C864
+U 1 1 5F53463F
+P 15850 12775
+F 0 "C864" H 15900 12875 50  0000 L CNN
+F 1 "0.33uF" H 15900 12675 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 15888 12625 50  0001 C CNN
+F 3 "~" H 15850 12775 50  0001 C CNN
+	1    15850 12775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U864
+U 2 1 5F534639
+P 15400 12775
+F 0 "U864" H 15450 13025 50  0000 L CNN
+F 1 "ZIP_RAM" H 15450 12525 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 15400 12775 50  0001 C CNN
+F 3 "" H 15400 12775 50  0001 C CNN
+	2    15400 12775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U863
+U 2 1 5F53462D
+P 14350 12775
+F 0 "U863" H 14400 13025 50  0000 L CNN
+F 1 "ZIP_RAM" H 14400 12525 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 14350 12775 50  0001 C CNN
+F 3 "" H 14350 12775 50  0001 C CNN
+	2    14350 12775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C862
+U 1 1 5F534627
+P 13750 12775
+F 0 "C862" H 13800 12875 50  0000 L CNN
+F 1 "0.33uF" H 13800 12675 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 13788 12625 50  0001 C CNN
+F 3 "~" H 13750 12775 50  0001 C CNN
+	1    13750 12775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U862
+U 2 1 5F534621
+P 13300 12775
+F 0 "U862" H 13350 13025 50  0000 L CNN
+F 1 "ZIP_RAM" H 13350 12525 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 13300 12775 50  0001 C CNN
+F 3 "" H 13300 12775 50  0001 C CNN
+	2    13300 12775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U861
+U 2 1 5F534615
+P 12300 12775
+F 0 "U861" H 12350 13025 50  0000 L CNN
+F 1 "ZIP_RAM" H 12350 12525 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 12300 12775 50  0001 C CNN
+F 3 "" H 12300 12775 50  0001 C CNN
+	2    12300 12775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C860
+U 1 1 5F53460F
+P 11650 12775
+F 0 "C860" H 11700 12875 50  0000 L CNN
+F 1 "0.33uF" H 11700 12675 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 11688 12625 50  0001 C CNN
+F 3 "~" H 11650 12775 50  0001 C CNN
+	1    11650 12775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U860
+U 2 1 5F534609
+P 11200 12775
+F 0 "U860" H 11250 13025 50  0000 L CNN
+F 1 "ZIP_RAM" H 11250 12525 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 11200 12775 50  0001 C CNN
+F 3 "" H 11200 12775 50  0001 C CNN
+	2    11200 12775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U859
+U 2 1 5F5345FD
+P 10100 12775
+F 0 "U859" H 10150 13025 50  0000 L CNN
+F 1 "ZIP_RAM" H 10150 12525 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 10100 12775 50  0001 C CNN
+F 3 "" H 10100 12775 50  0001 C CNN
+	2    10100 12775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C858
+U 1 1 5F5345F7
+P 9500 12775
+F 0 "C858" H 9550 12875 50  0000 L CNN
+F 1 "0.33uF" H 9550 12675 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 9538 12625 50  0001 C CNN
+F 3 "~" H 9500 12775 50  0001 C CNN
+	1    9500 12775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U858
+U 2 1 5F5345F1
+P 9050 12775
+F 0 "U858" H 9100 13025 50  0000 L CNN
+F 1 "ZIP_RAM" H 9100 12525 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 9050 12775 50  0001 C CNN
+F 3 "" H 9050 12775 50  0001 C CNN
+	2    9050 12775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U865
+U 1 1 5F534491
+P 16900 10675
+F 0 "U865" H 16750 11275 50  0000 L CNN
+F 1 "ZIP_RAM" H 17200 9725 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 16900 10675 50  0001 C CNN
+F 3 "" H 16900 10675 50  0001 C CNN
+	1    16900 10675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U864
+U 1 1 5F53448B
+P 15850 10675
+F 0 "U864" H 15700 11275 50  0000 L CNN
+F 1 "ZIP_RAM" H 16150 9725 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 15850 10675 50  0001 C CNN
+F 3 "" H 15850 10675 50  0001 C CNN
+	1    15850 10675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U863
+U 1 1 5F534485
+P 14800 10675
+F 0 "U863" H 14650 11275 50  0000 L CNN
+F 1 "ZIP_RAM" H 15100 9725 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 14800 10675 50  0001 C CNN
+F 3 "" H 14800 10675 50  0001 C CNN
+	1    14800 10675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U862
+U 1 1 5F53447F
+P 13750 10675
+F 0 "U862" H 13600 11275 50  0000 L CNN
+F 1 "ZIP_RAM" H 14050 9725 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 13750 10675 50  0001 C CNN
+F 3 "" H 13750 10675 50  0001 C CNN
+	1    13750 10675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U861
+U 1 1 5F534479
+P 12700 10675
+F 0 "U861" H 12550 11275 50  0000 L CNN
+F 1 "ZIP_RAM" H 13000 9725 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 12700 10675 50  0001 C CNN
+F 3 "" H 12700 10675 50  0001 C CNN
+	1    12700 10675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U860
+U 1 1 5F534473
+P 11650 10675
+F 0 "U860" H 11500 11275 50  0000 L CNN
+F 1 "ZIP_RAM" H 11950 9725 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 11650 10675 50  0001 C CNN
+F 3 "" H 11650 10675 50  0001 C CNN
+	1    11650 10675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U859
+U 1 1 5F53446D
+P 10600 10675
+F 0 "U859" H 10450 11275 50  0000 L CNN
+F 1 "ZIP_RAM" H 10900 9725 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 10600 10675 50  0001 C CNN
+F 3 "" H 10600 10675 50  0001 C CNN
+	1    10600 10675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U858
+U 1 1 5F534467
+P 9550 10675
+F 0 "U858" H 9450 11275 50  0000 L CNN
+F 1 "ZIP_RAM" H 9850 9725 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 9550 10675 50  0001 C CNN
+F 3 "" H 9550 10675 50  0001 C CNN
+	1    9550 10675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U857
+U 2 1 5F481C6A
+P 16400 8975
+F 0 "U857" H 16450 9225 50  0000 L CNN
+F 1 "ZIP_RAM" H 16450 8725 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 16400 8975 50  0001 C CNN
+F 3 "" H 16400 8975 50  0001 C CNN
+	2    16400 8975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C856
+U 1 1 5F481C64
+P 15800 8975
+F 0 "C856" H 15850 9075 50  0000 L CNN
+F 1 "0.33uF" H 15850 8875 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 15838 8825 50  0001 C CNN
+F 3 "~" H 15800 8975 50  0001 C CNN
+	1    15800 8975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U856
+U 2 1 5F481C5E
+P 15350 8975
+F 0 "U856" H 15400 9225 50  0000 L CNN
+F 1 "ZIP_RAM" H 15400 8725 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 15350 8975 50  0001 C CNN
+F 3 "" H 15350 8975 50  0001 C CNN
+	2    15350 8975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U855
+U 2 1 5F481C52
+P 14300 8975
+F 0 "U855" H 14350 9225 50  0000 L CNN
+F 1 "ZIP_RAM" H 14350 8725 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 14300 8975 50  0001 C CNN
+F 3 "" H 14300 8975 50  0001 C CNN
+	2    14300 8975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C854
+U 1 1 5F481C4C
+P 13700 8975
+F 0 "C854" H 13750 9075 50  0000 L CNN
+F 1 "0.33uF" H 13750 8875 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 13738 8825 50  0001 C CNN
+F 3 "~" H 13700 8975 50  0001 C CNN
+	1    13700 8975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U854
+U 2 1 5F481C46
+P 13250 8975
+F 0 "U854" H 13300 9225 50  0000 L CNN
+F 1 "ZIP_RAM" H 13300 8725 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 13250 8975 50  0001 C CNN
+F 3 "" H 13250 8975 50  0001 C CNN
+	2    13250 8975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U853
+U 2 1 5F481C3A
+P 12250 8975
+F 0 "U853" H 12300 9225 50  0000 L CNN
+F 1 "ZIP_RAM" H 12300 8725 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 12250 8975 50  0001 C CNN
+F 3 "" H 12250 8975 50  0001 C CNN
+	2    12250 8975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C852
+U 1 1 5F481C34
+P 11600 8975
+F 0 "C852" H 11650 9075 50  0000 L CNN
+F 1 "0.33uF" H 11650 8875 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 11638 8825 50  0001 C CNN
+F 3 "~" H 11600 8975 50  0001 C CNN
+	1    11600 8975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U852
+U 2 1 5F481C2E
+P 11150 8975
+F 0 "U852" H 11200 9225 50  0000 L CNN
+F 1 "ZIP_RAM" H 11200 8725 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 11150 8975 50  0001 C CNN
+F 3 "" H 11150 8975 50  0001 C CNN
+	2    11150 8975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U851
+U 2 1 5F481C22
+P 10050 8975
+F 0 "U851" H 10100 9225 50  0000 L CNN
+F 1 "ZIP_RAM" H 10100 8725 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 10050 8975 50  0001 C CNN
+F 3 "" H 10050 8975 50  0001 C CNN
+	2    10050 8975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C850
+U 1 1 5F481C1C
+P 9450 8975
+F 0 "C850" H 9500 9075 50  0000 L CNN
+F 1 "0.33uF" H 9500 8875 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 9488 8825 50  0001 C CNN
+F 3 "~" H 9450 8975 50  0001 C CNN
+	1    9450 8975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U850
+U 2 1 5F481C16
+P 9000 8975
+F 0 "U850" H 9050 9225 50  0000 L CNN
+F 1 "ZIP_RAM" H 9050 8725 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 9000 8975 50  0001 C CNN
+F 3 "" H 9000 8975 50  0001 C CNN
+	2    9000 8975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U857
+U 1 1 5F481AB6
+P 16850 6875
+F 0 "U857" H 16700 7475 50  0000 L CNN
+F 1 "ZIP_RAM" H 17150 5925 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 16850 6875 50  0001 C CNN
+F 3 "" H 16850 6875 50  0001 C CNN
+	1    16850 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U856
+U 1 1 5F481AB0
+P 15800 6875
+F 0 "U856" H 15650 7475 50  0000 L CNN
+F 1 "ZIP_RAM" H 16100 5925 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 15800 6875 50  0001 C CNN
+F 3 "" H 15800 6875 50  0001 C CNN
+	1    15800 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U855
+U 1 1 5F481AAA
+P 14750 6875
+F 0 "U855" H 14600 7475 50  0000 L CNN
+F 1 "ZIP_RAM" H 15050 5925 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 14750 6875 50  0001 C CNN
+F 3 "" H 14750 6875 50  0001 C CNN
+	1    14750 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U854
+U 1 1 5F481AA4
+P 13700 6875
+F 0 "U854" H 13550 7475 50  0000 L CNN
+F 1 "ZIP_RAM" H 14000 5925 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 13700 6875 50  0001 C CNN
+F 3 "" H 13700 6875 50  0001 C CNN
+	1    13700 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U853
+U 1 1 5F481A9E
+P 12650 6875
+F 0 "U853" H 12500 7475 50  0000 L CNN
+F 1 "ZIP_RAM" H 12950 5925 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 12650 6875 50  0001 C CNN
+F 3 "" H 12650 6875 50  0001 C CNN
+	1    12650 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U852
+U 1 1 5F481A98
+P 11600 6875
+F 0 "U852" H 11450 7475 50  0000 L CNN
+F 1 "ZIP_RAM" H 11900 5925 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 11600 6875 50  0001 C CNN
+F 3 "" H 11600 6875 50  0001 C CNN
+	1    11600 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U851
+U 1 1 5F481A92
+P 10550 6875
+F 0 "U851" H 10400 7475 50  0000 L CNN
+F 1 "ZIP_RAM" H 10850 5925 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 10550 6875 50  0001 C CNN
+F 3 "" H 10550 6875 50  0001 C CNN
+	1    10550 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:ZIP_RAM U850
+U 1 1 5F481A8C
+P 9500 6875
+F 0 "U850" H 9400 7475 50  0000 L CNN
+F 1 "ZIP_RAM" H 9800 5925 50  0000 L CNN
+F 2 "A3000:ZIP_RAM" H 9500 6875 50  0001 C CNN
+F 3 "" H 9500 6875 50  0001 C CNN
+	1    9500 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:Ramsey U890
+U 1 1 5F0DCC93
+P 21100 8550
+F 0 "U890" H 21100 10265 50  0000 C CNN
+F 1 "Ramsey" H 21100 10174 50  0000 C CNN
+F 2 "Package_LCC:PLCC-84_THT-Socket" H 21100 8550 50  0001 C CNN
+F 3 "" H 21100 8550 50  0001 C CNN
+	1    21100 8550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16450 13175 17500 13175
+Wire Wire Line
+	16450 12425 17500 12425
+Wire Wire Line
+	14350 13175 15400 13175
+Wire Wire Line
+	14350 12425 15400 12425
+Wire Wire Line
+	12300 12425 13300 12425
+Wire Wire Line
+	12300 13175 13300 13175
+Wire Wire Line
+	10100 12425 11200 12425
+Wire Wire Line
+	10100 13175 11200 13175
+Wire Wire Line
+	16400 9375 17450 9375
+Wire Wire Line
+	16400 8625 17450 8625
+Wire Wire Line
+	14300 9375 15350 9375
+Wire Wire Line
+	14300 8625 15350 8625
+Wire Wire Line
+	12250 8625 13250 8625
+Wire Wire Line
+	12250 9375 13250 9375
+Wire Wire Line
+	10050 8625 11150 8625
+Wire Wire Line
+	10050 9375 11150 9375
+Wire Wire Line
+	16450 16975 17500 16975
+Wire Wire Line
+	16450 16225 17500 16225
+Wire Wire Line
+	14350 16975 15400 16975
+Wire Wire Line
+	14350 16225 15400 16225
+Wire Wire Line
+	12300 16225 13300 16225
+Wire Wire Line
+	12300 16975 13300 16975
+Wire Wire Line
+	10100 16225 11200 16225
+Wire Wire Line
+	10100 16975 11200 16975
+Wire Wire Line
+	9400 20000 10500 20000
+Wire Wire Line
+	9400 20750 10500 20750
+Wire Wire Line
+	11600 20000 12600 20000
+Wire Wire Line
+	11600 20750 12600 20750
+Wire Wire Line
+	13650 20750 14700 20750
+Wire Wire Line
+	13650 20000 14700 20000
+Wire Wire Line
+	15750 20750 16800 20750
+Wire Wire Line
+	15750 20000 16800 20000
+Wire Bus Line
+	19750 9100 19750 9400
+Wire Bus Line
+	7850 2000 16000 2000
+Wire Bus Line
+	8500 17225 15150 17225
+Wire Bus Line
+	8500 13475 15150 13475
+Wire Bus Line
+	8500 9675 15150 9675
+Wire Bus Line
+	24150 9500 24150 9900
+Wire Bus Line
+	24150 8800 24150 9200
+Wire Bus Line
+	8450 5875 15100 5875
+Wire Bus Line
+	8150 2400 8150 3450
+Wire Bus Line
+	8150 17625 8150 18525
+Wire Bus Line
+	8150 13875 8150 14775
+Wire Bus Line
+	8150 10075 8150 10975
+Wire Bus Line
+	23200 10800 23200 11800
+Wire Bus Line
+	22500 6650 22500 7700
+Wire Bus Line
+	8100 6275 8100 7175
+Wire Bus Line
+	9500 8275 17500 8275
+Wire Bus Line
+	22000 13500 22000 18550
+Wire Bus Line
+	9550 12075 17550 12075
+Wire Bus Line
+	9550 15875 17550 15875
+Wire Bus Line
+	9550 19625 17550 19625
+Wire Bus Line
+	9500 4500 19450 4500
+Wire Bus Line
+	20100 9600 20100 12850
+Wire Bus Line
+	20400 13550 20400 18550
+$EndSCHEMATC

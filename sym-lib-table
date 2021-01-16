@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Amiga_3000_library)(type Legacy)(uri "${KIPRJMOD}/Amiga 3000 library.lib")(options "")(descr ""))
+  (lib (name A3000-rescue)(type Legacy)(uri ${KIPRJMOD}/A3000-rescue.lib)(options "")(descr ""))
+)

@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GARY
+D Gary custum chip found in Amiga A500 A2000
+K Amiga Gary A500 A2000
+$ENDCMP
+#
+$CMP MC68881
+F http://bitsavers.trailing-edge.com/components/motorola/68000/MC68881_MC68882_Floating-Point_Coprocessor_Users_Manual_1ed_1987.pdf
+$ENDCMP
+#
+#End Doc Library

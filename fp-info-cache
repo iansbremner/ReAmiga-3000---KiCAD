@@ -1,0 +1,316 @@
+72239887032192
+A3000
+3_Pin_Jumper
+
+
+0
+3
+3
+A3000
+4_Pin_Jumper
+
+
+0
+4
+4
+A3000
+68030FE
+
+
+0
+132
+132
+A3000
+Amiga_CPU_Card_connector
+
+
+0
+200
+200
+A3000
+Clock_crystal
+
+
+0
+2
+2
+A3000
+DIP-14_W7.62mm
+14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+14
+14
+A3000
+DIP-16_W7.62mm
+16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+16
+16
+A3000
+DIP-18_W7.62mm
+18-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+18
+18
+A3000
+DIP-20_W7.62mm
+20-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+20
+20
+A3000
+DIP-24_W7.62mm
+24-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+24
+24
+A3000
+DIP-40_W15.24mm
+40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils)
+THT DIP DIL PDIP 2.54mm 15.24mm 600mil
+0
+40
+40
+A3000
+DIP-48_W15.24mm
+48-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils)
+THT DIP DIL PDIP 2.54mm 15.24mm 600mil
+0
+48
+48
+A3000
+DSUB-23_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm
+25-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.84mm, pin-PCB-offset 4.9399999999999995mm, distance of mounting holes 47.1mm, distance of mounting holes to PCB edge 7.4799999999999995mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+25-pin D-Sub connector horizontal angled 90deg THT female pitch 2.77x2.84mm pin-PCB-offset 4.9399999999999995mm mounting-holes-distance 47.1mm mounting-hole-offset 47.1mm
+0
+25
+24
+A3000
+DSUB-23_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm
+25-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, male, pitch 2.77x2.84mm, pin-PCB-offset 4.9399999999999995mm, distance of mounting holes 47.1mm, distance of mounting holes to PCB edge 7.4799999999999995mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+25-pin D-Sub connector horizontal angled 90deg THT male pitch 2.77x2.84mm pin-PCB-offset 4.9399999999999995mm mounting-holes-distance 47.1mm mounting-hole-offset 47.1mm
+0
+25
+24
+A3000
+DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm
+25-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.84mm, pin-PCB-offset 4.9399999999999995mm, distance of mounting holes 47.1mm, distance of mounting holes to PCB edge 7.4799999999999995mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+25-pin D-Sub connector horizontal angled 90deg THT female pitch 2.77x2.84mm pin-PCB-offset 4.9399999999999995mm mounting-holes-distance 47.1mm mounting-hole-offset 47.1mm
+0
+27
+26
+A3000
+DSUB-25_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm
+25-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, male, pitch 2.77x2.84mm, pin-PCB-offset 4.9399999999999995mm, distance of mounting holes 47.1mm, distance of mounting holes to PCB edge 7.4799999999999995mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+25-pin D-Sub connector horizontal angled 90deg THT male pitch 2.77x2.84mm pin-PCB-offset 4.9399999999999995mm mounting-holes-distance 47.1mm mounting-hole-offset 47.1mm
+0
+27
+26
+A3000
+Diode
+
+
+0
+2
+2
+A3000
+EMI_Filter
+
+
+0
+3
+3
+A3000
+EMI_Filter2
+
+
+0
+3
+3
+A3000
+Ferrite Bead
+
+
+0
+2
+2
+A3000
+Keyboard
+
+
+0
+10
+6
+A3000
+Oscillator_DIP-14
+Oscillator, DIP14, http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf
+oscillator
+0
+4
+4
+A3000
+PLCC-84_THT-Socket
+PLCC, 84 pins, through hole
+plcc leaded
+0
+84
+84
+A3000
+PST518
+
+
+0
+3
+3
+A3000
+PinHeader_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+A3000
+PinHeader_2x25_P2.54mm_Vertical
+Through hole straight pin header, 2x25, 2.54mm pitch, double rows
+Through hole pin header THT 2x25 2.54mm double row
+0
+50
+50
+A3000
+Polarized-Cap_large
+
+
+0
+2
+2
+A3000
+Polarized-Cap_small
+
+
+0
+2
+2
+A3000
+Power
+
+
+0
+15
+15
+A3000
+RCA Jack
+
+
+0
+3
+3
+A3000
+RGB Switch
+
+
+0
+5
+3
+A3000
+R_Array_SIP8_Isolated
+8-pin Resistor SIP pack
+R
+0
+8
+8
+A3000
+R_Array_SIP10
+10-pin Resistor SIP pack
+R
+0
+10
+10
+A3000
+Resistor_Long_lead
+
+
+0
+2
+2
+A3000
+Samtec_HLE-150-02-xx-DV-TE_2x43_P2.54mm_Horizontal
+Samtec HLE .100" Tiger Beam Cost-effective Single Beam Socket Strip, HLE-150-02-xx-DV-TE, 50 Pins per row (http://suddendocs.samtec.com/prints/hle-1xx-02-xx-dv-xe-xx-mkt.pdf, http://suddendocs.samtec.com/prints/hle-thru.pdf), generated with kicad-footprint-generator
+connector Samtec HLE top entry
+0
+86
+86
+A3000
+Samtec_HLE-150-02-xx-DV-TE_2x50_P2.54mm_Horizontal
+Samtec HLE .100" Tiger Beam Cost-effective Single Beam Socket Strip, HLE-150-02-xx-DV-TE, 50 Pins per row (http://suddendocs.samtec.com/prints/hle-1xx-02-xx-dv-xe-xx-mkt.pdf, http://suddendocs.samtec.com/prints/hle-thru.pdf), generated with kicad-footprint-generator
+connector Samtec HLE top entry
+0
+100
+100
+A3000
+TO-92_Inline_Wide
+TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
+A3000
+Trimmer Capacitor
+
+
+0
+2
+2
+A3000
+UnPolarized_Capacitor
+
+
+0
+2
+2
+A3000
+UnPolarized_Capacitor_mid
+
+
+0
+2
+2
+A3000
+UnPolarized_Capacitor_short
+
+
+0
+2
+2
+A3000
+VARTA
+
+
+0
+3
+3
+A3000
+VGA
+15-pin D-Sub connector, straight/vertical, THT-mount, male, pitch 2.29x1.98mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+15-pin D-Sub connector straight vertical THT male pitch 2.29x1.98mm mounting holes distance 25mm
+0
+15
+15
+A3000
+VIDIOT
+14-pin Resistor SIP pack
+R
+0
+22
+22
+A3000
+ZIP_RAM
+
+
+0
+20
+20

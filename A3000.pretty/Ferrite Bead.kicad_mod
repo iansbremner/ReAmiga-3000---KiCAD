@@ -1,0 +1,10 @@
+(module "Ferrite Bead" (layer F.Cu) (tedit 5F0ECFBB)
+  (fp_text reference FB? (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "Ferrite Bead" (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 12.7635 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
+)

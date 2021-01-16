@@ -1,0 +1,3439 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 15 16
+Title "Schematic A3000"
+Date "29/08/1989"
+Rev "C"
+Comp "Commodore"
+Comment1 "permission of Commodore is strictly prohibited."
+Comment2 " Any use, reproduction or disclosure of this information without the prior written "
+Comment3 "unpublished, confidential and trade secret property of Commodore Business Machines, Inc. "
+Comment4 "Copyright 1990 COMMODORE BUSINESS MACHINES Information contained herein is the "
+$EndDescr
+$Comp
+L Amiga_3000_library:Amber U478
+U 1 1 6087C55B
+P 4100 2650
+F 0 "U478" H 4050 4167 50  0000 C CNN
+F 1 "Amber" H 4050 4076 50  0000 C CNN
+F 2 "Package_LCC:PLCC-68_THT-Socket" H 4100 2650 50  0001 C CNN
+F 3 "" H 4100 2650 50  0001 C CNN
+	1    4100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:DB15-VGA CN480
+U 1 1 6088164A
+P 6800 6300
+F 0 "CN480" H 7000 6350 50  0000 L CNN
+F 1 "DB15-VGA" H 7000 6250 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm" H 6800 6300 50  0001 C CNN
+F 3 "" H 6800 6300 50  0001 C CNN
+	1    6800 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:VIDIOT HY480
+U 1 1 60881E33
+P 8350 2500
+F 0 "HY480" H 8350 3865 50  0000 C CNN
+F 1 "VIDIOT" H 8350 3774 50  0000 C CNN
+F 2 "A3000:VIDIOT" H 8150 3200 50  0001 C CNN
+F 3 "" H 8150 3200 50  0001 C CNN
+	1    8350 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 1800 1400 0    50   Input ~ 0
+_HSYNC
+Text GLabel 1800 1600 0    50   Input ~ 0
+_VSYNC
+Text GLabel 1800 1800 0    50   Output ~ 0
+RE_WE
+Text GLabel 1800 2000 0    50   Output ~ 0
+OKI_RSTR_W
+Text GLabel 1800 2200 0    50   Output ~ 0
+N_C14M
+Text GLabel 1800 2400 0    50   Input ~ 0
+VDE14M
+Text GLabel 1800 2600 0    50   Input ~ 0
+VDE28M
+Text GLabel 1800 2800 0    50   Output ~ 0
+N_RSTR_L
+Text GLabel 1800 3000 0    50   Output ~ 0
+N_RSTW_D
+Text GLabel 1800 3200 0    50   Output ~ 0
+N_RSTW_C
+$Comp
+L Device:R_US R472
+U 1 1 60883AFF
+P 2150 1800
+F 0 "R472" V 2100 1600 50  0000 C CNN
+F 1 "33" V 2200 1950 50  0000 C CNN
+F 2 "A3000:Resistor_Long_lead" V 2190 1790 50  0001 C CNN
+F 3 "~" H 2150 1800 50  0001 C CNN
+	1    2150 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R473
+U 1 1 60884A9B
+P 2200 2000
+F 0 "R473" V 2150 1750 50  0000 C CNN
+F 1 "33" V 2250 2150 50  0000 C CNN
+F 2 "A3000:Resistor_Long_lead" V 2240 1990 50  0001 C CNN
+F 3 "~" H 2200 2000 50  0001 C CNN
+	1    2200 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R475
+U 1 1 60884D83
+P 2200 2800
+F 0 "R475" V 2150 2600 50  0000 C CNN
+F 1 "33" V 2250 2950 50  0000 C CNN
+F 2 "A3000:Resistor_Long_lead" V 2240 2790 50  0001 C CNN
+F 3 "~" H 2200 2800 50  0001 C CNN
+	1    2200 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R476
+U 1 1 60885136
+P 2200 3000
+F 0 "R476" V 2150 2800 50  0000 C CNN
+F 1 "33" V 2250 3150 50  0000 C CNN
+F 2 "A3000:Resistor_Long_lead" V 2240 2990 50  0001 C CNN
+F 3 "~" H 2200 3000 50  0001 C CNN
+	1    2200 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R477
+U 1 1 6088546B
+P 2200 3200
+F 0 "R477" V 2150 3000 50  0000 C CNN
+F 1 "33" V 2250 3350 50  0000 C CNN
+F 2 "A3000:Resistor_Long_lead" V 2240 3190 50  0001 C CNN
+F 3 "~" H 2200 3200 50  0001 C CNN
+	1    2200 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB486
+U 1 1 608858E9
+P 2700 2200
+F 0 "FB486" V 2650 2050 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 2554 2200 50  0001 C CNN
+F 2 "A3000:Resistor_Long_lead" V 2630 2200 50  0001 C CNN
+F 3 "~" H 2700 2200 50  0001 C CNN
+	1    2700 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 1400 1800 1400
+Wire Wire Line
+	3400 1600 1800 1600
+Wire Wire Line
+	3400 1800 2300 1800
+Wire Wire Line
+	2050 2000 1800 2000
+Wire Wire Line
+	2350 2000 3400 2000
+Wire Wire Line
+	3400 2200 2800 2200
+Wire Wire Line
+	2600 2200 1800 2200
+Wire Wire Line
+	1800 2400 3400 2400
+Wire Wire Line
+	3400 2600 1800 2600
+Wire Wire Line
+	2050 2800 1800 2800
+Wire Wire Line
+	2350 2800 3400 2800
+Wire Wire Line
+	3400 3000 2350 3000
+Wire Wire Line
+	2050 3000 1800 3000
+Wire Wire Line
+	2050 3200 1800 3200
+Wire Wire Line
+	2350 3200 3400 3200
+Wire Bus Line
+	2600 3800 2500 3900
+Wire Bus Line
+	2500 3900 1650 3900
+Entry Wire Line
+	2600 3500 2700 3400
+Entry Wire Line
+	2600 3600 2700 3500
+Entry Wire Line
+	2600 3700 2700 3600
+Entry Wire Line
+	2600 3800 2700 3700
+Wire Bus Line
+	2600 4400 2500 4500
+Wire Bus Line
+	2500 4500 1650 4500
+Entry Wire Line
+	2600 4100 2700 4000
+Entry Wire Line
+	2600 4200 2700 4100
+Entry Wire Line
+	2600 4300 2700 4200
+Entry Wire Line
+	2600 4400 2700 4300
+Wire Bus Line
+	2600 5000 2500 5100
+Wire Bus Line
+	2500 5100 1650 5100
+Entry Wire Line
+	2600 4700 2700 4600
+Entry Wire Line
+	2600 4800 2700 4700
+Entry Wire Line
+	2600 4900 2700 4800
+Entry Wire Line
+	2600 5000 2700 4900
+Wire Bus Line
+	2600 5600 2500 5700
+Wire Bus Line
+	2500 5700 1650 5700
+Entry Wire Line
+	2600 5300 2700 5200
+Entry Wire Line
+	2600 5400 2700 5300
+Entry Wire Line
+	2600 5500 2700 5400
+Entry Wire Line
+	2600 5600 2700 5500
+Wire Bus Line
+	2600 6200 2500 6300
+Wire Bus Line
+	2500 6300 1650 6300
+Entry Wire Line
+	2600 5900 2700 5800
+Entry Wire Line
+	2600 6000 2700 5900
+Entry Wire Line
+	2600 6100 2700 6000
+Entry Wire Line
+	2600 6200 2700 6100
+Wire Bus Line
+	2600 6800 2500 6900
+Wire Bus Line
+	2500 6900 1650 6900
+Entry Wire Line
+	2600 6500 2700 6400
+Entry Wire Line
+	2600 6600 2700 6500
+Entry Wire Line
+	2600 6700 2700 6600
+Entry Wire Line
+	2600 6800 2700 6700
+Wire Bus Line
+	2600 7400 2500 7500
+Wire Bus Line
+	2500 7500 1650 7500
+Entry Wire Line
+	2600 7100 2700 7000
+Entry Wire Line
+	2600 7200 2700 7100
+Entry Wire Line
+	2600 7300 2700 7200
+Entry Wire Line
+	2600 7400 2700 7300
+Wire Bus Line
+	2600 8000 2500 8100
+Wire Bus Line
+	2500 8100 1650 8100
+Entry Wire Line
+	2600 7700 2700 7600
+Entry Wire Line
+	2600 7800 2700 7700
+Entry Wire Line
+	2600 7900 2700 7800
+Entry Wire Line
+	2600 8000 2700 7900
+Wire Bus Line
+	2600 8600 2500 8700
+Wire Bus Line
+	2500 8700 1650 8700
+Entry Wire Line
+	2600 8300 2700 8200
+Entry Wire Line
+	2600 8400 2700 8300
+Entry Wire Line
+	2600 8500 2700 8400
+Entry Wire Line
+	2600 8600 2700 8500
+Wire Wire Line
+	2700 4000 3400 4000
+Wire Wire Line
+	2700 4100 3400 4100
+Wire Wire Line
+	2700 4200 3400 4200
+Wire Wire Line
+	2700 4300 3400 4300
+Wire Wire Line
+	2700 4600 3400 4600
+Wire Wire Line
+	2700 4700 3400 4700
+Wire Wire Line
+	2700 4800 3400 4800
+Wire Wire Line
+	2700 4900 3400 4900
+Wire Wire Line
+	2700 5200 3400 5200
+Wire Wire Line
+	3400 5300 2700 5300
+Wire Wire Line
+	3400 5400 2700 5400
+Wire Wire Line
+	3400 5500 2700 5500
+Wire Wire Line
+	3400 5800 2700 5800
+Wire Wire Line
+	3400 5900 2700 5900
+Wire Wire Line
+	3400 6000 2700 6000
+Wire Wire Line
+	3400 6100 2700 6100
+Wire Wire Line
+	3400 6400 2700 6400
+Wire Wire Line
+	3400 6500 2700 6500
+Wire Wire Line
+	3400 6600 2700 6600
+Wire Wire Line
+	3400 6700 2700 6700
+Wire Wire Line
+	3400 7000 2700 7000
+Wire Wire Line
+	3400 7100 2700 7100
+Wire Wire Line
+	3400 7200 2700 7200
+Wire Wire Line
+	3400 7300 2700 7300
+Wire Wire Line
+	3400 7600 2700 7600
+Wire Wire Line
+	3400 7700 2700 7700
+Wire Wire Line
+	3400 7800 2700 7800
+Wire Wire Line
+	3400 7900 2700 7900
+Wire Wire Line
+	3400 8200 2700 8200
+Wire Wire Line
+	3400 8300 2700 8300
+Wire Wire Line
+	3400 8400 2700 8400
+Wire Wire Line
+	3400 8500 2700 8500
+Text Label 2700 3400 0    50   ~ 0
+RED_D3
+Text Label 2700 3500 0    50   ~ 0
+RED_D2
+Text Label 2700 3600 0    50   ~ 0
+RED_D1
+Text Label 2700 3700 0    50   ~ 0
+RED_D0
+Text Label 2700 4000 0    50   ~ 0
+GRN_D3
+Text Label 2700 4100 0    50   ~ 0
+GRN_D2
+Text Label 2700 4200 0    50   ~ 0
+GRN_D1
+Text Label 2700 4300 0    50   ~ 0
+GRN_D0
+Text Label 2700 4600 0    50   ~ 0
+BLU_D3
+Text Label 2700 4700 0    50   ~ 0
+BLU_D2
+Text Label 2700 4800 0    50   ~ 0
+BLU_D1
+Text Label 2700 4900 0    50   ~ 0
+BLU_D0
+Text Label 2700 5200 0    50   ~ 0
+RED_C3
+Text Label 2700 5300 0    50   ~ 0
+RED_C2
+Text Label 2700 5400 0    50   ~ 0
+RED_C1
+Text Label 2700 5500 0    50   ~ 0
+RED_C0
+Text Label 2700 5800 0    50   ~ 0
+GRN_C3
+Text Label 2700 5900 0    50   ~ 0
+GRN_C2
+Text Label 2700 6000 0    50   ~ 0
+GRN_C1
+Text Label 2700 6100 0    50   ~ 0
+GRN_C0
+Text Label 2700 6400 0    50   ~ 0
+BLU_C3
+Text Label 2700 6500 0    50   ~ 0
+BLU_C2
+Text Label 2700 6600 0    50   ~ 0
+BLU_C1
+Text Label 2700 6700 0    50   ~ 0
+BLU_C0
+Text Label 2700 7000 0    50   ~ 0
+R3
+Text Label 2700 7100 0    50   ~ 0
+R2
+Text Label 2700 7300 0    50   ~ 0
+R0
+Text Label 2700 7600 0    50   ~ 0
+G3
+Text Label 2700 7700 0    50   ~ 0
+G2
+Text Label 2700 7800 0    50   ~ 0
+G1
+Text Label 2700 7900 0    50   ~ 0
+G0
+Text Label 2700 8200 0    50   ~ 0
+B3
+Text Label 2700 8300 0    50   ~ 0
+B2
+Text Label 2700 8400 0    50   ~ 0
+B1
+Text Label 2700 8500 0    50   ~ 0
+B0
+Wire Wire Line
+	2700 3400 3400 3400
+Wire Wire Line
+	2700 3500 3400 3500
+Wire Wire Line
+	2700 3600 3400 3600
+Wire Wire Line
+	2700 3700 3400 3700
+Text GLabel 1650 3900 0    50   Input ~ 0
+RED_D[0..3]
+Text GLabel 1650 4500 0    50   Input ~ 0
+GRN_D[0..3]
+Text GLabel 1650 5100 0    50   Input ~ 0
+BLU_D[0..3]
+Text GLabel 1650 5700 0    50   Input ~ 0
+RED_C[0..3]
+Text GLabel 1650 6300 0    50   Input ~ 0
+GRN_C[0..3]
+Text GLabel 1650 6900 0    50   Input ~ 0
+BLU_C(3:0)
+Text GLabel 1650 7500 0    50   Input ~ 0
+R[0..3]
+Text GLabel 1650 8100 0    50   Input ~ 0
+G[0..3]
+Text GLabel 1650 8700 0    50   Input ~ 0
+B[0..3]
+$Comp
+L Device:C C478
+U 1 1 608C53CA
+P 5200 2250
+F 0 "C478" H 5250 2350 50  0000 L CNN
+F 1 "0.1uF" H 5250 2150 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 5238 2100 50  0001 C CNN
+F 3 "~" H 5200 2250 50  0001 C CNN
+	1    5200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C479
+U 1 1 608C693C
+P 5650 2250
+F 0 "C479" H 5700 2350 50  0000 L CNN
+F 1 "0.1uF" H 5700 2150 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 5688 2100 50  0001 C CNN
+F 3 "~" H 5650 2250 50  0001 C CNN
+	1    5650 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C480
+U 1 1 608C8358
+P 6050 2250
+F 0 "C480" H 6100 2350 50  0000 L CNN
+F 1 "0.1uF" H 6100 2150 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 6088 2100 50  0001 C CNN
+F 3 "~" H 6050 2250 50  0001 C CNN
+	1    6050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:GND #PWR0280
+U 1 1 608C990D
+P 5650 2400
+F 0 "#PWR0280" H 5650 2150 50  0001 C CNN
+F 1 "GND" H 5655 2227 50  0000 C CNN
+F 2 "" H 5650 2400 50  0001 C CNN
+F 3 "" H 5650 2400 50  0001 C CNN
+	1    5650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:+VID #PWR0281
+U 1 1 608C9BFC
+P 6050 2000
+F 0 "#PWR0281" H 6050 2150 50  0001 C CNN
+F 1 "+VID" H 6050 2123 50  0000 C CNN
+F 2 "" H 6050 2000 50  0001 C CNN
+F 3 "" H 6050 2000 50  0001 C CNN
+	1    6050 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2200 4850 2200
+Wire Wire Line
+	4850 2200 4850 2400
+Wire Wire Line
+	4850 2400 5200 2400
+Wire Wire Line
+	5200 2400 5650 2400
+Connection ~ 5200 2400
+Connection ~ 5650 2400
+Wire Wire Line
+	5650 2400 6050 2400
+Wire Wire Line
+	4700 2000 5200 2000
+Wire Wire Line
+	5200 2000 5200 2100
+Wire Wire Line
+	5200 2100 5650 2100
+Connection ~ 5200 2100
+Wire Wire Line
+	6050 2100 5650 2100
+Connection ~ 6050 2100
+Connection ~ 5650 2100
+Wire Wire Line
+	5200 2000 5200 1800
+Wire Wire Line
+	5200 1800 4700 1800
+Connection ~ 5200 2000
+Wire Wire Line
+	5200 1800 5200 1600
+Wire Wire Line
+	5200 1600 4700 1600
+Connection ~ 5200 1800
+Text GLabel 5000 3700 2    50   Output ~ 0
+R_03
+Text GLabel 5000 3800 2    50   Output ~ 0
+R_02
+Text GLabel 5000 3900 2    50   Output ~ 0
+R_01
+Text GLabel 5000 4000 2    50   Output ~ 0
+R_00
+Text GLabel 5000 4300 2    50   Output ~ 0
+G_03
+Text GLabel 5000 4400 2    50   Output ~ 0
+G_02
+Text GLabel 5000 4500 2    50   Output ~ 0
+G_01
+Text GLabel 5000 4600 2    50   Output ~ 0
+G_00
+Text GLabel 5000 4900 2    50   Output ~ 0
+B_03
+Text GLabel 5000 5000 2    50   Output ~ 0
+B_02
+Text GLabel 5000 5100 2    50   Output ~ 0
+B_01
+Text GLabel 5000 5200 2    50   Output ~ 0
+B_00
+Wire Wire Line
+	4700 3700 5000 3700
+Wire Wire Line
+	4700 3800 5000 3800
+Wire Wire Line
+	4700 3900 5000 3900
+Wire Wire Line
+	4700 4000 5000 4000
+Wire Wire Line
+	4700 4300 5000 4300
+Wire Wire Line
+	4700 4400 5000 4400
+Wire Wire Line
+	4700 4500 5000 4500
+Wire Wire Line
+	4700 4600 5000 4600
+Wire Wire Line
+	4700 4900 5000 4900
+Wire Wire Line
+	4700 5000 5000 5000
+Wire Wire Line
+	4700 5100 5000 5100
+Wire Wire Line
+	4700 5200 5000 5200
+Wire Wire Line
+	4700 6900 4950 6900
+Wire Wire Line
+	4950 6900 4950 7100
+Wire Wire Line
+	4950 7100 4700 7100
+$Comp
+L Amiga_3000_library:GND #PWR0282
+U 1 1 608FA08E
+P 4950 7100
+F 0 "#PWR0282" H 4950 6850 50  0001 C CNN
+F 1 "GND" H 4955 6927 50  0000 C CNN
+F 2 "" H 4950 7100 50  0001 C CNN
+F 3 "" H 4950 7100 50  0001 C CNN
+	1    4950 7100
+	1    0    0    -1  
+$EndComp
+Connection ~ 4950 7100
+$Comp
+L Amiga_3000_library:SW_DIP_x01 SW481
+U 1 1 608FBA7C
+P 5100 8150
+F 0 "SW481" H 5100 8269 50  0000 C CNN
+F 1 "SW_DIP_x01" H 5100 8270 50  0001 C CNN
+F 2 "A3000:RGB Switch" H 5100 8150 50  0001 C CNN
+F 3 "~" H 5100 8150 50  0001 C CNN
+	1    5100 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:GND #PWR0283
+U 1 1 608FC3AA
+P 5400 8300
+F 0 "#PWR0283" H 5400 8050 50  0001 C CNN
+F 1 "GND" H 5405 8127 50  0000 C CNN
+F 2 "" H 5400 8300 50  0001 C CNN
+F 3 "" H 5400 8300 50  0001 C CNN
+	1    5400 8300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 8150 4800 8150
+Wire Wire Line
+	5400 8150 5400 8300
+$Comp
+L Connector_Generic:Conn_01x03 J481
+U 1 1 60901CCA
+P 5000 9000
+F 0 "J481" H 5080 8996 50  0000 L CNN
+F 1 "Conn_01x03" H 5080 8951 50  0001 L CNN
+F 2 "A3000:3_Pin_Jumper" H 5000 9000 50  0001 C CNN
+F 3 "~" H 5000 9000 50  0001 C CNN
+	1    5000 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 8400 4800 8400
+Wire Wire Line
+	4800 8400 4800 8900
+Wire Wire Line
+	4800 9100 4800 9200
+$Comp
+L Amiga_3000_library:GND #PWR0284
+U 1 1 6090C560
+P 4800 9200
+F 0 "#PWR0284" H 4800 8950 50  0001 C CNN
+F 1 "GND" H 4805 9027 50  0000 C CNN
+F 2 "" H 4800 9200 50  0001 C CNN
+F 3 "" H 4800 9200 50  0001 C CNN
+	1    4800 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:EMI_Filter EMI494
+U 1 1 60915BA0
+P 6200 7450
+F 0 "EMI494" H 5900 7350 50  0000 C CNN
+F 1 "EMI_Filter" H 6200 7424 50  0001 C CNN
+F 2 "A3000:EMI_Filter" H 6200 7450 50  0001 C CNN
+F 3 "" H 6200 7450 50  0001 C CNN
+	1    6200 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:EMI_Filter EMI493
+U 1 1 609175E7
+P 6200 7250
+F 0 "EMI493" H 5900 7150 50  0000 C CNN
+F 1 "EMI_Filter" H 6200 7224 50  0001 C CNN
+F 2 "A3000:EMI_Filter" H 6200 7250 50  0001 C CNN
+F 3 "" H 6200 7250 50  0001 C CNN
+	1    6200 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 7400 6000 7400
+Wire Wire Line
+	6400 7400 6800 7400
+Wire Wire Line
+	4700 7600 6000 7600
+Wire Wire Line
+	6400 7600 6800 7600
+Wire Wire Line
+	6200 7450 6200 7650
+NoConn ~ 6800 7800
+NoConn ~ 6800 6600
+$Comp
+L Amiga_3000_library:GND #PWR0285
+U 1 1 60933C13
+P 6200 8050
+F 0 "#PWR0285" H 6200 7800 50  0001 C CNN
+F 1 "GND" H 6205 7877 50  0000 C CNN
+F 2 "" H 6200 8050 50  0001 C CNN
+F 3 "" H 6200 8050 50  0001 C CNN
+	1    6200 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 8050 6200 7650
+Connection ~ 6200 7650
+Wire Wire Line
+	6800 7200 6200 7200
+Wire Wire Line
+	6200 7200 6200 7450
+Connection ~ 6200 7450
+Wire Wire Line
+	6800 7000 6200 7000
+Wire Wire Line
+	6200 7000 6200 7200
+Connection ~ 6200 7200
+Wire Wire Line
+	6800 6800 6200 6800
+Wire Wire Line
+	6200 6800 6200 7000
+Connection ~ 6200 7000
+Wire Wire Line
+	6800 6400 6200 6400
+Wire Wire Line
+	6200 6400 6200 6800
+Connection ~ 6200 6800
+Wire Wire Line
+	6800 6200 6200 6200
+Wire Wire Line
+	6200 6200 6200 6400
+Connection ~ 6200 6400
+Wire Wire Line
+	6800 6000 6200 6000
+Wire Wire Line
+	6200 6000 6200 6200
+Connection ~ 6200 6200
+Wire Wire Line
+	6800 5800 6200 5800
+Wire Wire Line
+	6200 5800 6200 6000
+Connection ~ 6200 6000
+Wire Wire Line
+	6800 5600 6200 5600
+Wire Wire Line
+	6200 5600 6200 5800
+Connection ~ 6200 5800
+$Comp
+L Device:Ferrite_Bead_Small FB480
+U 1 1 609536D1
+P 6100 5000
+F 0 "FB480" V 6050 5200 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 5954 5000 50  0001 C CNN
+F 2 "A3000:Resistor_Long_lead" V 6030 5000 50  0001 C CNN
+F 3 "~" H 6100 5000 50  0001 C CNN
+	1    6100 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB481
+U 1 1 60954898
+P 6100 5200
+F 0 "FB481" V 6050 5400 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 5954 5200 50  0001 C CNN
+F 2 "A3000:Resistor_Long_lead" V 6030 5200 50  0001 C CNN
+F 3 "~" H 6100 5200 50  0001 C CNN
+	1    6100 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB482
+U 1 1 6095860D
+P 6100 5400
+F 0 "FB482" V 6050 5600 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 5954 5400 50  0001 C CNN
+F 2 "A3000:Resistor_Long_lead" V 6030 5400 50  0001 C CNN
+F 3 "~" H 6100 5400 50  0001 C CNN
+	1    6100 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6200 5000 6800 5000
+Wire Wire Line
+	6200 5200 6800 5200
+Wire Wire Line
+	6200 5400 6800 5400
+Text GLabel 5750 5000 0    50   Input ~ 0
+AR
+Text GLabel 5750 5200 0    50   Input ~ 0
+AG
+Text GLabel 5750 5400 0    50   Input ~ 0
+AB
+Wire Wire Line
+	5750 5000 6000 5000
+Wire Wire Line
+	5750 5200 6000 5200
+Wire Wire Line
+	5750 5400 6000 5400
+Text GLabel 7400 1400 0    50   Input ~ 0
+R_03
+Text GLabel 7400 1500 0    50   Input ~ 0
+R_02
+Text GLabel 7400 1600 0    50   Input ~ 0
+R_01
+Text GLabel 7400 1700 0    50   Input ~ 0
+R_00
+Text GLabel 7400 2200 0    50   Input ~ 0
+G_03
+Text GLabel 7400 2300 0    50   Input ~ 0
+G_02
+Text GLabel 7400 2400 0    50   Input ~ 0
+G_01
+Text GLabel 7400 2500 0    50   Input ~ 0
+G_00
+Text GLabel 7400 2950 0    50   Input ~ 0
+B_03
+Text GLabel 7400 3050 0    50   Input ~ 0
+B_02
+Text GLabel 7400 3150 0    50   Input ~ 0
+B_01
+Text GLabel 7400 3250 0    50   Input ~ 0
+B_00
+$Comp
+L Amiga_3000_library:GND #PWR0286
+U 1 1 6097B2D7
+P 7400 4100
+F 0 "#PWR0286" H 7400 3850 50  0001 C CNN
+F 1 "GND" H 7405 3927 50  0000 C CNN
+F 2 "" H 7400 4100 50  0001 C CNN
+F 3 "" H 7400 4100 50  0001 C CNN
+	1    7400 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 1400 7400 1400
+Wire Wire Line
+	7800 1500 7400 1500
+Wire Wire Line
+	7800 1600 7400 1600
+Wire Wire Line
+	7800 1700 7400 1700
+Wire Wire Line
+	7800 2200 7400 2200
+Wire Wire Line
+	7800 2300 7400 2300
+Wire Wire Line
+	7800 2400 7400 2400
+Wire Wire Line
+	7800 2500 7400 2500
+Wire Wire Line
+	7800 2950 7400 2950
+Wire Wire Line
+	7800 3050 7400 3050
+Wire Wire Line
+	7800 3150 7400 3150
+Wire Wire Line
+	7800 3250 7400 3250
+Wire Wire Line
+	7800 3850 7400 3850
+Wire Wire Line
+	7400 3850 7400 4100
+Wire Wire Line
+	8500 4200 8700 4200
+$Comp
+L Amiga_3000_library:GND #PWR0287
+U 1 1 609BF1F3
+P 8700 4200
+F 0 "#PWR0287" H 8700 3950 50  0001 C CNN
+F 1 "GND" H 8705 4027 50  0000 C CNN
+F 2 "" H 8700 4200 50  0001 C CNN
+F 3 "" H 8700 4200 50  0001 C CNN
+	1    8700 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 8700 4200
+NoConn ~ 8900 2100
+NoConn ~ 8900 2400
+Text GLabel 9200 1400 2    50   Output ~ 0
+AR
+Text GLabel 9200 1600 2    50   Output ~ 0
+AG
+Text GLabel 9200 1800 2    50   Output ~ 0
+AB
+Wire Wire Line
+	8900 1400 9200 1400
+Wire Wire Line
+	8900 1600 9200 1600
+Wire Wire Line
+	8900 1800 9200 1800
+$Comp
+L Device:CP1 C492
+U 1 1 609DEDD0
+P 8000 4600
+F 0 "C492" H 7700 4650 50  0000 L CNN
+F 1 "470uF" H 7650 4550 50  0000 L CNN
+F 2 "A3000:Polarized-Cap_large" H 8000 4600 50  0001 C CNN
+F 3 "~" H 8000 4600 50  0001 C CNN
+	1    8000 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C493
+U 1 1 609E0EBB
+P 8200 4600
+F 0 "C493" H 8300 4650 50  0000 L CNN
+F 1 "470uF" H 8300 4550 50  0000 L CNN
+F 2 "A3000:Polarized-Cap_large" H 8200 4600 50  0001 C CNN
+F 3 "~" H 8200 4600 50  0001 C CNN
+	1    8200 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 4200 8000 4450
+Wire Wire Line
+	8200 4200 8200 4450
+Wire Wire Line
+	8000 4750 8200 4750
+$Comp
+L Amiga_3000_library:GND #PWR0288
+U 1 1 609F7D1E
+P 8200 4750
+F 0 "#PWR0288" H 8200 4500 50  0001 C CNN
+F 1 "GND" H 8205 4577 50  0000 C CNN
+F 2 "" H 8200 4750 50  0001 C CNN
+F 3 "" H 8200 4750 50  0001 C CNN
+	1    8200 4750
+	1    0    0    -1  
+$EndComp
+Connection ~ 8200 4750
+$Comp
+L Device:Ferrite_Bead_Small FB487
+U 1 1 609F943A
+P 7500 4450
+F 0 "FB487" V 7450 4650 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 7354 4450 50  0001 C CNN
+F 2 "A3000:Resistor_Long_lead" V 7430 4450 50  0001 C CNN
+F 3 "~" H 7500 4450 50  0001 C CNN
+	1    7500 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Amiga_3000_library:EMI_Filter EMI495
+U 1 1 609FEC02
+P 7100 4300
+F 0 "EMI495" H 6850 4200 50  0000 C CNN
+F 1 "EMI_Filter" H 7100 4274 50  0001 C CNN
+F 2 "A3000:EMI_Filter" H 7100 4300 50  0001 C CNN
+F 3 "" H 7100 4300 50  0001 C CNN
+	1    7100 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4450 6550 4450
+$Comp
+L Amiga_3000_library:+VID #PWR0289
+U 1 1 60A0C93D
+P 6550 4350
+F 0 "#PWR0289" H 6550 4500 50  0001 C CNN
+F 1 "+VID" H 6550 4473 50  0000 C CNN
+F 2 "" H 6550 4350 50  0001 C CNN
+F 3 "" H 6550 4350 50  0001 C CNN
+	1    6550 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:GND #PWR0290
+U 1 1 60A12563
+P 7100 4500
+F 0 "#PWR0290" H 7100 4250 50  0001 C CNN
+F 1 "GND" H 7105 4327 50  0000 C CNN
+F 2 "" H 7100 4500 50  0001 C CNN
+F 3 "" H 7100 4500 50  0001 C CNN
+	1    7100 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 4450 7400 4450
+Wire Wire Line
+	7600 4450 8000 4450
+Connection ~ 8000 4450
+Wire Wire Line
+	8000 4450 8200 4450
+Connection ~ 8200 4450
+Text GLabel 1500 12550 0    50   Input ~ 0
+_VC1
+$Comp
+L Amiga_3000_library:MSM514221RS-6 U470
+U 1 1 5F4B4F9C
+P 16350 2750
+F 0 "U470" H 16350 4367 50  0000 C CNN
+F 1 "MSM514221RS-6" H 16350 4276 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 16350 2750 50  0001 C CNN
+F 3 "" H 16350 2750 50  0001 C CNN
+	1    16350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:MSM514221RS-6 U471
+U 1 1 5F4B67C3
+P 16350 6300
+F 0 "U471" H 16350 7917 50  0000 C CNN
+F 1 "MSM514221RS-6" H 16350 7826 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 16350 6300 50  0001 C CNN
+F 3 "" H 16350 6300 50  0001 C CNN
+	1    16350 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:MSM514221RS-6 U472
+U 1 1 5F4C5768
+P 16350 9750
+F 0 "U472" H 16350 11367 50  0000 C CNN
+F 1 "MSM514221RS-6" H 16350 11276 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 16350 9750 50  0001 C CNN
+F 3 "" H 16350 9750 50  0001 C CNN
+	1    16350 9750
+	1    0    0    -1  
+$EndComp
+Connection ~ 3150 11350
+Wire Wire Line
+	5100 10050 5100 10300
+Wire Wire Line
+	3700 10700 3700 10300
+Connection ~ 5800 10450
+Wire Wire Line
+	5650 10450 5800 10450
+Wire Wire Line
+	5800 10050 5800 10450
+Connection ~ 5100 10450
+Wire Wire Line
+	5100 10450 5350 10450
+Connection ~ 5100 10050
+Wire Wire Line
+	5100 10550 5100 10450
+$Comp
+L Amiga_3000_library:+VID #PWR0291
+U 1 1 5F45F585
+P 5100 9950
+F 0 "#PWR0291" H 5100 10100 50  0001 C CNN
+F 1 "+VID" H 5100 10073 50  0000 C CNN
+F 2 "" H 5100 9950 50  0001 C CNN
+F 3 "" H 5100 9950 50  0001 C CNN
+	1    5100 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:GND #PWR0292
+U 1 1 5F45F4B7
+P 5800 10450
+F 0 "#PWR0292" H 5800 10200 50  0001 C CNN
+F 1 "GND" H 5805 10277 50  0000 C CNN
+F 2 "" H 5800 10450 50  0001 C CNN
+F 3 "" H 5800 10450 50  0001 C CNN
+	1    5800 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C484
+U 1 1 5F44FEFB
+P 5500 10450
+F 0 "C484" V 5350 10400 50  0000 C CNN
+F 1 "0.1uF" V 5650 10450 50  0000 C CNN
+F 2 "A3000:UnPolarized_Capacitor" H 5538 10300 50  0001 C CNN
+F 3 "~" H 5500 10450 50  0001 C CNN
+	1    5500 10450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 10850 4350 10850
+Connection ~ 5100 10850
+Wire Wire Line
+	5100 10850 4850 10850
+Wire Wire Line
+	5100 11150 5100 10850
+$Comp
+L Amiga_3000_library:GND #PWR0293
+U 1 1 5F4239FD
+P 4350 10850
+F 0 "#PWR0293" H 4350 10600 50  0001 C CNN
+F 1 "GND" H 4355 10677 50  0000 C CNN
+F 2 "" H 4350 10850 50  0001 C CNN
+F 3 "" H 4350 10850 50  0001 C CNN
+	1    4350 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R479
+U 1 1 5F422F31
+P 5100 10700
+F 0 "R479" H 5168 10746 50  0000 L CNN
+F 1 "1" H 5168 10655 50  0000 L CNN
+F 2 "A3000:Resistor_Long_lead" V 5140 10690 50  0001 C CNN
+F 3 "~" H 5100 10700 50  0001 C CNN
+	1    5100 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C485
+U 1 1 5F422E3D
+P 4700 10850
+F 0 "C485" V 4550 10800 50  0000 C CNN
+F 1 "0.1uF" V 4850 10850 50  0000 C CNN
+F 2 "A3000:UnPolarized_Capacitor" H 4738 10700 50  0001 C CNN
+F 3 "~" H 4700 10850 50  0001 C CNN
+	1    4700 10850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 11250 3700 11000
+Wire Wire Line
+	2900 11250 3700 11250
+$Comp
+L Device:R_US R480
+U 1 1 5F4146DB
+P 3700 10850
+F 0 "R480" H 3768 10896 50  0000 L CNN
+F 1 "47K" H 3768 10805 50  0000 L CNN
+F 2 "A3000:Resistor_Long_lead" V 3740 10840 50  0001 C CNN
+F 3 "~" H 3700 10850 50  0001 C CNN
+	1    3700 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:GND #PWR0294
+U 1 1 5F413E28
+P 6550 11800
+F 0 "#PWR0294" H 6550 11550 50  0001 C CNN
+F 1 "GND" H 6555 11627 50  0000 C CNN
+F 2 "" H 6550 11800 50  0001 C CNN
+F 3 "" H 6550 11800 50  0001 C CNN
+	1    6550 11800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 11350 6550 11350
+Wire Wire Line
+	6550 11350 6550 11500
+$Comp
+L Device:C C482
+U 1 1 5F3F7D11
+P 6550 11650
+F 0 "C482" H 6665 11696 50  0000 L CNN
+F 1 "0.1uF" H 6665 11605 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 6588 11500 50  0001 C CNN
+F 3 "~" H 6550 11650 50  0001 C CNN
+	1    6550 11650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 12050 7050 12050
+Connection ~ 6550 12050
+Wire Wire Line
+	6550 12100 6550 12050
+Wire Wire Line
+	6550 12450 6200 12450
+Connection ~ 6550 12450
+Wire Wire Line
+	6550 12400 6550 12450
+Wire Wire Line
+	7050 12450 6550 12450
+Wire Wire Line
+	7050 12400 7050 12450
+Wire Wire Line
+	7050 12050 7050 12100
+Wire Wire Line
+	6200 12050 6550 12050
+$Comp
+L Device:C_Variable VC470
+U 1 1 5F3C024A
+P 7050 12250
+F 0 "VC470" H 7400 12200 50  0000 R CNN
+F 1 "2-7pF" H 7400 12300 50  0000 R CNN
+F 2 "A3000:Trimmer Capacitor" H 7050 12250 50  0001 C CNN
+F 3 "~" H 7050 12250 50  0001 C CNN
+	1    7050 12250
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C499
+U 1 1 5F3BFE6C
+P 6550 12250
+F 0 "C499" H 6665 12296 50  0000 L CNN
+F 1 "7.5pF(NPO)" H 6550 12150 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor_short" H 6588 12100 50  0001 C CNN
+F 3 "~" H 6550 12250 50  0001 C CNN
+	1    6550 12250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:+VID #PWR0295
+U 1 1 5F3BE9B1
+P 6300 12650
+F 0 "#PWR0295" H 6300 12800 50  0001 C CNN
+F 1 "+VID" H 6300 12773 50  0000 C CNN
+F 2 "" H 6300 12650 50  0001 C CNN
+F 3 "" H 6300 12650 50  0001 C CNN
+	1    6300 12650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6300 13300
+Wire Wire Line
+	6300 13300 6300 13050
+$Comp
+L Device:C C481
+U 1 1 5F3B1C01
+P 6300 12900
+F 0 "C481" H 6415 12946 50  0000 L CNN
+F 1 "0.1uF" H 6415 12855 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 6338 12750 50  0001 C CNN
+F 3 "~" H 6300 12900 50  0001 C CNN
+	1    6300 12900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 14350 8200 14350
+Connection ~ 7950 14350
+Wire Wire Line
+	7950 13900 7950 14350
+Wire Wire Line
+	8150 13900 7950 13900
+Wire Wire Line
+	8050 13600 8200 13600
+Connection ~ 8050 13600
+Wire Wire Line
+	8050 14000 8050 13600
+Wire Wire Line
+	8150 14000 8050 14000
+$Comp
+L Amiga_3000_library:GND #PWR0296
+U 1 1 5F398EFC
+P 8150 14100
+F 0 "#PWR0296" H 8150 13850 50  0001 C CNN
+F 1 "GND" H 8155 13927 50  0000 C CNN
+F 2 "" H 8150 14100 50  0001 C CNN
+F 3 "" H 8150 14100 50  0001 C CNN
+	1    8150 14100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J483
+U 1 1 5F3762D8
+P 8350 14000
+F 0 "J483" H 8430 13996 50  0000 L CNN
+F 1 "Conn_01x03" H 8268 14226 50  0001 C CNN
+F 2 "A3000:3_Pin_Jumper" H 8350 14000 50  0001 C CNN
+F 3 "~" H 8350 14000 50  0001 C CNN
+	1    8350 14000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 13600 8050 13600
+Text GLabel 8200 13600 2    50   Output ~ 0
+VDE14M
+$Comp
+L Device:Ferrite_Bead_Small FB483
+U 1 1 5F366F26
+P 7300 13600
+F 0 "FB483" V 7250 13450 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 7154 13600 50  0001 C CNN
+F 2 "A3000:Resistor_Long_lead" V 7230 13600 50  0001 C CNN
+F 3 "~" H 7300 13600 50  0001 C CNN
+	1    7300 13600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 13600 7200 13600
+Wire Wire Line
+	6350 14050 6350 13600
+Connection ~ 7300 14050
+Connection ~ 7300 14150
+Wire Wire Line
+	7300 14150 7300 14050
+Connection ~ 7300 13950
+Wire Wire Line
+	7300 13950 7300 14050
+Wire Wire Line
+	7450 13950 7300 13950
+Wire Wire Line
+	7300 14250 7300 14150
+$Comp
+L Amiga_3000_library:GND #PWR0297
+U 1 1 5F32C0DE
+P 7450 13950
+F 0 "#PWR0297" H 7450 13700 50  0001 C CNN
+F 1 "GND" H 7455 13777 50  0000 C CNN
+F 2 "" H 7450 13950 50  0001 C CNN
+F 3 "" H 7450 13950 50  0001 C CNN
+	1    7450 13950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 14350 7950 14350
+Connection ~ 7650 14350
+Wire Wire Line
+	7650 14250 7650 14350
+Wire Wire Line
+	7650 13700 7650 14050
+Wire Wire Line
+	6300 13700 7650 13700
+$Comp
+L Device:Ferrite_Bead_Small FB484
+U 1 1 5F314D39
+P 7650 14150
+F 0 "FB484" H 7700 14050 50  0000 L CNN
+F 1 "Ferrite_Bead_Small" H 7750 14105 50  0001 L CNN
+F 2 "A3000:Resistor_Long_lead" V 7580 14150 50  0001 C CNN
+F 3 "~" H 7650 14150 50  0001 C CNN
+	1    7650 14150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 13300 6300 13350
+Wire Wire Line
+	6200 13300 6300 13300
+$Comp
+L Amiga_3000_library:GND #PWR0298
+U 1 1 5F3084AE
+P 6300 13350
+F 0 "#PWR0298" H 6300 13100 50  0001 C CNN
+F 1 "GND" H 6305 13177 50  0000 C CNN
+F 2 "" H 6300 13350 50  0001 C CNN
+F 3 "" H 6300 13350 50  0001 C CNN
+	1    6300 13350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6850 13800
+Wire Wire Line
+	5950 14050 5850 14050
+Wire Wire Line
+	5950 14250 5950 14050
+$Comp
+L Amiga_3000_library:+5V #PWR0299
+U 1 1 5F2F01B2
+P 5550 14050
+F 0 "#PWR0299" H 5550 13900 50  0001 C CNN
+F 1 "+5V" H 5567 14273 50  0000 C CNN
+F 2 "" H 5550 14050 50  0001 C CNN
+F 3 "" H 5550 14050 50  0001 C CNN
+	1    5550 14050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 14250 5950 14250
+Wire Wire Line
+	5950 14250 6350 14250
+Connection ~ 5950 14250
+$Comp
+L Device:R_US R471
+U 1 1 5F2DAFAA
+P 5700 14050
+F 0 "R471" V 5650 14200 50  0000 C CNN
+F 1 "3.3K" V 5750 13900 50  0000 C CNN
+F 2 "A3000:Resistor_Long_lead" V 5740 14040 50  0001 C CNN
+F 3 "~" H 5700 14050 50  0001 C CNN
+	1    5700 14050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 14300 5950 14250
+$Comp
+L Amiga_3000_library:GND #PWR0300
+U 1 1 5F2CFBAD
+P 5950 14600
+F 0 "#PWR0300" H 5950 14350 50  0001 C CNN
+F 1 "GND" H 5955 14427 50  0000 C CNN
+F 2 "" H 5950 14600 50  0001 C CNN
+F 3 "" H 5950 14600 50  0001 C CNN
+	1    5950 14600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C496
+U 1 1 5F2CF294
+P 5950 14450
+F 0 "C496" H 6065 14496 50  0000 L CNN
+F 1 "100pF" H 6065 14405 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor_short" H 5988 14300 50  0001 C CNN
+F 3 "~" H 5950 14450 50  0001 C CNN
+	1    5950 14450
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 13750
+Wire Wire Line
+	7300 14350 7650 14350
+Text GLabel 8200 14350 2    50   Output ~ 0
+VDE28M
+Wire Wire Line
+	7750 14550 7900 14550
+$Comp
+L Amiga_3000_library:+5V #PWR0301
+U 1 1 5F24963B
+P 7900 14550
+F 0 "#PWR0301" H 7900 14400 50  0001 C CNN
+F 1 "+5V" H 8000 14650 50  0000 C CNN
+F 2 "" H 7900 14550 50  0001 C CNN
+F 3 "" H 7900 14550 50  0001 C CNN
+	1    7900 14550
+	1    0    0    -1  
+$EndComp
+Connection ~ 6950 14550
+Wire Wire Line
+	6950 14550 7450 14550
+Connection ~ 6750 14550
+Connection ~ 6850 14550
+Wire Wire Line
+	6850 14550 6750 14550
+Wire Wire Line
+	6950 14550 6850 14550
+Wire Wire Line
+	6650 14550 6750 14550
+$Comp
+L Device:R_US R487
+U 1 1 5F1F8296
+P 7600 14550
+F 0 "R487" V 7550 14350 50  0000 C CNN
+F 1 "1K" V 7550 14700 50  0000 C CNN
+F 2 "A3000:Resistor_Long_lead" V 7640 14540 50  0001 C CNN
+F 3 "~" H 7600 14550 50  0001 C CNN
+	1    7600 14550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 13700 5700 13700
+$Comp
+L Amiga_3000_library:74HC04 U477
+U 4 1 5F1E979C
+P 6000 13700
+F 0 "U477" H 6100 13800 50  0000 C CNN
+F 1 "74HC04" H 6100 13550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6000 13700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 6000 13700 50  0001 C CNN
+	4    6000 13700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6350 14350
+$Comp
+L Amiga_3000_library:74HC04 U477
+U 2 1 5F12BEE9
+P 5100 14250
+F 0 "U477" H 5200 14100 50  0000 C CNN
+F 1 "74HC04" H 4800 14350 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 5100 14250 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5100 14250 50  0001 C CNN
+	2    5100 14250
+	-1   0    0    1   
+$EndComp
+NoConn ~ 6350 14150
+$Comp
+L Amiga_3000_library:74F163 U476
+U 1 1 5F1865E3
+P 6750 14200
+F 0 "U476" H 6550 14550 50  0000 C CNN
+F 1 "74F163" H 6850 14250 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 6750 14200 50  0001 C CNN
+F 3 "" H 6750 14200 50  0001 C CNN
+	1    6750 14200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 13900 4900 13900
+$Comp
+L Amiga_3000_library:+VID #PWR0302
+U 1 1 5F179B23
+P 4800 13900
+F 0 "#PWR0302" H 4800 14050 50  0001 C CNN
+F 1 "+VID" V 4800 13977 50  0000 L CNN
+F 2 "" H 4800 13900 50  0001 C CNN
+F 3 "" H 4800 13900 50  0001 C CNN
+	1    4800 13900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 14250 4350 14250
+Connection ~ 5400 13700
+Wire Wire Line
+	5400 13900 5400 13700
+Wire Wire Line
+	5300 13900 5400 13900
+Wire Wire Line
+	5400 13700 5400 13600
+Wire Wire Line
+	5300 13700 5400 13700
+Wire Wire Line
+	4900 13700 4900 13600
+Wire Wire Line
+	5000 13700 4900 13700
+Wire Wire Line
+	4350 14050 4350 14250
+Wire Wire Line
+	4100 14050 4350 14050
+$Comp
+L Device:R_US R468
+U 1 1 5F122402
+P 5150 13900
+F 0 "R468" V 5250 14000 50  0000 C CNN
+F 1 "470" V 5100 13800 50  0000 C CNN
+F 2 "A3000:Resistor_Long_lead" V 5190 13890 50  0001 C CNN
+F 3 "~" H 5150 13900 50  0001 C CNN
+	1    5150 13900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R489
+U 1 1 5F11EACF
+P 5150 13700
+F 0 "R489" V 5250 13800 50  0000 C CNN
+F 1 "100" V 5100 13600 50  0000 C CNN
+F 2 "A3000:Resistor_Long_lead" V 5190 13690 50  0001 C CNN
+F 3 "~" H 5150 13700 50  0001 C CNN
+	1    5150 13700
+	0    1    1    0   
+$EndComp
+Connection ~ 3800 14050
+Wire Wire Line
+	3950 14250 3950 14200
+Wire Wire Line
+	3800 14250 3950 14250
+Wire Wire Line
+	3800 14050 3800 14250
+$Comp
+L Device:R_POT_TRIM_US VR470
+U 1 1 5F108024
+P 3950 14050
+F 0 "VR470" V 4250 14050 50  0000 C CNN
+F 1 "1K" V 4050 13950 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Vishay_43_Horizontal" H 3950 14050 50  0001 C CNN
+F 3 "~" H 3950 14050 50  0001 C CNN
+	1    3950 14050
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3400 13750 3800 13750
+$Comp
+L Amiga_3000_library:GND #PWR0303
+U 1 1 5F0FF100
+P 3400 14050
+F 0 "#PWR0303" H 3400 13800 50  0001 C CNN
+F 1 "GND" H 3405 13877 50  0000 C CNN
+F 2 "" H 3400 14050 50  0001 C CNN
+F 3 "" H 3400 14050 50  0001 C CNN
+	1    3400 14050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C491
+U 1 1 5F0FD77C
+P 3400 13900
+F 0 "C491" H 3515 13946 50  0000 L CNN
+F 1 "100pF(NPO)" H 2900 13800 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 3438 13750 50  0001 C CNN
+F 3 "~" H 3400 13900 50  0001 C CNN
+	1    3400 13900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R484
+U 1 1 5F0FD0FC
+P 3800 13900
+F 0 "R484" H 3850 13950 50  0000 L CNN
+F 1 "10" H 3868 13855 50  0000 L CNN
+F 2 "A3000:Resistor_Long_lead" V 3840 13890 50  0001 C CNN
+F 3 "~" H 3800 13900 50  0001 C CNN
+	1    3800 13900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:74HC04 U477
+U 3 1 5F0FB4C4
+P 3800 13450
+F 0 "U477" V 3900 13400 50  0000 R CNN
+F 1 "74HC04" V 3700 13900 50  0000 R CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3800 13450 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3800 13450 50  0001 C CNN
+	3    3800 13450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 12550 2200 12550
+Wire Wire Line
+	1500 12550 1800 12550
+$Comp
+L Device:Ferrite_Bead_Small FB485
+U 1 1 5F0E8DB0
+P 1900 12550
+F 0 "FB485" V 1800 12400 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 1754 12550 50  0001 C CNN
+F 2 "A3000:Resistor_Long_lead" V 1830 12550 50  0001 C CNN
+F 3 "~" H 1900 12550 50  0001 C CNN
+	1    1900 12550
+	0    1    1    0   
+$EndComp
+$Comp
+L Amiga_3000_library:GND #PWR0304
+U 1 1 5F0E80E3
+P 2200 12850
+F 0 "#PWR0304" H 2200 12600 50  0001 C CNN
+F 1 "GND" H 2205 12677 50  0000 C CNN
+F 2 "" H 2200 12850 50  0001 C CNN
+F 3 "" H 2200 12850 50  0001 C CNN
+	1    2200 12850
+	1    0    0    -1  
+$EndComp
+Connection ~ 2200 12550
+$Comp
+L Device:C C498
+U 1 1 5F0E79B0
+P 2200 12700
+F 0 "C498" H 2315 12746 50  0000 L CNN
+F 1 "100pF" H 2315 12655 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor_short" H 2238 12550 50  0001 C CNN
+F 3 "~" H 2200 12700 50  0001 C CNN
+	1    2200 12700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:+5V #PWR0305
+U 1 1 5F0E78DE
+P 2200 12250
+F 0 "#PWR0305" H 2200 12100 50  0001 C CNN
+F 1 "+5V" H 2217 12473 50  0000 C CNN
+F 2 "" H 2200 12250 50  0001 C CNN
+F 3 "" H 2200 12250 50  0001 C CNN
+	1    2200 12250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 12550 2200 12550
+$Comp
+L Device:R_US R470
+U 1 1 5F0DC556
+P 2200 12400
+F 0 "R470" H 2268 12446 50  0000 L CNN
+F 1 "3.3K" H 2268 12355 50  0000 L CNN
+F 2 "A3000:Resistor_Long_lead" V 2240 12390 50  0001 C CNN
+F 3 "~" H 2200 12400 50  0001 C CNN
+	1    2200 12400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 12550 3050 12550
+$Comp
+L Amiga_3000_library:74HC04 U477
+U 1 1 5F0D3E32
+P 2750 12550
+F 0 "U477" H 2800 12700 50  0000 C CNN
+F 1 "74HC04" H 2750 12550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2750 12550 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 2750 12550 50  0001 C CNN
+	1    2750 12550
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 12550
+Wire Wire Line
+	3800 12550 3550 12550
+Wire Wire Line
+	3550 12850 3800 12850
+Connection ~ 2900 13150
+Wire Wire Line
+	2900 12850 3250 12850
+Wire Wire Line
+	2900 13150 2900 12850
+Wire Wire Line
+	3250 13150 2900 13150
+Connection ~ 3800 13150
+Wire Wire Line
+	3800 13150 3550 13150
+$Comp
+L Amiga_3000_library:GND #PWR0306
+U 1 1 5F0743BC
+P 2900 13150
+F 0 "#PWR0306" H 2900 12900 50  0001 C CNN
+F 1 "GND" H 2905 12977 50  0000 C CNN
+F 2 "" H 2900 13150 50  0001 C CNN
+F 3 "" H 2900 13150 50  0001 C CNN
+	1    2900 13150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R469
+U 1 1 5F073301
+P 3400 12550
+F 0 "R469" V 3300 12400 50  0000 C CNN
+F 1 "1K" V 3500 12600 50  0000 C CNN
+F 2 "A3000:Resistor_Long_lead" V 3440 12540 50  0001 C CNN
+F 3 "~" H 3400 12550 50  0001 C CNN
+	1    3400 12550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C497
+U 1 1 5F06C502
+P 3400 13150
+F 0 "C497" V 3350 13000 50  0000 C CNN
+F 1 "39pF" V 3550 13150 50  0000 C CNN
+F 2 "A3000:UnPolarized_Capacitor_short" H 3438 13000 50  0001 C CNN
+F 3 "~" H 3400 13150 50  0001 C CNN
+	1    3400 13150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C490
+U 1 1 5F06A842
+P 3400 12850
+F 0 "C490" V 3350 12700 50  0000 C CNN
+F 1 "0.1uF" V 3550 12850 50  0000 C CNN
+F 2 "A3000:UnPolarized_Capacitor" H 3438 12700 50  0001 C CNN
+F 3 "~" H 3400 12850 50  0001 C CNN
+	1    3400 12850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 13150 3800 13150
+Connection ~ 3800 12850
+Wire Wire Line
+	4100 12850 3800 12850
+Wire Wire Line
+	4100 12550 3800 12550
+$Comp
+L Device:R_US R483
+U 1 1 5F04C941
+P 3800 13000
+F 0 "R483" H 3868 13046 50  0000 L CNN
+F 1 "1K" H 3868 12955 50  0000 L CNN
+F 2 "A3000:Resistor_Long_lead" V 3840 12990 50  0001 C CNN
+F 3 "~" H 3800 13000 50  0001 C CNN
+	1    3800 13000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R482
+U 1 1 5F04B838
+P 3800 12700
+F 0 "R482" H 3868 12746 50  0000 L CNN
+F 1 "1K" H 3868 12655 50  0000 L CNN
+F 2 "A3000:Resistor_Long_lead" V 3840 12690 50  0001 C CNN
+F 3 "~" H 3800 12700 50  0001 C CNN
+	1    3800 12700
+	1    0    0    -1  
+$EndComp
+Connection ~ 2900 11650
+$Comp
+L Amiga_3000_library:GND #PWR0307
+U 1 1 5F04B6E9
+P 2900 11650
+F 0 "#PWR0307" H 2900 11400 50  0001 C CNN
+F 1 "GND" H 2905 11477 50  0000 C CNN
+F 2 "" H 2900 11650 50  0001 C CNN
+F 3 "" H 2900 11650 50  0001 C CNN
+	1    2900 11650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 11650 3150 11650
+Wire Wire Line
+	2900 11450 2900 11650
+Wire Wire Line
+	3150 11350 2900 11350
+$Comp
+L Connector_Generic:Conn_01x03 J482
+U 1 1 5F03CF27
+P 2700 11350
+F 0 "J482" H 2618 11575 50  0000 C CNN
+F 1 "Conn_01x03" H 2618 11576 50  0001 C CNN
+F 2 "A3000:3_Pin_Jumper" H 2700 11350 50  0001 C CNN
+F 3 "~" H 2700 11350 50  0001 C CNN
+	1    2700 11350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 11350 3150 11350
+$Comp
+L Device:C C486
+U 1 1 5F035558
+P 3150 11500
+F 0 "C486" H 3265 11546 50  0000 L CNN
+F 1 "0.1uF" H 3265 11455 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 3188 11350 50  0001 C CNN
+F 3 "~" H 3150 11500 50  0001 C CNN
+	1    3150 11500
+	1    0    0    -1  
+$EndComp
+Connection ~ 3450 12050
+$Comp
+L Amiga_3000_library:GND #PWR0308
+U 1 1 5F034D14
+P 3450 12050
+F 0 "#PWR0308" H 3450 11800 50  0001 C CNN
+F 1 "GND" H 3455 11877 50  0000 C CNN
+F 2 "" H 3450 12050 50  0001 C CNN
+F 3 "" H 3450 12050 50  0001 C CNN
+	1    3450 12050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 11750 3650 11750
+Wire Wire Line
+	3450 12050 3450 11750
+Wire Wire Line
+	3650 12050 3450 12050
+Wire Wire Line
+	3950 12050 4100 12050
+Wire Wire Line
+	3950 11750 4100 11750
+$Comp
+L Device:C C488
+U 1 1 5F018718
+P 3800 12050
+F 0 "C488" V 3750 11900 50  0000 C CNN
+F 1 "1000pF" V 3950 12100 50  0000 C CNN
+F 2 "A3000:UnPolarized_Capacitor_short" H 3838 11900 50  0001 C CNN
+F 3 "~" H 3800 12050 50  0001 C CNN
+	1    3800 12050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C487
+U 1 1 5F017E06
+P 3800 11750
+F 0 "C487" V 3700 11600 50  0000 C CNN
+F 1 "1000pF" V 3950 11800 50  0000 C CNN
+F 2 "A3000:UnPolarized_Capacitor_short" H 3838 11600 50  0001 C CNN
+F 3 "~" H 3800 11750 50  0001 C CNN
+	1    3800 11750
+	0    1    1    0   
+$EndComp
+$Comp
+L Amiga_3000_library:NE564 U481
+U 1 1 60880231
+P 5150 12350
+F 0 "U481" H 5600 13550 50  0000 C CNN
+F 1 "NE564" H 5150 12350 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 5300 12400 50  0001 C CNN
+F 3 "http://www.komponenten.es.aau.dk/fileadmin/komponenten/Data_Sheet/Linear/NE564.pdf" H 5300 12400 50  0001 C CNN
+	1    5150 12350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 10300 5100 10300
+Connection ~ 5100 10300
+Wire Wire Line
+	5100 10300 5100 10450
+Wire Bus Line
+	14550 1300 14450 1200
+Wire Bus Line
+	14450 1200 13850 1200
+Entry Wire Line
+	14550 1600 14650 1700
+Entry Wire Line
+	14550 1500 14650 1600
+Entry Wire Line
+	14550 1400 14650 1500
+Entry Wire Line
+	14550 1300 14650 1400
+Text GLabel 13850 1200 0    50   Input ~ 0
+R[0..3]
+Text Label 14650 1400 0    50   ~ 0
+R3
+Text Label 14650 1500 0    50   ~ 0
+R2
+Text Label 14650 1600 0    50   ~ 0
+R1
+Wire Wire Line
+	14650 1400 15850 1400
+Wire Wire Line
+	14650 1500 15850 1500
+Wire Wire Line
+	14650 1600 15850 1600
+Wire Wire Line
+	14650 1700 15850 1700
+$Comp
+L Amiga_3000_library:uPD42101C-2 U473
+U 1 1 5F7A0891
+P 19850 2450
+F 0 "U473" H 19850 3767 50  0001 C CNN
+F 1 "uPD42101C-2" H 19850 3676 50  0001 C CNN
+F 2 "Package_DIP:DIP-24_W7.62mm" H 19850 2450 50  0001 C CNN
+F 3 "" H 19850 2450 50  0001 C CNN
+	1    19850 2450
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	17250 1150 17400 1050
+Wire Bus Line
+	17400 1050 18900 1050
+Wire Bus Line
+	18900 1050 19000 1150
+Entry Wire Line
+	19000 1600 19100 1700
+Entry Wire Line
+	19000 1500 19100 1600
+Entry Wire Line
+	19000 1400 19100 1500
+Entry Wire Line
+	19000 1300 19100 1400
+Entry Wire Line
+	17150 1400 17250 1300
+Entry Wire Line
+	17150 1500 17250 1400
+Entry Wire Line
+	17150 1600 17250 1500
+Entry Wire Line
+	17150 1700 17250 1600
+Wire Wire Line
+	16850 1400 17150 1400
+Wire Wire Line
+	16850 1500 17150 1500
+Wire Wire Line
+	16850 1600 17150 1600
+Wire Wire Line
+	16850 1700 17150 1700
+Wire Wire Line
+	19100 1700 19350 1700
+Wire Wire Line
+	19100 1600 19350 1600
+Wire Wire Line
+	19100 1500 19350 1500
+Wire Wire Line
+	19100 1400 19350 1400
+Text Label 17150 1400 2    50   ~ 0
+R_D3
+Text Label 17150 1500 2    50   ~ 0
+R_D2
+Text Label 17150 1600 2    50   ~ 0
+R_D1
+Text Label 17150 1700 2    50   ~ 0
+R_D0
+Text Label 19100 1400 0    50   ~ 0
+R_D3
+Text Label 19100 1500 0    50   ~ 0
+R_D2
+Text Label 19100 1600 0    50   ~ 0
+R_D1
+Text Label 19100 1700 0    50   ~ 0
+R_D0
+Wire Bus Line
+	20850 1300 20950 1200
+Wire Bus Line
+	20950 1200 21300 1200
+Entry Wire Line
+	20750 1700 20850 1600
+Entry Wire Line
+	20750 1600 20850 1500
+Entry Wire Line
+	20750 1500 20850 1400
+Entry Wire Line
+	20750 1400 20850 1300
+Wire Wire Line
+	20350 1400 20750 1400
+Wire Wire Line
+	20350 1500 20750 1500
+Wire Wire Line
+	20350 1600 20750 1600
+Wire Wire Line
+	20350 1700 20750 1700
+Text Label 20750 1400 2    50   ~ 0
+RED_D3
+Text Label 20750 1500 2    50   ~ 0
+RED_D2
+Text Label 20750 1600 2    50   ~ 0
+RED_D1
+Text Label 20750 1700 2    50   ~ 0
+RED_D0
+Text GLabel 21300 1200 2    50   Output ~ 0
+RED_D[0..3]
+Wire Bus Line
+	20850 2300 20950 2400
+Wire Bus Line
+	20950 2400 21300 2400
+Entry Wire Line
+	20750 1900 20850 2000
+Entry Wire Line
+	20750 2000 20850 2100
+Entry Wire Line
+	20750 2100 20850 2200
+Entry Wire Line
+	20750 2200 20850 2300
+Wire Wire Line
+	20350 1900 20750 1900
+Wire Wire Line
+	20350 2000 20750 2000
+Wire Wire Line
+	20350 2100 20750 2100
+Wire Wire Line
+	20350 2200 20750 2200
+Text GLabel 21300 2400 2    50   Output ~ 0
+GRN_D[0..3]
+$Comp
+L Amiga_3000_library:GND #PWR0309
+U 1 1 5F9B2398
+P 16100 4050
+F 0 "#PWR0309" H 16100 3800 50  0001 C CNN
+F 1 "GND" H 16105 3877 50  0000 C CNN
+F 2 "" H 16100 4050 50  0001 C CNN
+F 3 "" H 16100 4050 50  0001 C CNN
+	1    16100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C470
+U 1 1 5F9B3731
+P 16300 4000
+F 0 "C470" V 16450 4000 50  0000 C CNN
+F 1 "0.1uF" V 16139 4000 50  0000 C CNN
+F 2 "A3000:UnPolarized_Capacitor" H 16338 3850 50  0001 C CNN
+F 3 "~" H 16300 4000 50  0001 C CNN
+	1    16300 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	16100 4050 16100 4000
+Wire Wire Line
+	16100 4000 16150 4000
+Connection ~ 16100 4000
+Wire Wire Line
+	16100 4000 16100 3800
+Wire Wire Line
+	16450 4000 16500 4000
+Wire Wire Line
+	16500 4000 16500 3800
+$Comp
+L Amiga_3000_library:+5V #PWR0310
+U 1 1 5F9F2C10
+P 16500 4000
+F 0 "#PWR0310" H 16500 3850 50  0001 C CNN
+F 1 "+5V" V 16517 4178 50  0000 L CNN
+F 2 "" H 16500 4000 50  0001 C CNN
+F 3 "" H 16500 4000 50  0001 C CNN
+	1    16500 4000
+	0    1    1    0   
+$EndComp
+Connection ~ 16500 4000
+Wire Bus Line
+	13850 2000 14450 2000
+Wire Bus Line
+	14450 2000 14550 2100
+Entry Wire Line
+	14550 5150 14650 5250
+Entry Wire Line
+	14550 5050 14650 5150
+Entry Wire Line
+	14550 4950 14650 5050
+Entry Wire Line
+	14550 4850 14650 4950
+Wire Wire Line
+	14650 4950 15850 4950
+Wire Wire Line
+	14650 5050 15850 5050
+Wire Wire Line
+	14650 5150 15850 5150
+Wire Wire Line
+	14650 5250 15850 5250
+Text Label 14650 4950 0    50   ~ 0
+G3
+Text Label 14650 5050 0    50   ~ 0
+G2
+Text Label 14650 5150 0    50   ~ 0
+G1
+Text Label 14650 5250 0    50   ~ 0
+G0
+Text GLabel 13850 2000 0    50   Input ~ 0
+G[0..3]
+Wire Bus Line
+	19000 2300 18900 2400
+Wire Bus Line
+	18900 2400 18450 2400
+Wire Bus Line
+	18450 2400 18350 2500
+Wire Bus Line
+	18350 2500 18350 4300
+Wire Bus Line
+	18350 4300 18250 4400
+Wire Bus Line
+	18250 4400 17300 4400
+Wire Bus Line
+	17300 4400 17200 4500
+Entry Wire Line
+	17100 5250 17200 5150
+Entry Wire Line
+	17100 5150 17200 5050
+Entry Wire Line
+	17100 5050 17200 4950
+Entry Wire Line
+	17100 4950 17200 4850
+Entry Wire Line
+	19000 2300 19100 2200
+Entry Wire Line
+	19000 2200 19100 2100
+Entry Wire Line
+	19000 2100 19100 2000
+Entry Wire Line
+	19000 2000 19100 1900
+Wire Wire Line
+	16850 5250 17100 5250
+Wire Wire Line
+	16850 5150 17100 5150
+Wire Wire Line
+	16850 5050 17100 5050
+Wire Wire Line
+	16850 4950 17100 4950
+Wire Wire Line
+	19100 1900 19350 1900
+Wire Wire Line
+	19100 2000 19350 2000
+Wire Wire Line
+	19100 2100 19350 2100
+Wire Wire Line
+	19100 2200 19350 2200
+Text Label 19100 1900 0    50   ~ 0
+G_D3
+Text Label 19100 2000 0    50   ~ 0
+G_D2
+Text Label 19100 2100 0    50   ~ 0
+G_D1
+Text Label 19100 2200 0    50   ~ 0
+G_D0
+Text Label 17100 4950 2    50   ~ 0
+G_D3
+Text Label 17100 5050 2    50   ~ 0
+G_D2
+Text Label 17100 5150 2    50   ~ 0
+G_D1
+Text Label 17100 5250 2    50   ~ 0
+G_D0
+Wire Wire Line
+	15850 2300 15600 2300
+Wire Wire Line
+	15600 2300 15600 5850
+Wire Wire Line
+	15600 5850 15850 5850
+Wire Wire Line
+	15850 2100 15500 2100
+Wire Wire Line
+	15500 2100 15500 5650
+Wire Wire Line
+	15500 5650 15850 5650
+Wire Wire Line
+	15850 3250 15800 3250
+Wire Wire Line
+	15800 3250 15800 3350
+Wire Wire Line
+	15800 3450 15850 3450
+Wire Wire Line
+	15850 6800 15800 6800
+Wire Wire Line
+	15800 6800 15800 6900
+Wire Wire Line
+	15800 7000 15850 7000
+Wire Wire Line
+	15800 6900 15400 6900
+Wire Wire Line
+	15400 6900 15400 3350
+Wire Wire Line
+	15400 3350 15800 3350
+Connection ~ 15800 6900
+Wire Wire Line
+	15800 6900 15800 7000
+Connection ~ 15800 3350
+Wire Wire Line
+	15800 3350 15800 3450
+Wire Wire Line
+	15500 9100 15850 9100
+Connection ~ 15500 5650
+Wire Wire Line
+	15600 5850 15600 9300
+Wire Wire Line
+	15600 9300 15850 9300
+Connection ~ 15600 5850
+Wire Wire Line
+	15850 10450 15800 10450
+Wire Wire Line
+	15800 10450 15800 10350
+Wire Wire Line
+	15800 10250 15850 10250
+Wire Wire Line
+	15800 10350 15400 10350
+Wire Wire Line
+	15400 10350 15400 8000
+Connection ~ 15800 10350
+Wire Wire Line
+	15800 10350 15800 10250
+Connection ~ 15400 6900
+Wire Wire Line
+	16850 3250 17350 3250
+Wire Wire Line
+	17350 3250 17350 6800
+Wire Wire Line
+	17350 6800 16850 6800
+Wire Wire Line
+	16850 3450 17450 3450
+Wire Wire Line
+	17450 7000 16850 7000
+Wire Wire Line
+	17450 3450 17450 7000
+Wire Wire Line
+	17350 6800 17350 10250
+Wire Wire Line
+	17350 10250 16850 10250
+Connection ~ 17350 6800
+Wire Wire Line
+	17450 10450 16850 10450
+Connection ~ 17450 7000
+$Comp
+L Amiga_3000_library:GND #PWR0311
+U 1 1 5FCC625D
+P 16100 7600
+F 0 "#PWR0311" H 16100 7350 50  0001 C CNN
+F 1 "GND" H 16105 7427 50  0000 C CNN
+F 2 "" H 16100 7600 50  0001 C CNN
+F 3 "" H 16100 7600 50  0001 C CNN
+	1    16100 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C471
+U 1 1 5FCC6263
+P 16300 7550
+F 0 "C471" V 16450 7550 50  0000 C CNN
+F 1 "0.1uF" V 16139 7550 50  0000 C CNN
+F 2 "A3000:UnPolarized_Capacitor" H 16338 7400 50  0001 C CNN
+F 3 "~" H 16300 7550 50  0001 C CNN
+	1    16300 7550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	16100 7600 16100 7550
+Wire Wire Line
+	16100 7550 16150 7550
+Connection ~ 16100 7550
+Wire Wire Line
+	16100 7550 16100 7350
+Wire Wire Line
+	16450 7550 16500 7550
+Wire Wire Line
+	16500 7550 16500 7350
+$Comp
+L Amiga_3000_library:+5V #PWR0312
+U 1 1 5FCC626F
+P 16500 7550
+F 0 "#PWR0312" H 16500 7400 50  0001 C CNN
+F 1 "+5V" V 16517 7728 50  0000 L CNN
+F 2 "" H 16500 7550 50  0001 C CNN
+F 3 "" H 16500 7550 50  0001 C CNN
+	1    16500 7550
+	0    1    1    0   
+$EndComp
+Connection ~ 16500 7550
+$Comp
+L Amiga_3000_library:GND #PWR0313
+U 1 1 5FCE3841
+P 16100 11050
+F 0 "#PWR0313" H 16100 10800 50  0001 C CNN
+F 1 "GND" H 16105 10877 50  0000 C CNN
+F 2 "" H 16100 11050 50  0001 C CNN
+F 3 "" H 16100 11050 50  0001 C CNN
+	1    16100 11050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C472
+U 1 1 5FCE3847
+P 16300 11000
+F 0 "C472" V 16450 11000 50  0000 C CNN
+F 1 "0.1uF" V 16139 11000 50  0000 C CNN
+F 2 "A3000:UnPolarized_Capacitor" H 16338 10850 50  0001 C CNN
+F 3 "~" H 16300 11000 50  0001 C CNN
+	1    16300 11000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	16100 11050 16100 11000
+Wire Wire Line
+	16100 11000 16150 11000
+Connection ~ 16100 11000
+Wire Wire Line
+	16100 11000 16100 10800
+Wire Wire Line
+	16450 11000 16500 11000
+Wire Wire Line
+	16500 11000 16500 10800
+$Comp
+L Amiga_3000_library:+5V #PWR0314
+U 1 1 5FCE3853
+P 16500 11000
+F 0 "#PWR0314" H 16500 10850 50  0001 C CNN
+F 1 "+5V" V 16517 11178 50  0000 L CNN
+F 2 "" H 16500 11000 50  0001 C CNN
+F 3 "" H 16500 11000 50  0001 C CNN
+	1    16500 11000
+	0    1    1    0   
+$EndComp
+Connection ~ 16500 11000
+$Comp
+L Amiga_3000_library:GND #PWR0315
+U 1 1 5FD0123A
+P 19750 4050
+F 0 "#PWR0315" H 19750 3800 50  0001 C CNN
+F 1 "GND" H 19755 3877 50  0000 C CNN
+F 2 "" H 19750 4050 50  0001 C CNN
+F 3 "" H 19750 4050 50  0001 C CNN
+	1    19750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C473
+U 1 1 5FD01240
+P 19950 4000
+F 0 "C473" V 20100 4000 50  0000 C CNN
+F 1 "0.1uF" V 19789 4000 50  0000 C CNN
+F 2 "A3000:UnPolarized_Capacitor" H 19988 3850 50  0001 C CNN
+F 3 "~" H 19950 4000 50  0001 C CNN
+	1    19950 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	19750 4050 19750 4000
+Wire Wire Line
+	19750 4000 19800 4000
+Connection ~ 19750 4000
+Wire Wire Line
+	19750 4000 19750 3800
+Wire Wire Line
+	20100 4000 20150 4000
+Wire Wire Line
+	20150 4000 20150 3800
+$Comp
+L Amiga_3000_library:+5V #PWR0316
+U 1 1 5FD0124C
+P 20150 4000
+F 0 "#PWR0316" H 20150 3850 50  0001 C CNN
+F 1 "+5V" V 20167 4178 50  0000 L CNN
+F 2 "" H 20150 4000 50  0001 C CNN
+F 3 "" H 20150 4000 50  0001 C CNN
+	1    20150 4000
+	0    1    1    0   
+$EndComp
+Connection ~ 20150 4000
+$Comp
+L Amiga_3000_library:uPD42101C-2 U474
+U 1 1 5FD23C62
+P 19850 6000
+F 0 "U474" H 19850 7317 50  0000 C CNN
+F 1 "uPD42101C-2" H 19850 7226 50  0000 C CNN
+F 2 "Package_DIP:DIP-24_W7.62mm" H 19850 6000 50  0001 C CNN
+F 3 "" H 19850 6000 50  0001 C CNN
+	1    19850 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:uPD42101C-2 U475
+U 1 1 5FD44A73
+P 19850 9550
+F 0 "U475" H 19850 10867 50  0000 C CNN
+F 1 "uPD42101C-2" H 19850 10776 50  0000 C CNN
+F 2 "Package_DIP:DIP-24_W7.62mm" H 19850 9550 50  0001 C CNN
+F 3 "" H 19850 9550 50  0001 C CNN
+	1    19850 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:uPD42101C-2 U479
+U 1 1 5FD63E53
+P 19850 12900
+F 0 "U479" H 19850 14217 50  0000 C CNN
+F 1 "uPD42101C-2" H 19850 14126 50  0000 C CNN
+F 2 "Package_DIP:DIP-24_W7.62mm" H 19850 12900 50  0001 C CNN
+F 3 "" H 19850 12900 50  0001 C CNN
+	1    19850 12900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:GND #PWR0317
+U 1 1 5FDEC28A
+P 19750 14500
+F 0 "#PWR0317" H 19750 14250 50  0001 C CNN
+F 1 "GND" H 19755 14327 50  0000 C CNN
+F 2 "" H 19750 14500 50  0001 C CNN
+F 3 "" H 19750 14500 50  0001 C CNN
+	1    19750 14500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C494
+U 1 1 5FDEC290
+P 19950 14450
+F 0 "C494" V 20100 14450 50  0000 C CNN
+F 1 "0.1uF" V 19789 14450 50  0000 C CNN
+F 2 "A3000:UnPolarized_Capacitor" H 19988 14300 50  0001 C CNN
+F 3 "~" H 19950 14450 50  0001 C CNN
+	1    19950 14450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	19750 14500 19750 14450
+Wire Wire Line
+	19750 14450 19800 14450
+Connection ~ 19750 14450
+Wire Wire Line
+	19750 14450 19750 14250
+Wire Wire Line
+	20100 14450 20150 14450
+Wire Wire Line
+	20150 14450 20150 14250
+$Comp
+L Amiga_3000_library:+5V #PWR0318
+U 1 1 5FDEC29C
+P 20150 14450
+F 0 "#PWR0318" H 20150 14300 50  0001 C CNN
+F 1 "+5V" V 20167 14628 50  0000 L CNN
+F 2 "" H 20150 14450 50  0001 C CNN
+F 3 "" H 20150 14450 50  0001 C CNN
+	1    20150 14450
+	0    1    1    0   
+$EndComp
+Connection ~ 20150 14450
+$Comp
+L Amiga_3000_library:GND #PWR0319
+U 1 1 5FE0B2B1
+P 19750 11150
+F 0 "#PWR0319" H 19750 10900 50  0001 C CNN
+F 1 "GND" H 19755 10977 50  0000 C CNN
+F 2 "" H 19750 11150 50  0001 C CNN
+F 3 "" H 19750 11150 50  0001 C CNN
+	1    19750 11150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C475
+U 1 1 5FE0B2B7
+P 19950 11100
+F 0 "C475" V 20100 11100 50  0000 C CNN
+F 1 "0.1uF" V 19789 11100 50  0000 C CNN
+F 2 "A3000:UnPolarized_Capacitor" H 19988 10950 50  0001 C CNN
+F 3 "~" H 19950 11100 50  0001 C CNN
+	1    19950 11100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	19750 11150 19750 11100
+Wire Wire Line
+	19750 11100 19800 11100
+Connection ~ 19750 11100
+Wire Wire Line
+	19750 11100 19750 10900
+Wire Wire Line
+	20100 11100 20150 11100
+Wire Wire Line
+	20150 11100 20150 10900
+$Comp
+L Amiga_3000_library:+5V #PWR0320
+U 1 1 5FE0B2C3
+P 20150 11100
+F 0 "#PWR0320" H 20150 10950 50  0001 C CNN
+F 1 "+5V" V 20167 11278 50  0000 L CNN
+F 2 "" H 20150 11100 50  0001 C CNN
+F 3 "" H 20150 11100 50  0001 C CNN
+	1    20150 11100
+	0    1    1    0   
+$EndComp
+Connection ~ 20150 11100
+$Comp
+L Amiga_3000_library:GND #PWR0321
+U 1 1 5FE2A3E1
+P 19750 7600
+F 0 "#PWR0321" H 19750 7350 50  0001 C CNN
+F 1 "GND" H 19755 7427 50  0000 C CNN
+F 2 "" H 19750 7600 50  0001 C CNN
+F 3 "" H 19750 7600 50  0001 C CNN
+	1    19750 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C474
+U 1 1 5FE2A3E7
+P 19950 7550
+F 0 "C474" V 20100 7550 50  0000 C CNN
+F 1 "0.1uF" V 19789 7550 50  0000 C CNN
+F 2 "A3000:UnPolarized_Capacitor" H 19988 7400 50  0001 C CNN
+F 3 "~" H 19950 7550 50  0001 C CNN
+	1    19950 7550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	19750 7600 19750 7550
+Wire Wire Line
+	19750 7550 19800 7550
+Connection ~ 19750 7550
+Wire Wire Line
+	19750 7550 19750 7350
+Wire Wire Line
+	20100 7550 20150 7550
+Wire Wire Line
+	20150 7550 20150 7350
+$Comp
+L Amiga_3000_library:+5V #PWR0322
+U 1 1 5FE2A3F3
+P 20150 7550
+F 0 "#PWR0322" H 20150 7400 50  0001 C CNN
+F 1 "+5V" V 20167 7728 50  0000 L CNN
+F 2 "" H 20150 7550 50  0001 C CNN
+F 3 "" H 20150 7550 50  0001 C CNN
+	1    20150 7550
+	0    1    1    0   
+$EndComp
+Connection ~ 20150 7550
+Wire Bus Line
+	14550 8300 14450 8200
+Wire Bus Line
+	14450 8200 13850 8200
+Entry Wire Line
+	14550 8600 14650 8700
+Entry Wire Line
+	14550 8500 14650 8600
+Entry Wire Line
+	14550 8400 14650 8500
+Entry Wire Line
+	14550 8300 14650 8400
+Text GLabel 13850 8200 0    50   Input ~ 0
+B[0..3]
+Text Label 14650 8400 0    50   ~ 0
+B3
+Text Label 14650 8500 0    50   ~ 0
+B2
+Text Label 14650 8600 0    50   ~ 0
+B1
+Text Label 14650 8700 0    50   ~ 0
+B0
+Wire Wire Line
+	14650 8400 15850 8400
+Wire Wire Line
+	14650 8500 15850 8500
+Wire Wire Line
+	14650 8600 15850 8600
+Wire Wire Line
+	14650 8700 15850 8700
+Wire Bus Line
+	19000 5350 18900 5450
+Wire Bus Line
+	18900 5450 18450 5450
+Wire Bus Line
+	18450 5450 18350 5550
+Wire Bus Line
+	18350 7750 18250 7850
+Wire Bus Line
+	18250 7850 17300 7850
+Wire Bus Line
+	17300 7850 17200 7950
+Entry Wire Line
+	17100 8700 17200 8600
+Entry Wire Line
+	17100 8600 17200 8500
+Entry Wire Line
+	17100 8500 17200 8400
+Entry Wire Line
+	17100 8400 17200 8300
+Entry Wire Line
+	19000 5350 19100 5250
+Entry Wire Line
+	19000 5250 19100 5150
+Entry Wire Line
+	19000 5150 19100 5050
+Entry Wire Line
+	19000 5050 19100 4950
+Wire Wire Line
+	16850 8700 17100 8700
+Wire Wire Line
+	16850 8600 17100 8600
+Wire Wire Line
+	16850 8500 17100 8500
+Wire Wire Line
+	16850 8400 17100 8400
+Wire Wire Line
+	19100 4950 19350 4950
+Wire Wire Line
+	19100 5050 19350 5050
+Wire Wire Line
+	19100 5150 19350 5150
+Wire Wire Line
+	19100 5250 19350 5250
+Text Label 19100 4950 0    50   ~ 0
+B_D3
+Text Label 19100 5050 0    50   ~ 0
+B_D2
+Text Label 19100 5150 0    50   ~ 0
+B_D1
+Text Label 19100 5250 0    50   ~ 0
+B_D0
+Text Label 17100 8400 2    50   ~ 0
+B_D3
+Text Label 17100 8500 2    50   ~ 0
+B_D2
+Text Label 17100 8600 2    50   ~ 0
+B_D1
+Text Label 17100 8700 2    50   ~ 0
+B_D0
+Wire Bus Line
+	18350 5550 18350 7750
+$Comp
+L Amiga_3000_library:GND #PWR0323
+U 1 1 5FFC6434
+P 19250 5800
+F 0 "#PWR0323" H 19250 5550 50  0001 C CNN
+F 1 "GND" H 19255 5627 50  0000 C CNN
+F 2 "" H 19250 5800 50  0001 C CNN
+F 3 "" H 19250 5800 50  0001 C CNN
+	1    19250 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19250 5800 19250 5750
+Wire Wire Line
+	19250 5450 19350 5450
+Wire Wire Line
+	19350 5550 19250 5550
+Connection ~ 19250 5550
+Wire Wire Line
+	19250 5550 19250 5450
+Wire Wire Line
+	19350 5650 19250 5650
+Connection ~ 19250 5650
+Wire Wire Line
+	19250 5650 19250 5550
+Wire Wire Line
+	19350 5750 19250 5750
+Connection ~ 19250 5750
+Wire Wire Line
+	19250 5750 19250 5650
+Wire Wire Line
+	19350 6050 18800 6050
+Wire Wire Line
+	18800 2500 19350 2500
+Wire Wire Line
+	19350 2700 18900 2700
+Wire Wire Line
+	18900 2700 18900 4500
+Wire Wire Line
+	18900 6250 19350 6250
+Wire Wire Line
+	20350 3150 20600 3150
+Wire Wire Line
+	20600 3150 20600 4700
+Wire Wire Line
+	20600 6700 20350 6700
+Wire Wire Line
+	20350 3350 20700 3350
+Wire Wire Line
+	20700 3350 20700 4850
+Wire Wire Line
+	20700 6900 20350 6900
+Text GLabel 21200 4850 2    50   Input ~ 0
+VDE14M
+Text GLabel 21200 4700 2    50   Input ~ 0
+VDE28M
+Text GLabel 21200 4500 2    50   Input ~ 0
+N_RSTW_D
+Text GLabel 21200 4300 2    50   Input ~ 0
+N_RSTR_L
+Wire Wire Line
+	18800 4300 21200 4300
+Connection ~ 18800 4300
+Wire Wire Line
+	18800 4300 18800 2500
+Wire Wire Line
+	20600 4700 21200 4700
+Connection ~ 20600 4700
+Wire Wire Line
+	20600 4700 20600 6700
+Wire Wire Line
+	20700 4850 21200 4850
+Wire Bus Line
+	20900 5350 21050 5500
+Wire Bus Line
+	21050 5500 21550 5500
+Entry Wire Line
+	20800 4950 20900 5050
+Entry Wire Line
+	20800 5050 20900 5150
+Entry Wire Line
+	20800 5150 20900 5250
+Entry Wire Line
+	20800 5250 20900 5350
+NoConn ~ 20350 5450
+NoConn ~ 20350 5550
+NoConn ~ 20350 5650
+NoConn ~ 20350 5750
+Text GLabel 21550 5500 2    50   Output ~ 0
+BLU_D[0..3]
+NoConn ~ 20350 8500
+NoConn ~ 20350 8600
+NoConn ~ 20350 8700
+NoConn ~ 20350 8800
+$Comp
+L Amiga_3000_library:GND #PWR0324
+U 1 1 6041BE4A
+P 19150 8800
+F 0 "#PWR0324" H 19150 8550 50  0001 C CNN
+F 1 "GND" H 19155 8627 50  0000 C CNN
+F 2 "" H 19150 8800 50  0001 C CNN
+F 3 "" H 19150 8800 50  0001 C CNN
+	1    19150 8800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	19150 8800 19350 8800
+Wire Wire Line
+	19350 8700 19150 8700
+Wire Wire Line
+	19150 8700 19150 8800
+Connection ~ 19150 8800
+Wire Wire Line
+	19350 8600 19150 8600
+Wire Wire Line
+	19150 8600 19150 8700
+Connection ~ 19150 8700
+Wire Wire Line
+	19350 8500 19150 8500
+Wire Wire Line
+	19150 8500 19150 8600
+Connection ~ 19150 8600
+Wire Wire Line
+	18800 6050 18800 9600
+Wire Wire Line
+	18800 9600 19350 9600
+Connection ~ 18800 6050
+Wire Wire Line
+	18900 9800 19350 9800
+Wire Bus Line
+	18950 9400 18850 9500
+Wire Bus Line
+	18850 9500 18250 9500
+Entry Wire Line
+	18950 9100 19050 9000
+Entry Wire Line
+	18950 9200 19050 9100
+Entry Wire Line
+	18950 9300 19050 9200
+Entry Wire Line
+	18950 9400 19050 9300
+Wire Wire Line
+	19050 9000 19350 9000
+Wire Wire Line
+	19050 9100 19350 9100
+Wire Wire Line
+	19050 9200 19350 9200
+Wire Wire Line
+	19050 9300 19350 9300
+Text GLabel 18250 9500 0    50   Input ~ 0
+R[0..3]
+Wire Bus Line
+	20950 9400 21050 9500
+Wire Bus Line
+	21050 9500 21550 9500
+Text Label 20800 5050 2    50   ~ 0
+BLU_D2
+Text Label 20800 5150 2    50   ~ 0
+BLU_D1
+Text Label 20800 5250 2    50   ~ 0
+BLU_D0
+Text Label 19050 9000 0    50   ~ 0
+R3
+Text Label 19050 9200 0    50   ~ 0
+R1
+Text Label 19050 9300 0    50   ~ 0
+R0
+Entry Wire Line
+	20850 9000 20950 9100
+Entry Wire Line
+	20850 9100 20950 9200
+Entry Wire Line
+	20850 9200 20950 9300
+Entry Wire Line
+	20850 9300 20950 9400
+Wire Wire Line
+	20350 9000 20850 9000
+Wire Wire Line
+	20350 9100 20850 9100
+Wire Wire Line
+	20350 9200 20850 9200
+Wire Wire Line
+	20350 9300 20850 9300
+Text Label 20850 9000 2    50   ~ 0
+RED_C3
+Text Label 20850 9100 2    50   ~ 0
+RED_C2
+Text Label 20850 9200 2    50   ~ 0
+RED_C1
+Text Label 20850 9300 2    50   ~ 0
+RED_C0
+Text GLabel 21550 9500 2    50   Output ~ 0
+RED_C[0..3]
+Wire Wire Line
+	20600 6700 20600 10250
+Wire Wire Line
+	20600 10250 20350 10250
+Connection ~ 20600 6700
+Wire Wire Line
+	20700 6900 20700 8000
+Wire Wire Line
+	20700 10450 20350 10450
+Connection ~ 20700 6900
+$Comp
+L Amiga_3000_library:GND #PWR0325
+U 1 1 60727923
+P 19250 3350
+F 0 "#PWR0325" H 19250 3100 50  0001 C CNN
+F 1 "GND" H 19255 3177 50  0000 C CNN
+F 2 "" H 19250 3350 50  0001 C CNN
+F 3 "" H 19250 3350 50  0001 C CNN
+	1    19250 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19250 3050 19350 3050
+Wire Wire Line
+	19350 3250 19250 3250
+Connection ~ 19250 3250
+Wire Wire Line
+	19250 3250 19250 3050
+Wire Wire Line
+	19250 3250 19250 3350
+$Comp
+L Amiga_3000_library:GND #PWR0326
+U 1 1 607AF9BC
+P 19250 6900
+F 0 "#PWR0326" H 19250 6650 50  0001 C CNN
+F 1 "GND" H 19255 6727 50  0000 C CNN
+F 2 "" H 19250 6900 50  0001 C CNN
+F 3 "" H 19250 6900 50  0001 C CNN
+	1    19250 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19250 6600 19350 6600
+Wire Wire Line
+	19350 6800 19250 6800
+Connection ~ 19250 6800
+Wire Wire Line
+	19250 6800 19250 6600
+Wire Wire Line
+	19250 6800 19250 6900
+$Comp
+L Amiga_3000_library:GND #PWR0327
+U 1 1 607DCCBD
+P 19250 10450
+F 0 "#PWR0327" H 19250 10200 50  0001 C CNN
+F 1 "GND" H 19255 10277 50  0000 C CNN
+F 2 "" H 19250 10450 50  0001 C CNN
+F 3 "" H 19250 10450 50  0001 C CNN
+	1    19250 10450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19250 10150 19350 10150
+Wire Wire Line
+	19350 10350 19250 10350
+Connection ~ 19250 10350
+Wire Wire Line
+	19250 10350 19250 10150
+Wire Wire Line
+	19250 10350 19250 10450
+$Comp
+L Amiga_3000_library:GND #PWR0328
+U 1 1 6080AA17
+P 19250 13800
+F 0 "#PWR0328" H 19250 13550 50  0001 C CNN
+F 1 "GND" H 19255 13627 50  0000 C CNN
+F 2 "" H 19250 13800 50  0001 C CNN
+F 3 "" H 19250 13800 50  0001 C CNN
+	1    19250 13800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19250 13500 19350 13500
+Wire Wire Line
+	19350 13700 19250 13700
+Connection ~ 19250 13700
+Wire Wire Line
+	19250 13700 19250 13500
+Wire Wire Line
+	19250 13700 19250 13800
+Text GLabel 21200 7950 2    50   Input ~ 0
+RE_WE
+Text GLabel 21200 7750 2    50   Input ~ 0
+OKI_RSTR_W
+Wire Wire Line
+	15500 5650 15500 7950
+Wire Wire Line
+	17450 7000 17450 7900
+Wire Wire Line
+	21200 7950 15500 7950
+Wire Wire Line
+	17450 7900 20850 7900
+Wire Wire Line
+	20850 7900 20850 7750
+Wire Wire Line
+	20850 7750 21200 7750
+Wire Wire Line
+	20700 8000 15400 8000
+Connection ~ 20700 8000
+Wire Wire Line
+	20700 8000 20700 10450
+Connection ~ 15400 8000
+Wire Wire Line
+	15400 8000 15400 6900
+Wire Bus Line
+	18950 12750 18850 12850
+Wire Bus Line
+	18850 12850 18250 12850
+Entry Wire Line
+	18950 12450 19050 12350
+Entry Wire Line
+	18950 12550 19050 12450
+Entry Wire Line
+	18950 12650 19050 12550
+Entry Wire Line
+	18950 12750 19050 12650
+Text GLabel 18250 12850 0    50   Input ~ 0
+B[0..3]
+Wire Wire Line
+	19050 12350 19350 12350
+Wire Wire Line
+	19050 12450 19350 12450
+Wire Wire Line
+	19050 12550 19350 12550
+Wire Wire Line
+	19050 12650 19350 12650
+Text Label 19050 12350 0    50   ~ 0
+B3
+Text Label 19050 12450 0    50   ~ 0
+B2
+Text Label 19050 12550 0    50   ~ 0
+B1
+Text Label 19050 12650 0    50   ~ 0
+B0
+Wire Bus Line
+	18850 11650 18250 11650
+Text GLabel 18250 11650 0    50   Input ~ 0
+G[0..3]
+Wire Bus Line
+	20950 12750 21050 12850
+Wire Bus Line
+	21050 12850 21550 12850
+Entry Wire Line
+	20850 12350 20950 12450
+Entry Wire Line
+	20850 12450 20950 12550
+Entry Wire Line
+	20850 12550 20950 12650
+Entry Wire Line
+	20850 12650 20950 12750
+Wire Wire Line
+	20350 12350 20850 12350
+Wire Wire Line
+	20350 12450 20850 12450
+Wire Wire Line
+	20350 12550 20850 12550
+Wire Wire Line
+	20350 12650 20850 12650
+Text Label 20850 12350 2    50   ~ 0
+BLU_C3
+Text Label 20850 12450 2    50   ~ 0
+BLU_C2
+Text Label 20850 12550 2    50   ~ 0
+BLU_C1
+Text Label 20850 12650 2    50   ~ 0
+BLU_C0
+Text GLabel 21550 12850 2    50   Output ~ 0
+BLU_C(3:0)
+Wire Wire Line
+	20600 10250 20600 13600
+Wire Wire Line
+	20600 13600 20350 13600
+Connection ~ 20600 10250
+Wire Wire Line
+	20700 10450 20700 13800
+Wire Wire Line
+	20700 13800 20350 13800
+Connection ~ 20700 10450
+Wire Wire Line
+	18900 9800 18900 11450
+Wire Wire Line
+	18900 13150 19350 13150
+Wire Wire Line
+	18800 12950 19350 12950
+Connection ~ 18800 9600
+Text GLabel 21150 11450 2    50   Input ~ 0
+N_RSTW_C
+Wire Wire Line
+	21150 11450 18900 11450
+Connection ~ 18900 11450
+$Comp
+L Amiga_3000_library:74ALS74A U480
+U 2 1 61086A79
+P 14400 9950
+F 0 "U480" H 14650 10350 50  0000 C CNN
+F 1 "74ALS74A" H 14800 9850 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 14550 9850 50  0001 C CNN
+F 3 "" H 14550 9850 50  0001 C CNN
+	2    14400 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:+5V #PWR0329
+U 1 1 6108BFE2
+P 14450 9400
+F 0 "#PWR0329" H 14450 9250 50  0001 C CNN
+F 1 "+5V" H 14467 9623 50  0000 C CNN
+F 2 "" H 14450 9400 50  0001 C CNN
+F 3 "" H 14450 9400 50  0001 C CNN
+	1    14450 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:+5V #PWR0330
+U 1 1 6108CC86
+P 14450 10550
+F 0 "#PWR0330" H 14450 10400 50  0001 C CNN
+F 1 "+5V" H 14468 10773 50  0000 C CNN
+F 2 "" H 14450 10550 50  0001 C CNN
+F 3 "" H 14450 10550 50  0001 C CNN
+	1    14450 10550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	15600 9300 15050 9300
+Wire Wire Line
+	15050 9750 14800 9750
+Connection ~ 15600 9300
+Wire Wire Line
+	15500 9100 13850 9100
+Wire Wire Line
+	13850 9750 14050 9750
+Connection ~ 15500 9100
+NoConn ~ 14800 10300
+$Comp
+L Amiga_3000_library:74ALS74A U480
+U 1 1 61136EE8
+P 14400 12350
+F 0 "U480" H 14650 12750 50  0000 C CNN
+F 1 "74ALS74A" H 14800 12300 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 14550 12250 50  0001 C CNN
+F 3 "" H 14550 12250 50  0001 C CNN
+	1    14400 12350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:+5V #PWR0331
+U 1 1 61139D6B
+P 14450 11800
+F 0 "#PWR0331" H 14450 11650 50  0001 C CNN
+F 1 "+5V" H 14467 12023 50  0000 C CNN
+F 2 "" H 14450 11800 50  0001 C CNN
+F 3 "" H 14450 11800 50  0001 C CNN
+	1    14450 11800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:+5V #PWR0332
+U 1 1 6113AA52
+P 14450 12950
+F 0 "#PWR0332" H 14450 12800 50  0001 C CNN
+F 1 "+5V" H 14468 13173 50  0000 C CNN
+F 2 "" H 14450 12950 50  0001 C CNN
+F 3 "" H 14450 12950 50  0001 C CNN
+	1    14450 12950
+	-1   0    0    1   
+$EndComp
+NoConn ~ 14800 12700
+Wire Wire Line
+	15050 9300 15050 9750
+Wire Wire Line
+	13850 9100 13850 9750
+Wire Wire Line
+	14800 12150 17350 12150
+Wire Wire Line
+	17350 12150 17350 10250
+Connection ~ 17350 10250
+Wire Wire Line
+	17450 10450 17450 11500
+Wire Wire Line
+	17450 11500 13850 11500
+Wire Wire Line
+	13850 11500 13850 12150
+Wire Wire Line
+	13850 12150 14050 12150
+Connection ~ 17450 10450
+Wire Wire Line
+	14050 9950 13700 9950
+Wire Wire Line
+	13700 9950 13700 12350
+Wire Wire Line
+	13700 12350 14050 12350
+Text GLabel 13050 12350 0    50   Input ~ 0
+N_C14M
+Wire Wire Line
+	13050 12350 13700 12350
+Connection ~ 13700 12350
+$Comp
+L Amiga_3000_library:74HC04 U477
+U 7 1 61425F28
+P 11150 14450
+F 0 "U477" H 11200 14800 50  0000 L CNN
+F 1 "74HC04" H 11000 14450 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 11150 14450 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 11150 14450 50  0001 C CNN
+	7    11150 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C477
+U 1 1 6142EACD
+P 11600 14450
+F 0 "C477" H 11715 14496 50  0000 L CNN
+F 1 "0.1uF" H 11715 14405 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 11638 14300 50  0001 C CNN
+F 3 "~" H 11600 14450 50  0001 C CNN
+	1    11600 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:74F163 U476
+U 2 1 6142FC9D
+P 12150 14500
+F 0 "U476" H 12300 14900 50  0000 L CNN
+F 1 "74F163" H 12050 14550 50  0000 L CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 12150 14500 50  0001 C CNN
+F 3 "" H 12150 14500 50  0001 C CNN
+	2    12150 14500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C476
+U 1 1 614A7914
+P 12700 14450
+F 0 "C476" H 12815 14496 50  0000 L CNN
+F 1 "0.1uF" H 12815 14405 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor" H 12738 14300 50  0001 C CNN
+F 3 "~" H 12700 14450 50  0001 C CNN
+	1    12700 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:74ALS74A U480
+U 3 1 614E5082
+P 13300 14400
+F 0 "U480" H 13400 14650 50  0000 L CNN
+F 1 "74ALS74A" H 13400 14100 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 13450 14300 50  0001 C CNN
+F 3 "" H 13450 14300 50  0001 C CNN
+	3    13300 14400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C495
+U 1 1 614E974C
+P 13850 14450
+F 0 "C495" H 13965 14496 50  0000 L CNN
+F 1 "0.1uF" H 13965 14405 50  0000 L CNN
+F 2 "A3000:UnPolarized_Capacitor_short" H 13888 14300 50  0001 C CNN
+F 3 "~" H 13850 14450 50  0001 C CNN
+	1    13850 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:GND #PWR0333
+U 1 1 61525D4B
+P 11150 14950
+F 0 "#PWR0333" H 11150 14700 50  0001 C CNN
+F 1 "GND" H 11155 14777 50  0000 C CNN
+F 2 "" H 11150 14950 50  0001 C CNN
+F 3 "" H 11150 14950 50  0001 C CNN
+	1    11150 14950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga_3000_library:+5V #PWR0334
+U 1 1 61525E54
+P 11150 13950
+F 0 "#PWR0334" H 11150 13800 50  0001 C CNN
+F 1 "+5V" H 11167 14173 50  0000 C CNN
+F 2 "" H 11150 13950 50  0001 C CNN
+F 3 "" H 11150 13950 50  0001 C CNN
+	1    11150 13950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11150 13950 11600 13950
+Connection ~ 11150 13950
+Wire Wire Line
+	13300 13950 12700 13950
+Connection ~ 12200 13950
+Wire Wire Line
+	13300 13950 13300 14100
+Wire Wire Line
+	13300 13950 13850 13950
+Wire Wire Line
+	13850 13950 13850 14300
+Connection ~ 13300 13950
+Wire Wire Line
+	11150 14950 11600 14950
+Connection ~ 11150 14950
+Wire Wire Line
+	12200 14950 12700 14950
+Wire Wire Line
+	13850 14950 13850 14600
+Connection ~ 12200 14950
+Wire Wire Line
+	13300 14950 13300 14750
+Connection ~ 13300 14950
+Wire Wire Line
+	13300 14950 13850 14950
+Wire Wire Line
+	12700 14950 12700 14600
+Connection ~ 12700 14950
+Wire Wire Line
+	12700 14950 13300 14950
+Wire Wire Line
+	12700 14300 12700 13950
+Connection ~ 12700 13950
+Wire Wire Line
+	12700 13950 12200 13950
+Wire Wire Line
+	11600 13950 11600 14300
+Connection ~ 11600 13950
+Wire Wire Line
+	11600 13950 12200 13950
+Wire Wire Line
+	11600 14600 11600 14950
+Connection ~ 11600 14950
+Wire Wire Line
+	11600 14950 12200 14950
+$Comp
+L Amiga_3000_library:74HC04 U477
+U 5 1 617D1F7D
+P 15800 14650
+F 0 "U477" V 15900 14550 50  0000 R CNN
+F 1 "74HC04" V 15600 14600 50  0000 R CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 15800 14650 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 15800 14650 50  0001 C CNN
+	5    15800 14650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Amiga_3000_library:74HC04 U477
+U 6 1 617D24DF
+P 16500 14650
+F 0 "U477" V 16600 14550 50  0000 R CNN
+F 1 "74HC04" V 16300 14550 50  0000 R CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 16500 14650 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 16500 14650 50  0001 C CNN
+	6    16500 14650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Amiga_3000_library:GND #PWR0335
+U 1 1 617D7ECF
+P 16150 15050
+F 0 "#PWR0335" H 16150 14800 50  0001 C CNN
+F 1 "GND" H 16155 14877 50  0000 C CNN
+F 2 "" H 16150 15050 50  0001 C CNN
+F 3 "" H 16150 15050 50  0001 C CNN
+	1    16150 15050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15800 14950 16150 14950
+Wire Wire Line
+	16150 14950 16150 15050
+Connection ~ 16150 14950
+Wire Wire Line
+	16150 14950 16500 14950
+NoConn ~ 15800 14350
+NoConn ~ 16500 14350
+Text Label 2700 7200 0    50   ~ 0
+R1
+Wire Wire Line
+	18800 9600 18800 12950
+Wire Wire Line
+	18900 11450 18900 13150
+Text Label 19050 12150 0    50   ~ 0
+G0
+Text Label 19050 11950 0    50   ~ 0
+G2
+Text Label 19050 11850 0    50   ~ 0
+G3
+Wire Wire Line
+	19050 12150 19350 12150
+Wire Wire Line
+	19050 11950 19350 11950
+Wire Wire Line
+	19050 11850 19350 11850
+Entry Wire Line
+	18950 11750 19050 11850
+Entry Wire Line
+	18950 11850 19050 11950
+Entry Wire Line
+	18950 11950 19050 12050
+Entry Wire Line
+	18950 12050 19050 12150
+Wire Bus Line
+	18950 11750 18850 11650
+Wire Wire Line
+	19050 12050 19350 12050
+Text Label 19050 12050 0    50   ~ 0
+G1
+Text GLabel 21550 11650 2    50   Output ~ 0
+GRN_C[0..3]
+Wire Bus Line
+	21050 11650 21550 11650
+Text Label 20850 12150 2    50   ~ 0
+GRN_C0
+Text Label 20850 12050 2    50   ~ 0
+GRN_C1
+Text Label 20850 11950 2    50   ~ 0
+GRN_C2
+Text Label 20850 11850 2    50   ~ 0
+GRN_C3
+Wire Wire Line
+	20350 11850 20850 11850
+Wire Wire Line
+	20350 11950 20850 11950
+Wire Wire Line
+	20350 12050 20850 12050
+Wire Wire Line
+	20350 12150 20850 12150
+Entry Wire Line
+	20850 11850 20950 11750
+Entry Wire Line
+	20850 11950 20950 11850
+Entry Wire Line
+	20850 12050 20950 11950
+Entry Wire Line
+	20850 12150 20950 12050
+Wire Bus Line
+	20950 11750 21050 11650
+Text Label 19050 9100 0    50   ~ 0
+R2
+Text Label 18350 6700 1    50   ~ 0
+B_D[0..3]
+Connection ~ 20700 4850
+Wire Wire Line
+	20800 4950 20350 4950
+Wire Wire Line
+	20800 5050 20350 5050
+Wire Wire Line
+	20800 5150 20350 5150
+Wire Wire Line
+	20700 4850 20700 6900
+Wire Wire Line
+	20800 5250 20350 5250
+Text Label 20800 4950 2    50   ~ 0
+BLU_D3
+Text Label 17900 1050 0    50   ~ 0
+R_D[0..3]
+Text Label 17650 4400 0    50   ~ 0
+G_D[0..3]
+Text Label 14650 1700 0    50   ~ 0
+R0
+Wire Wire Line
+	1800 1800 2000 1800
+Connection ~ 15500 7950
+Wire Wire Line
+	15500 7950 15500 9100
+Connection ~ 17450 7900
+Wire Wire Line
+	17450 7900 17450 10450
+Text Label 20750 1900 2    50   ~ 0
+GRN_D3
+Text Label 20750 2000 2    50   ~ 0
+GRN_D2
+Text Label 20750 2100 2    50   ~ 0
+GRN_D1
+Text Label 20750 2200 2    50   ~ 0
+GRN_D0
+Wire Wire Line
+	5100 10850 6550 10850
+Wire Wire Line
+	6550 10850 6550 11350
+Connection ~ 6550 11350
+Wire Wire Line
+	5600 10050 5800 10050
+Wire Wire Line
+	5100 10050 5400 10050
+$Comp
+L Device:CP1_Small C483
+U 1 1 5F4521C8
+P 5500 10050
+F 0 "C483" V 5350 10000 50  0000 C CNN
+F 1 "10uF(Tan)" V 5650 10050 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm" H 5538 9900 50  0001 C CNN
+F 3 "~" H 5500 10050 50  0001 C CNN
+	1    5500 10050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 9000 4800 9100
+Connection ~ 4800 9100
+Wire Wire Line
+	18800 4300 18800 6050
+Wire Wire Line
+	21200 4500 18900 4500
+Connection ~ 18900 4500
+Wire Wire Line
+	18900 4500 18900 6250
+Wire Bus Line
+	2600 3500 2600 3800
+Wire Bus Line
+	2600 4100 2600 4400
+Wire Bus Line
+	2600 4700 2600 5000
+Wire Bus Line
+	2600 5300 2600 5600
+Wire Bus Line
+	2600 5900 2600 6200
+Wire Bus Line
+	2600 6500 2600 6800
+Wire Bus Line
+	2600 7100 2600 7400
+Wire Bus Line
+	2600 7700 2600 8000
+Wire Bus Line
+	2600 8300 2600 8600
+Wire Bus Line
+	14550 1300 14550 1600
+Wire Bus Line
+	20850 1300 20850 1600
+Wire Bus Line
+	20850 2000 20850 2300
+Wire Bus Line
+	19000 2000 19000 2300
+Wire Bus Line
+	14550 8300 14550 8600
+Wire Bus Line
+	19000 5050 19000 5350
+Wire Bus Line
+	20900 5050 20900 5350
+Wire Bus Line
+	18950 9100 18950 9400
+Wire Bus Line
+	20950 9100 20950 9400
+Wire Bus Line
+	18950 12450 18950 12750
+Wire Bus Line
+	20950 12450 20950 12750
+Wire Bus Line
+	18950 11750 18950 12050
+Wire Bus Line
+	20950 11750 20950 12050
+Wire Bus Line
+	17200 7950 17200 8600
+Wire Bus Line
+	17200 4500 17200 5150
+Wire Bus Line
+	14550 2100 14550 5150
+Wire Bus Line
+	17250 1150 17250 1600
+Wire Bus Line
+	19000 1150 19000 1600
+$EndSCHEMATC
